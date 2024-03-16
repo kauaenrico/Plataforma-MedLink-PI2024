@@ -1,0 +1,28 @@
+root@srv-proj01:/opt/scripts#
+root@srv-proj01:/opt/scripts#
+root@srv-proj01:/opt/scripts# . /etc/os-release
+sudo apt install -t ${VERSION_CODENAME}-backports cockpit
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  cockpit-bridge cockpit-networkmanager cockpit-packagekit cockpit-storaged cockpit-system cockpit-ws cracklib-runtime dconf-gsettings-backend dconf-service
+  dns-root-data dnsmasq-base glib-networking glib-networking-common glib-networking-services gsettings-desktop-schemas libappstream4 libblockdev-mdraid2
+  libbluetooth3 libbytesize-common libbytesize1 libcrack2 libdconf1 libdw1 libelf1 libfribidi0 libglib2.0-bin libgstreamer1.0-0 libndp0 libnewt0.52
+  libnl-route-3-200 libnm0 libpcap0.8 libpcsclite1 libproxy1v5 libpwquality-common libpwquality-tools libpwquality1 libslang2 libstemmer0d libteamdctl0
+  libunwind8 network-manager network-manager-pptp packagekit packagekit-tools ppp pptp-linux session-migration wamerican wpasupplicant
+Suggested packages:
+  cockpit-doc cockpit-pcp cockpit-sosreport xdg-utils udisks2-btrfs udisks2-lvm2 sssd-dbus gstreamer1.0-tools pcscd avahi-autoipd libteam-utils iptables
+  appstream wpagui libengine-pkcs11-openssl
+The following NEW packages will be installed:
+  cockpit cockpit-bridge cockpit-networkmanager cockpit-packagekit cockpit-storaged cockpit-system cockpit-ws cracklib-runtime dconf-gsettings-backend
+  dconf-service dns-root-data dnsmasq-base glib-networking glib-networking-common glib-networking-services gsettings-desktop-schemas libappstream4
+  libblockdev-mdraid2 libbluetooth3 libbytesize-common libbytesize1 libcrack2 libdconf1 libdw1 libfribidi0 libglib2.0-bin libgstreamer1.0-0 libndp0
+  libnewt0.52 libnl-route-3-200 libnm0 libpcap0.8 libpcsclite1 libproxy1v5 libpwquality-common libpwquality-tools libpwquality1 libslang2 libstemmer0d
+  libteamdctl0 libunwind8 network-manager network-manager-pptp packagekit packagekit-tools ppp pptp-linux session-migration wamerican wpasupplicant
+The following packages will be upgraded:
+  libelf1
+1 upgraded, 50 newly installed, 0 to remove and 46 not upgraded.
+Need to get 16.2 MB of archives.
+After this operation, 39.3 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
