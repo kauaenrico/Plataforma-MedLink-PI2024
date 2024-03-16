@@ -93,9 +93,10 @@ systemctl reload apache2
 mkdir /opt/scripts
 nano /opt/scripts/git_pull_proj05-2024.sh
     #!/bin/bash
+    data=$(date +"%Y-%m-%d %H:%M:%S")
     cd /var/www/html/UNISAL_Proj_5
     git pull
-    echo "Pull UNISAL_Proj_5 Ok!" > /opt/scripts/pull_status.log
+    echo "[$data] Pull UNISAL_Proj_5 Ok!" > /opt/scripts/pull_status.log
 chmod +x /opt/scripts/git_pull_proj05-2024.sh
 
 # CONFIGURAR CRONTAB PARA A CADA MINUTO
