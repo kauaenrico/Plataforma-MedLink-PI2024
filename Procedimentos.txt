@@ -2,6 +2,7 @@
 #         CONFIGS GERAIS LINUX          #
 #########################################
 apt install nano cron
+sudo dpkg-reconfigure tzdata
 
 
 
