@@ -1,0 +1,49 @@
+
+#### CONFIGURANDO GIT NO SERVER
+sudo su
+apt install git
+ssh-keygen
+cat /root/.ssh/id_rsa.pub
+# Abra o Github web, config do user, adicione o publickey gerado
+cd /var/www/html
+git clone git@github.com:kauaenrico/UNISAL_Proj_5.git
+
+
+
+# APACHE
+
+###### Config site do projeto
+
+cd /etc/apache2/sites-available/
+
+nano default-ssl.conf
+nano 000-default.conf
+ls
+cp 000-default.conf proj05-2024.conf
+nano proj05-2024.conf
+a2ensite proj05-2024.conf
+systemctl reload apache2
+history
+cd /var/www/html/UNISAL_Proj_5/
+git pull
+cd ..
+ls
+mv index.html index.html.cadatro
+a2dissite 000-default.conf
+a2dissite default-ssl.conf
+systemctl reload apache2
+cd UNISAL_Proj_5/
+mkdir /opt/scripts
+nano /opt/scripts/git_pull_proj05-2024.sh
+chmod +x /opt/scripts/git_pull_proj05-2024.sh
+crontab -e
+crontab
+apt install cron
+htop
+crontab -e
+nano /opt/scripts/git_pull_proj05-2024.sh
+cd /opt/scripts/
+ls
+cat pull_status.log
+crontab -e
+history
