@@ -26,3 +26,14 @@ The following packages will be upgraded:
 Need to get 16.2 MB of archives.
 After this operation, 39.3 MB of additional disk space will be used.
 Do you want to continue? [Y/n] Y
+
+
+
+
+
+
+
+
+
+mysql
+phpmyadmin
