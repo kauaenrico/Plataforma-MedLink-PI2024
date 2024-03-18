@@ -37,3 +37,9 @@ Do you want to continue? [Y/n] Y
 
 mysql
 phpmyadmin
+
+
+
+
+aula 06 do barreto
+que mostra o php com conexão ao mysql
