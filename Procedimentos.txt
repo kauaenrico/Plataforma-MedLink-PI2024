@@ -103,6 +103,7 @@ chmod +x /opt/scripts/git_pull_proj05-2024.sh
 crontab -e
 * * * * * /opt/scripts/git_pull_proj05-2024.sh
 
+# REMOVER EXTENSAO DOS ARQUIVOS NA NAVEGACAO web
 
 
 
