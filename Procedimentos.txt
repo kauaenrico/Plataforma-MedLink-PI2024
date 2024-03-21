@@ -104,9 +104,18 @@ crontab -e
 * * * * * /opt/scripts/git_pull_proj05-2024.sh
 
 # REMOVER EXTENSAO DOS ARQUIVOS NA NAVEGACAO web
+sudo a2enmod rewrite
+nano /etc/apache2/apache2.conf
+    Edite o seguinte trecho para:
+        <Directory /var/www/html>
+            Options Indexes FollowSymLinks
+            AllowOverride All
+            Require all granted
+        </Directory>
+    
+sudo systemctl restart apache2
 
-
-
+Garanta o arquivo .htaccess no projeto.
 
 #########################################
 #                 TITULO                #
