@@ -1,0 +1,3 @@
+Colocar paginas em pt-br
+paginas responsivas
+mesmo padrao de css (bootstrap)

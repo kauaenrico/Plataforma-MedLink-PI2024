@@ -1,13 +1,11 @@
 RewriteEngine On
 
-DirectoryIndex login.html
-
+DirectoryIndex login.html error404.html
 
 # Remover extensão .html das URLs
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html [L]
-
 # Remover extensão .php das URLs
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
