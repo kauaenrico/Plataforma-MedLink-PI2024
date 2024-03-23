@@ -1,0 +1,55 @@
+#########################################
+#         CONFIGS GERAIS LINUX          #
+#########################################
+apt install nano cron iputils-ping
+sudo dpkg-reconfigure tzdata
+
+
+
+
+#########################################
+#            config ddclient            #
+#########################################
+apt install net-tools ddclient
+
+nano /etc/ddclient.conf
+	daemon=28800
+	syslog=yes
+	mail=root
+	mail-failure=root
+	pid=/var/run/ddclient.pid
+	ssl=yes
+	use=web, web=checkip.dynu.com/, web-skip='IP Address'
+	server=api.dynu.com
+	login=kauaenrico
+	password=oXvt6F8JRTtW9K
+	protocol=dyndns2
+	proj01.ddnsfree.com
+
+systemctl enable ddclient
+systemctl restart ddclient
+systemctl status ddclient
+ddclient -query
+
+### REMOVENDO IPTABLES
+    sudo iptables -L -v
+    sudo iptables -F
+    sudo iptables -P INPUT ACCEPT
+    sudo iptables -P FORWARD ACCEPT
+    sudo iptables -P OUTPUT ACCEPT
+    sudo systemctl disable netfilter-persistent
+    sudo systemctl restart networking.service
+    reboot
+    apt remove --purge iptables
+
+
+
+
+
+
+
+
+
+
+
+
