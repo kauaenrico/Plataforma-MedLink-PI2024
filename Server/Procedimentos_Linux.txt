@@ -1,7 +1,7 @@
 #########################################
 #         CONFIGS GERAIS LINUX          #
 #########################################
-apt install nano cron iputils-ping
+apt install nano cron iputils-ping inetutils-telnet
 sudo dpkg-reconfigure tzdata
 
 
