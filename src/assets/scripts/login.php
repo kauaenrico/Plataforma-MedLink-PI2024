@@ -17,3 +17,4 @@ if (!$conn) {
 } else {
     echo "Conexao concluida!";
 }
+?>
