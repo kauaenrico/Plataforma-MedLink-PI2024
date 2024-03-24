@@ -1,6 +1,6 @@
 <?php
 
-$sname= "10.0.0.20";
+$sname= "10.0.0.40";
 
 $unmae= "admin";
 
