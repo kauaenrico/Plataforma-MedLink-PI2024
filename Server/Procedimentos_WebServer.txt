@@ -61,3 +61,10 @@ nano /etc/apache2/apache2.conf
 sudo systemctl restart apache2
 
 Garanta o arquivo .htaccess no projeto.
+
+
+
+###### COnfig apache para PHP
+apt install php
+a2enmod php8.1 (substitua pela versão do php instalado)
+service apache2 restart
