@@ -23,11 +23,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "SELECT * FROM profissionais WHERE profiss_cpf = '$usuario' AND profiss_passwd = '$senha'";
     $result = $conn->query($sql);
 
-    // Verificar se o usuário existe no banco de dados
+    // Verificar se o usuário existe no banco de dados e as credenciais estão corretas
     if ($result->num_rows > 0) {
         // Usuário autenticado com sucesso
-        // Redirecionar para a página de perfil ou outra página protegida
-        header("Location: perfil.php");
+        // Obter o nome do usuário
+        $row = $result->fetch_assoc();
+        $nome = $row["profiss_nome"];
+
+        // Exibir mensagem de boas-vindas
+        echo "Bem-Vindo, $nome!";
+
+        // Redirecionar para a página de dashboard
+        header("Location: dashboard.html");
         exit;
     } else {
         // Credenciais inválidas
