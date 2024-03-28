@@ -68,3 +68,27 @@ Garanta o arquivo .htaccess no projeto.
 apt install php
 a2enmod php8.1 (substitua pela versão do php instalado)
 service apache2 restart
+
+
+
+######### TEMP ############################
+remover navegação de arquivos
+fonte: https://medium.com/@maheshwar.ramkrushna/securing-your-website-a-step-by-step-guide-to-disabling-directory-browsing-on-apache-ba77ce71914c
+
+apache2.conf
+<Directory "/var/www/html">
+  Options FollowSymLinks
+  AllowOverride None
+  Require all granted
+</Directory>
+
+
+remover assinatura apache port 80
+Fonte: https://www.xmodulo.com/turn-off-server-signature-apache-web-server.html
+apache2.conf
+ServerSignature Off
+ServerTokens Prod
+
+
+FAZER BKP DO /ETC/APACHE2
+FAZER BKP DO /VAR/WWW/
