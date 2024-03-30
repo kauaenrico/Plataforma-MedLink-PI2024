@@ -1,21 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <?php 
-    $value = 1; // Just testing
-    if($value == 0) {
-        <h1>Wrong username or password.</h1>
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <!-- link rel="stylesheet" href="style.css" -->
+    <!-- <script src="script.js"></script -->
+  </head>
+  <body>
+    <!-- page content -->
+        <?php
+    phpinfo();
     ?>
-    <?php if($value == 1) {
-        <h1>Login was successful.</h1>
-    ?>
-</body>
+  </body>
 </html>
-
-
-
