@@ -18,6 +18,7 @@ if (isset($_SESSION["user"])) {
     <div class="container">
         <?php
         if (isset($_POST["submit"])) {
+           $cpf = $_POST["cpf"];
            $fullName = $_POST["fullname"];
            $email = $_POST["email"];
            $password = $_POST["password"];
@@ -27,7 +28,7 @@ if (isset($_SESSION["user"])) {
 
            $errors = array();
            
-           if (empty($fullName) OR empty($email) OR empty($password) OR empty($passwordRepeat)) {
+           if (empty($cpf) OR empty($fullName) OR empty($email) OR empty($password) OR empty($passwordRepeat)) {
             array_push($errors,"All fields are required");
            }
            if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -52,11 +53,11 @@ if (isset($_SESSION["user"])) {
             }
            }else{
             
-            $sql = "INSERT INTO users (full_name, email, password) VALUES ( ?, ?, ? )";
+            $sql = "INSERT INTO profissionais (profiss_cpf, profiss_nome, profiss_email, profiss_passwd) VALUES ( ?, ?, ?, ? )";
             $stmt = mysqli_stmt_init($conn);
             $prepareStmt = mysqli_stmt_prepare($stmt,$sql);
             if ($prepareStmt) {
-                mysqli_stmt_bind_param($stmt,"sss",$fullName, $email, $passwordHash);
+                mysqli_stmt_bind_param($stmt,"ssss",$cpf , $fullName, $email, $passwordHash);
                 mysqli_stmt_execute($stmt);
                 echo "<div class='alert alert-success'>You are registered successfully.</div>";
             }else{
@@ -69,10 +70,13 @@ if (isset($_SESSION["user"])) {
         ?>
         <form action="registration.php" method="post">
             <div class="form-group">
+                <input type="text" class="form-control" name="cpf" placeholder="CPF:">
+            </div>
+            <div class="form-group">
                 <input type="text" class="form-control" name="fullname" placeholder="Full Name:">
             </div>
             <div class="form-group">
-                <input type="emamil" class="form-control" name="email" placeholder="Email:">
+                <input type="email" class="form-control" name="email" placeholder="Email:">
             </div>
             <div class="form-group">
                 <input type="password" class="form-control" name="password" placeholder="Password:">
