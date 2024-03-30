@@ -20,11 +20,7 @@
 
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $name = $_POST["name"];
-        $email = $_POST["email"];
-        
-        echo "<p>Nome: $name</p>";
-        echo "<p>E-mail: $email</p>";
+        header("Location: index.php");
     }
     ?>
 </body>
