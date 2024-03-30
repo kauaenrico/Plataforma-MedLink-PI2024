@@ -23,7 +23,7 @@ if (isset($_SESSION["user"])) {
            $password = $_POST["password"];
            $passwordRepeat = $_POST["repeat_password"];
            
-           $passwordHash = password_hash($password, PASSWORD_DEFAULT);
+           #$passwordHash = password_hash($password, PASSWORD_DEFAULT);
 
            $errors = array();
            
@@ -56,7 +56,8 @@ if (isset($_SESSION["user"])) {
             $stmt = mysqli_stmt_init($conn);
             $prepareStmt = mysqli_stmt_prepare($stmt,$sql);
             if ($prepareStmt) {
-                mysqli_stmt_bind_param($stmt,"sss",$fullName, $email, $passwordHash);
+                mysqli_stmt_bind_param($stmt,"sss",$fullName, $email, $password);
+                #mysqli_stmt_bind_param($stmt,"sss",$fullName, $email, $passwordHash);
                 mysqli_stmt_execute($stmt);
                 echo "<div class='alert alert-success'>You are registered successfully.</div>";
             }else{
