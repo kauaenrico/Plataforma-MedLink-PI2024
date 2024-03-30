@@ -92,3 +92,8 @@ ServerTokens Prod
 
 FAZER BKP DO /ETC/APACHE2
 FAZER BKP DO /VAR/WWW/
+
+
+
+########### Instalando PhpMyAdmin
+https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04
