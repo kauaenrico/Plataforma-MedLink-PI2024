@@ -1,6 +1,6 @@
 <?php
 
-$hostName = "localhost";
+$hostName = "10.0.0.19";
 $dbUser = "admin";
 $dbPassword = "unisal@2024";
 $dbName = "plataforma";
