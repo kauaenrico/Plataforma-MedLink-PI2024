@@ -41,7 +41,7 @@ if (isset($_SESSION["user"])) {
             array_push($errors,"Password does not match");
            }
            require_once "database.php";
-           $sql = "SELECT * FROM users WHERE email = '$email'";
+           $sql = "SELECT * FROM profissionais WHERE profiss_email = '$email'";
            $result = mysqli_query($conn, $sql);
            $rowCount = mysqli_num_rows($result);
            if ($rowCount>0) {
