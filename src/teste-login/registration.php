@@ -53,11 +53,11 @@ if (isset($_SESSION["user"])) {
             }
            }else{
             
-            $sql = "INSERT INTO profissionais (profiss_cpf, profiss_nome, profiss_email, profiss_passwd) VALUES ( ?, ?, ?, ? )";
+            $sql = "INSERT INTO profissionais (profiss_cpf, profiss_nome, profiss_email, profiss_passwd) VALUES ($cpf, $fullName, $email, $passwordHash)";
             $stmt = mysqli_stmt_init($conn);
             $prepareStmt = mysqli_stmt_prepare($stmt,$sql);
             if ($prepareStmt) {
-                mysqli_stmt_bind_param($stmt,"ssss",$cpf , $fullName, $email, $passwordHash);
+                mysqli_stmt_bind_param($stmt,"ssss", $cpf, $fullName, $email, $passwordHash);
                 mysqli_stmt_execute($stmt);
                 echo "<div class='alert alert-success'>You are registered successfully.</div>";
             }else{
