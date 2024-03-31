@@ -5,6 +5,15 @@ if (isset($_SESSION["user"])) {
 }
 ?>
 
+<?php
+  if (isset($_POST["login"])) {
+    session_start();
+    $_SESSION["user"] = "yes";
+    header("Location: index.php");
+    die();
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,7 +56,7 @@ if (isset($_SESSION["user"])) {
             
         </div>
         <div class="card-body">
-          <form>
+          <form action="login.php" method="post">
             <div class="form-group">
               <label for="username">Usuário</label>
               <input type="text" class="form-control" id="username" placeholder="Digite seu usuário">
@@ -56,7 +65,7 @@ if (isset($_SESSION["user"])) {
               <label for="password">Senha</label>
               <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
             </div>
-            <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+            <button type="submit" value="Login" name="login" class="btn btn-primary btn-block">Entrar</button>
           </form>
         </div>
       </div>
