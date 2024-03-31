@@ -9,7 +9,7 @@ if (isset($_SESSION["user"])) {
   if (isset($_POST["login"])) {
     session_start();
     $_SESSION["user"] = "yes";
-    header("Location: index.php");
+    header("Location: dashboard.php");
     die();
   }
 ?>
