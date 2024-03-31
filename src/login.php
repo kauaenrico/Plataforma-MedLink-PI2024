@@ -8,35 +8,61 @@ if (isset($_SESSION["user"])) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Login</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Clínica | pequenos passos</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #d6e7df;
+    }
+    .login-container {
+      margin-top: 5%;
+    }
+      .imagem{
+
+        border-left: 10%;
+      }
+  </style>
 </head>
 <body>
-
-<div id="login-form">
-  <h2>Login</h2>
-  <input type="text" id="username" placeholder="Username" required>
-  <input type="password" id="password" placeholder="Password" required>
-  <button onclick="login()">Login</button>
+  
+  <div class="container">
+    <div class="row justify-content-center login-container">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header bg-primary text-white">
+            <table>
+              <tr>
+                  <td>
+                    <h4 class="mb-0">Login</h4>
+                  </td>
+                  <td>
+                    <img src="assets\img\Pquenos_passos_Login.png" alt="Imagem pequenos passos" width="30%" height="auto" class="imagem">
+                  </td>
+              </tr>
+            </table>
+           
+            
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="username">Usuário</label>
+              <input type="text" class="form-control" id="username" placeholder="Digite seu usuário">
+            </div>
+            <div class="form-group">
+              <label for="password">Senha</label>
+              <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
-<script>
-function login() {
-  // Obter valores de entrada
-  var username = document.getElementById("username").value;
-  var password = document.getElementById("password").value;
-
-  // Verificar se o usuário e a senha correspondem
-  if (username === "usuario" && password === "senha") {
-    alert("Bem-vindo, " + username + "!");
-    // Redirecionar para a página do painel de controle
-    window.location.href = "dashboard.html";
-  } else {
-    alert("Nome de usuário ou senha incorretos. Por favor, tente novamente.");
-  }
-}
-</script>
 
 </body>
 </html>
