@@ -1,3 +1,16 @@
 Colocar paginas em pt-br
 paginas responsivas
 mesmo padrao de css (bootstrap)
+
+
+
+Pacientes
+	listar pacientes e botao de criar novo
+		Paciente: informações principais, agendamentos, relatório diario
+		Criar novo: form com inserção de dados
+
+Minha Agenda
+		Lista com os próximos atendimentos, separados por dia (listando os horários marcados)
+
+
+Configurações
