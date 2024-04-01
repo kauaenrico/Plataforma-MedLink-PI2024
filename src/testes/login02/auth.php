@@ -20,9 +20,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             exit;
         } else {
             echo "Usuário ou senha inválidos.";
+            header("Location: login.php");
         }
     } else {
         echo "Por favor, preencha todos os campos.";
+        header("Location: login.php");
     }
 }
 ?>
