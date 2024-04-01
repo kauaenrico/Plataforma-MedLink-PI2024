@@ -1,10 +1,19 @@
 <?php
+<<<<<<< HEAD
 echo "<p>$_SESSION</p>";
 if (!isset($_POST["login"])) {
+=======
+if (isset($_POST["login"])) {
+>>>>>>> parent of 0aecb3a (Update login.php)
   session_start();
   $_SESSION["user"] = "yes";
   header("Location: dashboard.php");
   die();
+}
+
+session_start();
+if (isset($_SESSION["user"])) {
+   header("Location: dashboard.php");
 }
 ?>
 
