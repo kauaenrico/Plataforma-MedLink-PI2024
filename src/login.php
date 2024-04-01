@@ -1,6 +1,6 @@
 <?php
 echo "<p>$_SESSION</p>";
-if (!isset($_POST["login"])) {
+if (isset($_POST["login"])) {
   session_start();
   $_SESSION["user"] = "yes";
   header("Location: dashboard.php");
