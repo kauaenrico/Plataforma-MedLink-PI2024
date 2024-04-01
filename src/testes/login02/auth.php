@@ -11,7 +11,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: dashboard.php");
         exit; // Termina a execução do script
     } else {
-        header("Location: login.html");
         echo "Credenciais inválidas. Por favor, tente novamente.";
     }
 }
