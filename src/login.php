@@ -54,7 +54,7 @@ if (isset($_POST["login"])) {
             
         </div>
         <div class="card-body">
-          <form action="dashboard.php">
+          <form action="login.php" method="post">
             <div class="form-group">
               <label for="username">Usuário</label>
               <input type="text" class="form-control" id="username" placeholder="Digite seu usuário">
