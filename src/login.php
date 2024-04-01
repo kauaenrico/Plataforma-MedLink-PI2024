@@ -54,7 +54,7 @@
             
         </div>
         <div class="card-body">
-          <form action="teste-login.php" method="post">
+          <form action="login-redirect.php" method="post">
             <div class="form-group">
               <label for="username">Usuário</label>
               <input type="text" class="form-control" id="username" placeholder="Digite seu usuário">
