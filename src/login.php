@@ -1,5 +1,4 @@
 <?php
-echo "<p>$_SESSION</p>";
 if (isset($_POST["login"])) {
   session_start();
   $_SESSION["user"] = "yes";
@@ -30,7 +29,7 @@ if (isset($_POST["login"])) {
   </style>
 </head>
 <body>
-  
+  echo $_SESSION
   <div class="container">
     <div class="row justify-content-center login-container">
       <div class="col-md-6">
