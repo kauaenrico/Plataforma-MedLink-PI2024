@@ -54,7 +54,7 @@ if (isset($_POST["login"])) {
             
         </div>
         <div class="card-body">
-          <form action="dashboard.php">
+          <form action="login.php" method="post">
             <div class="form-group">
               <label for="username">Usuário</label>
               <input type="text" class="form-control" id="username" placeholder="Digite seu usuário">
@@ -63,7 +63,7 @@ if (isset($_POST["login"])) {
               <label for="password">Senha</label>
               <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
             </div>
-            <button type="submit" value="Login" name="login" class="btn btn-primary btn-block">Entrar</button>
+            <input type="submit" value="Login" name="login" class="btn btn-primary">
           </form>
         </div>
       </div>
