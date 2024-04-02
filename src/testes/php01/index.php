@@ -39,7 +39,7 @@
     }
   </style>
 </head>
-<body >
+<body>
     <header>
         <?php
             include "menu.php";
