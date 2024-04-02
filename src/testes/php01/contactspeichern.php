@@ -14,15 +14,9 @@ if(isset($_POST['Msg'])) $msg = $_POST['Msg'];
 if($vname and $nname and $email and $msg) {
    //SQL Syntax
     $sql = "
-        INSERT INTO contact
-        ( vorname, nachname, email, message)
-        VALUES
-        (
-            '$vname',
-            '$nname',
-            '$email',
-            '$msg'
-        )
+        INSERT INTO page.contact
+        (vorname, nachname, email, message)
+        VALUES ('$vname','$nname','$email','$msg');
     ";
     //Send Query to DB
     $dbConn->query($sql);
