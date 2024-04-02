@@ -16,7 +16,7 @@ if($vname and $nname and $email and $msg) {
     $sql = "
         INSERT INTO page.contact
         (vorname, nachname, email, message)
-        VALUES ('$vname','$nname','$email','$msg');
+        VALUES ('vname','nname','email','msg');
     ";
     //Send Query to DB
     $dbConn->query($sql);
