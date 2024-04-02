@@ -3,8 +3,8 @@
     // DB Settings
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
     $dbServer   = "localhost";
-    $dbUser = "root";
-    $dbPassword = "";
+    $dbUser = "admin";
+    $dbPassword = "unisal@2024";
     $dataBase = "page";
     // *** //
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
