@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>PROJETO Dashboard</h1>
+        <h1>PROJETO Dashboard </h1>
         <a href="logout.php" class="btn btn-warning">Sair (Logout)</a>
     </div>
 </body>
