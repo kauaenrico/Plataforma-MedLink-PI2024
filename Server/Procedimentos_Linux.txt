@@ -4,6 +4,11 @@
 apt install nano cron iputils-ping inetutils-telnet zip unzip
 sudo dpkg-reconfigure tzdata
 
+### Crontab
+* * * * * /opt/scripts/git_pull_proj05-2024.sh
+00 12 * * * /opt/scripts/backup_apache2.sh
+05 12 * * * /opt/scripts/backup_mysql.sh
+
 
 
 
