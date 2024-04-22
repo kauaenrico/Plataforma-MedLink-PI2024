@@ -23,8 +23,9 @@
     if($dbConn->connect_error)
         die("dbConnsfehler: " . $dbConn->connect_error);
 ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,7 +38,7 @@
         padding: 2px;
       }
     }
-  </style>
+    </style>
 </head>
 <body>
     <header>
