@@ -7,15 +7,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/5/minty/bootstrap.min.css" crossorigin="anonymous">
     <title>Dashboard</title>
+
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1>PROJETO Dashboard </h1>
     </div>
+        <div>
+        <h2>Agenda de Reuniões - <?php echo date("d/m/Y"); ?></h2>
+
+<table>
+    <tr>
+        <th>Data</th>
+        <th>Nome</th>
+        <th>Sala</th>
+    </tr>
+    <tr>
+        <td><?php echo date("d/m/Y"); ?></td>
+        <td>Pedro P.</td>
+        <td>Sala 1</td>
+    </tr>
+    <tr>
+        <td><?php echo date("d/m/Y"); ?></td>
+        <td>Carlos L.</td>
+        <td>Sala 3</td>
+    </tr>
+    <tr>
+        <td><?php echo date("d/m/Y"); ?></td>
+        <td>Fábio M.</td>
+        <td>Sala 7</td>
+    </tr>
+</table>
+        </div>
 </body>
 </html>
