@@ -31,7 +31,7 @@
 </head>
 <body>
 <div class="container mt-5">
-    <h2 class="text-center mb-4">Agenda de Reuniões - <?php echo date("d/m/Y"); ?></h2>
+    <h3 class="text-center mb-4">Agenda de hoje - <?php echo date("d/m/Y"); ?></h3>
     
     <ul class="list-group">
         <?php
@@ -45,13 +45,13 @@
             // Verificando e adicionando reuniões
             switch ($horario) {
                 case strtotime("08:00"):
-                    echo "<li class='meeting'>Reunião com Pedro P. - Sala 1</li>";
-                    break;
-                case strtotime("09:00"):
-                    echo "<li class='meeting'>Reunião com Carlos L. - Sala 3</li>";
+                    echo "<li class='meeting'>Atendimento com Pedro P. - Sala 1</li>";
                     break;
                 case strtotime("10:00"):
-                    echo "<li class='meeting'>Reunião com Fábio M. - Sala 7</li>";
+                    echo "<li class='meeting'>Atendimento com Carlos L. - Sala 3</li>";
+                    break;
+                case strtotime("13:00"):
+                    echo "<li class='meeting'>Atendimento com Fábio M. - Sala 7</li>";
                     break;
                 // Adicione mais casos conforme necessário
             }
