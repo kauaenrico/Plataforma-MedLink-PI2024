@@ -31,8 +31,6 @@
 </head>
 <body>
     <div class="container">
-        <h1>PROJETO Dashboard </h1>
-    </div>
     <div class="container mt-5">
     <h2 class="mb-4">Agenda de Reuniões - <?php echo date("d/m/Y"); ?></h2>
     
@@ -44,11 +42,21 @@
             echo "<li class='list-group-item'>";
             echo "<strong>" . date("H:i", $horario) . "</strong>";
             echo "<ul class='list-unstyled'>";
-            // Adicione suas reuniões aqui
-            // Por exemplo:
-            // echo "<li class='meeting'>Reunião com Pedro P.</li>";
-            // echo "<li class='meeting'>Reunião com Carlos L.</li>";
-            // echo "<li class='meeting'>Reunião com Fábio M.</li>";
+            
+            // Verificando e adicionando reuniões
+            switch ($horario) {
+                case strtotime("08:00"):
+                    echo "<li class='meeting'>Reunião com Pedro P. - Sala 1</li>";
+                    break;
+                case strtotime("09:00"):
+                    echo "<li class='meeting'>Reunião com Carlos L. - Sala 3</li>";
+                    break;
+                case strtotime("10:00"):
+                    echo "<li class='meeting'>Reunião com Fábio M. - Sala 7</li>";
+                    break;
+                // Adicione mais casos conforme necessário
+            }
+
             echo "</ul>";
             echo "</li>";
 
