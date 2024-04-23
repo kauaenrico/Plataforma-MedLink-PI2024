@@ -1,39 +1,22 @@
+<?php
+#session_start();
+#if (!isset($_SESSION["user"])) {
+#   header("Location: login.php");
+#}
+?>
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://bootswatch.com/5/minty/bootstrap.min.css" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Dashboard</title>
 </head>
 <body>
-    <header>
-        <?php
-            include "header.php";
-        ?>
-    </header>
-    <main class="h-screen flex flex-col items-center justify-center py-2">
-        <?php
-            if(isset($_GET["page"])){
-                switch($_GET["page"]){
-                    case "erro":
-                        include "error404.html";
-                        break;
-                    case "contactspeichern":
-                        include "contactspeichern.php";
-                        break;
-                    case "admindashboard":
-                        include "admindashboard.php";
-                        break;
-                    default:
-                        include "home.php";
-                        break;
-                }
-            }
-        ?>
-    </main>
-
-
-
+    <div class="container">
+        <h1>PROJETO Dashboard </h1>
+        <a href="logout.php" class="btn btn-warning">Sair (Logout)</a>
+    </div>
 </body>
 </html>
