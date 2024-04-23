@@ -73,6 +73,13 @@
     <!-- Botão de novo paciente -->
 </div>
 
+<div class="container mt-5">
+    <div class="d-flex justify-content-start mb-3">
+        <button type="button" class="btn btn-primary me-2">Novo Paciente</button>
+        <button type="button" class="btn btn-primary">Lista de Pacientes</button>
+    </div>
+</div>
+
 <form class="d-flex">
         <input class="form-control me-sm-2" type="search" placeholder="Pesquisar paciente">
         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
