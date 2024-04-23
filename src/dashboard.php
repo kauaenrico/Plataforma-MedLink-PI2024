@@ -34,12 +34,36 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Administração</a>
+          <a class="nav-link" href="error404.html?page=erro">Administração</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
     </header>
+
+    <main class="h-screen flex flex-col items-center justify-center py-2">
+        <?php
+            if(isset($_GET["page"])){
+                switch($_GET["page"]){
+                    case "erro":
+                        include "error404.html";
+                        break;
+                    case "contactspeichern":
+                        include "contactspeichern.php";
+                        break;
+                    case "admindashboard":
+                        include "admindashboard.php";
+                        break;
+                    default:
+                        include "home.php";
+                        break;
+                }
+            }
+        ?>
+    </main>
+
+
+
 </body>
 </html>
