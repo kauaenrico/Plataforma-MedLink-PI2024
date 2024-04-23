@@ -33,31 +33,30 @@
     <div class="container">
         <h1>PROJETO Dashboard </h1>
     </div>
-        <div>
-        <h2>Agenda de Reuniões - <?php echo date("d/m/Y"); ?></h2>
+    <div class="container mt-5">
+    <h2 class="mb-4">Agenda de Reuniões - <?php echo date("d/m/Y"); ?></h2>
+    
+    <ul class="list-group">
+        <?php
+        $horario = strtotime("08:00");
+        $fim_do_dia = strtotime("17:00");
+        while ($horario <= $fim_do_dia) {
+            echo "<li class='list-group-item'>";
+            echo "<strong>" . date("H:i", $horario) . "</strong>";
+            echo "<ul class='list-unstyled'>";
+            // Adicione suas reuniões aqui
+            // Por exemplo:
+            // echo "<li class='meeting'>Reunião com Pedro P.</li>";
+            // echo "<li class='meeting'>Reunião com Carlos L.</li>";
+            // echo "<li class='meeting'>Reunião com Fábio M.</li>";
+            echo "</ul>";
+            echo "</li>";
 
-<table>
-    <tr>
-        <th>Data</th>
-        <th>Nome</th>
-        <th>Sala</th>
-    </tr>
-    <tr>
-        <td><?php echo date("d/m/Y"); ?></td>
-        <td>Pedro P.</td>
-        <td>Sala 1</td>
-    </tr>
-    <tr>
-        <td><?php echo date("d/m/Y"); ?></td>
-        <td>Carlos L.</td>
-        <td>Sala 3</td>
-    </tr>
-    <tr>
-        <td><?php echo date("d/m/Y"); ?></td>
-        <td>Fábio M.</td>
-        <td>Sala 7</td>
-    </tr>
-</table>
-        </div>
+            // Avança para a próxima hora
+            $horario = strtotime("+1 hour", $horario);
+        }
+        ?>
+    </ul>
+</div>
 </body>
 </html>
