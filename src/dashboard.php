@@ -16,7 +16,7 @@
 
     <style>
         table {
-            width: 100%;
+            width: 50%;
             border-collapse: collapse;
         }
         th, td {
@@ -64,6 +64,13 @@
         }
         ?>
     </ul>
+</div>
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-start mb-3">
+        <button type="button" class="btn btn-primary">Novo Paciente</button>
+    </div>
+    <!-- Botão de novo paciente -->
 </div>
 </body>
 </html>
