@@ -30,9 +30,8 @@
     </style>
 </head>
 <body>
-    <div class="container">
-    <div class="container mt-5">
-    <h2 class="mb-4">Agenda de Reuniões - <?php echo date("d/m/Y"); ?></h2>
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Agenda de Reuniões - <?php echo date("d/m/Y"); ?></h2>
     
     <ul class="list-group">
         <?php
