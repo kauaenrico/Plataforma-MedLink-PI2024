@@ -19,8 +19,8 @@
                     case "erro":
                         include "error404.html";
                         break;
-                    case "contactspeichern":
-                        include "contactspeichern.php";
+                    case "dashboard":
+                        include "dashboard.php";
                         break;
                     case "admindashboard":
                         include "admindashboard.php";
