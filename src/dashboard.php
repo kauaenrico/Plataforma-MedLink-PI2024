@@ -30,15 +30,43 @@
     </style>
 </head>
 <body>
+<div class="container mt-5">
+    <h3 class="text-center mb-4">Agenda de hoje - <?php echo date("d/m/Y"); ?></h3>
+    
+    <ul class="list-group">
+        <?php
+        $horario = strtotime("08:00");
+        $fim_do_dia = strtotime("17:00");
+        while ($horario <= $fim_do_dia) {
+            echo "<li class='list-group-item'>";
+            echo "<strong>" . date("H:i", $horario) . "</strong>";
+            echo "<ul class='list-unstyled'>";
+            
+            // Verificando e adicionando reuniões
+            switch ($horario) {
+                case strtotime("08:00"):
+                    echo "<li class='meeting'>Atendimento com Pedro P. - Sala 1</li>";
+                    break;
+                case strtotime("10:00"):
+                    echo "<li class='meeting'>Atendimento com Carlos L. - Sala 3</li>";
+                    break;
+                case strtotime("13:00"):
+                    echo "<li class='meeting'>Atendimento com Fábio M. - Sala 7</li>";
+                    break;
+                // Adicione mais casos conforme necessário
+            }
 
+            echo "</ul>";
+            echo "</li>";
 
-
-
+            // Avança para a próxima hora
+            $horario = strtotime("+1 hour", $horario);
+        }
+        ?>
+    </ul>
+</div>
 
 <div class="container mt-5">
-    <div class="row">
-        <div class="col-md-4">
-        <div class="container mt-5">
 <form class="d-flex">
         <input class="form-control me-sm-2" type="search" placeholder="Pesquisar paciente">
         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
@@ -59,98 +87,8 @@
         <button type="button" class="btn btn-primary">Lista de Pacientes</button>
     </div>
 </div>
-            <div class="card mb-3">
-                <h3 class="card-header">Card header 1</h3>
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
-                </div>
-                <!-- Restante do conteúdo do cartão -->
-            </div>
-        </div>
-        <div class="col-md-4">
-        <div class="container mt-5">
-    <h3 class="text-center mb-4">Agenda de hoje - <?php echo date("d/m/Y"); ?></h3>
-    
-    <ul class="list-group">
-        <?php
-        $horario = strtotime("08:00");
-        $fim_do_dia = strtotime("17:00");
-        while ($horario <= $fim_do_dia) {
-            echo "<li class='list-group-item'>";
-            echo "<strong>" . date("H:i", $horario) . "</strong>";
-            echo "<ul class='list-unstyled'>";
-            
-            // Verificando e adicionando reuniões
-            switch ($horario) {
-                case strtotime("08:00"):
-                    echo "<li class='meeting'>Atendimento com Pedro P. - Sala 1</li>";
-                    break;
-                case strtotime("10:00"):
-                    echo "<li class='meeting'>Atendimento com Carlos L. - Sala 3</li>";
-                    break;
-                case strtotime("13:00"):
-                    echo "<li class='meeting'>Atendimento com Fábio M. - Sala 7</li>";
-                    break;
-                // Adicione mais casos conforme necessário
-            }
 
-            echo "</ul>";
-            echo "</li>";
-
-            // Avança para a próxima hora
-            $horario = strtotime("+1 hour", $horario);
-        }
-        ?>
-    </ul>
-</div>
-
-            <div class="card mb-3">
-                <h3 class="card-header">Card header 2</h3>
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
-                </div>
-                <div class="container mt-5">
-    <h3 class="text-center mb-4">Agenda de hoje - <?php echo date("d/m/Y"); ?></h3>
-    
-    <ul class="list-group">
-        <?php
-        $horario = strtotime("08:00");
-        $fim_do_dia = strtotime("17:00");
-        while ($horario <= $fim_do_dia) {
-            echo "<li class='list-group-item'>";
-            echo "<strong>" . date("H:i", $horario) . "</strong>";
-            echo "<ul class='list-unstyled'>";
-            
-            // Verificando e adicionando reuniões
-            switch ($horario) {
-                case strtotime("08:00"):
-                    echo "<li class='meeting'>Atendimento com Pedro P. - Sala 1</li>";
-                    break;
-                case strtotime("10:00"):
-                    echo "<li class='meeting'>Atendimento com Carlos L. - Sala 3</li>";
-                    break;
-                case strtotime("13:00"):
-                    echo "<li class='meeting'>Atendimento com Fábio M. - Sala 7</li>";
-                    break;
-                // Adicione mais casos conforme necessário
-            }
-
-            echo "</ul>";
-            echo "</li>";
-
-            // Avança para a próxima hora
-            $horario = strtotime("+1 hour", $horario);
-        }
-        ?>
-    </ul>
-</div>
-
-            </div>
-        </div>
-        <div class="col-md-4">
-        <div class="container mt-3">
+<div class="container mt-3">
     <div class="row">
         <div class="col-md-6">
             <div class="card mb-3">
