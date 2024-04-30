@@ -28,6 +28,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Administração</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.php?page=gitpull">Force Git Pull</a>
+        </li>
       </ul>
     </div>
   </div>
