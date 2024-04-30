@@ -23,7 +23,10 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="error404.html?page=erro">Administração</a>
+          <a class="nav-link" href="#">Avisos Gerais</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Administração</a>
         </li>
       </ul>
     </div>
