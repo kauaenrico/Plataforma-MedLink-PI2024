@@ -27,6 +27,12 @@
         th {
             background-color: #f2f2f2;
         }
+
+        .row{
+            left: 100%
+            border: 10px 
+            
+        }
     </style>
 </head>
 <body>
@@ -40,9 +46,10 @@
                     <input class="form-control me-sm-2" type="search" placeholder="Pesquisar paciente">
                     <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
                 </form>
-
+                <br></br>
                 <div class="d-flex justify-content-start mb-3">
                     <button type="button" class="btn btn-primary">Novo Paciente</button>
+                    <br></br>
                     <button type="button" class="btn btn-primary me-2">Lista de Pacientes</button>
                 </div>
             </div>
@@ -109,7 +116,7 @@
                                 <li class="list-group-item">Vestibulum at eros</li>
                             </ul>
                             <div class="card-body">
-                                <a href="#" class="card-link">Card link</a>
+                                <a href="https://github.com/kauaenrico/UNISAL_Proj_5" class="card-link">Github link</a>
                                 <a href="#" class="card-link">Another link</a>
                             </div>
                             <div class="card-footer text-muted">
