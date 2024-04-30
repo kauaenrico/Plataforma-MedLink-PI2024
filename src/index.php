@@ -16,6 +16,9 @@
         <?php
             if(isset($_GET["page"])){
                 switch($_GET["page"]){
+                    case "gitpull":
+                        include "gitpull.php";
+                        break;
                     case "erro":
                         include "error404.html";
                         break;
@@ -26,7 +29,7 @@
                         include "admindashboard.php";
                         break;
                     default:
-                        include "home.php";
+                        include "dashboard.php";
                         break;
                 }
             }
