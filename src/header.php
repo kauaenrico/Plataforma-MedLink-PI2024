@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="dashboard.php?page=erro">Pagina Inicial<span class="visually-hidden">(current)</span>
+          <a class="nav-link active" href="index.php?page=dashboard">Pagina Inicial<span class="visually-hidden">(current)</span>
           </a>
         </li>
         <li class="nav-item">
