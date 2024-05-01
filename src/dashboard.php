@@ -29,7 +29,7 @@
         </div>
         <div class="col-md-4">
             <div class="container mt-5">
-                <h3 class="text-center mb-4">Agenda de hoje - <?php echo date("d/m/Y"); ?></h3>
+                <h5 class="text-center mb-4">Agenda do dia- <?php echo date("d/m/Y"); ?></h5>
                 <ul class="list-group" style="font-size: 14px;">
                     <?php
                     $horario = strtotime("08:00");
@@ -68,7 +68,7 @@
                         <h4 class="card-title">Novos brinquedos nas salas!</h4>
                         <h6 class="card-subtitle text-muted">Novas experiencias para novos resultados</h6>
                     </div>
-                    <img src="data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='200' aria-label='Placeholder: Image cap' preserveAspectRatio='xMidYMid slice' viewBox='0 0 318 180'%3E%3Crect width='500%' height='200%' fill='%23868e96'/%3E%3Ctext x='50%' y='50%' fill='%23dee2e6' text-anchor='middle' dy='.3em'%3EImage cap%3C/text%3E%3C/svg%3E" alt="Image cap" style="font-size: 1.125rem;">
+                    <img src=c:\Users\luke.belatine\OneDrive - Centro de Tecnologia Canavieira SA\Imagens\Imagemclinica.jpeg width='100%' height='200' aria-label='Placeholder: Image cap' preserveAspectRatio='xMidYMid slice' viewBox='0 0 318 180'%3E%3Crect width='500%' height='200%' fill='%23868e96'/%3E%3Ctext x='50%' y='50%' fill='%23dee2e6' text-anchor='middle' dy='.3em'%3EImage cap%3C/text%3E%3C/svg%3E" alt="Image cap" style="font-size: 1.125rem;">
 
                     <div class="card-body">
                         <p class="card-text">Novos jogos e brinquedos que nos possibilitarão um auxilio maior no desenvolvimento de nossos pacientes.</p>
