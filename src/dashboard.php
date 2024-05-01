@@ -68,17 +68,19 @@
                         <h4 class="card-title">Novos brinquedos nas salas!</h4>
                         <h6 class="card-subtitle text-muted">Novas experiencias para novos resultados</h6>
                     </div>
-                    <svg class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
-                        <rect width="500%" height="200%" fill="#868e96"></rect>
-                        <text x="100%" y="100%" fill="#dee2e6" dy=".3em">Image cap</text>
-                    </svg>
+                    <img src="data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='200' aria-label='Placeholder: Image cap' preserveAspectRatio='xMidYMid slice' viewBox='0 0 318 180'%3E%3Crect width='500%' height='200%' fill='%23868e96'/%3E%3Ctext x='50%' y='50%' fill='%23dee2e6' text-anchor='middle' dy='.3em'%3EImage cap%3C/text%3E%3C/svg%3E" alt="Image cap" style="font-size: 1.125rem;">
+
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Novos jogos e brinquedos que nos possibilitarão um auxilio maior no desenvolvimento de nossos pacientes.</p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item">Brinquedos sensoriais</li>
+                        <li class="list-group-item">Jogos de quebra-cabeça</li>
+                        <li class="list-group-item">Livros interativos</li>
+                        <li class="list-group-item">Kit de arte</li>
+                        <li class="list-group-item">Jogos cooperativos</li>
+                        <li class="list-group-item">Livros para leitura conjunta</li>
+                        <li class="list-group-item">Caixa de Areia</li>
                     </ul>
                     <div class="card-body">
                         <a href="https://github.com/kauaenrico/UNISAL_Proj_5" class="card-link">Github link</a>
