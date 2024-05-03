@@ -64,41 +64,62 @@
                 </ul>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="container mt-5">
-                <div class="card mb-3">
-                    <h2 class="card-header">Avisos gerais</h2>
-                    <div class="card-body">
-                        <h4 class="card-title">Novos brinquedos nas salas!</h4>
-                        <h6 class="card-subtitle text-muted">Novas experiencias para novos resultados</h6>
-                    </div>
-                    <img src=c:\Users\luke.belatine\OneDrive - Centro de Tecnologia Canavieira SA\Imagens\Imagemclinica.jpeg width='100%' height='200' aria-label='Placeholder: Image cap' preserveAspectRatio='xMidYMid slice' viewBox='0 0 318 180'%3E%3Crect width='500%' height='200%' fill='%23868e96'/%3E%3Ctext x='50%' y='50%' fill='%23dee2e6' text-anchor='middle' dy='.3em'%3EImage cap%3C/text%3E%3C/svg%3E" alt="Image cap" style="font-size: 1.125rem;">
-
-                    <div class="card-body">
-                        <p class="card-text">Novos jogos e brinquedos que nos possibilitarão um auxilio maior no desenvolvimento de nossos pacientes.</p>
-                    </div>
-                    <li class="nav-item dropdown">
-          <a  class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Saiba maise</a>
-          <div class= "dropdown-menu">
-            <a class= "dropdown-item" href= "#">Brinquedos sensoriais</a>
-            <a class= "dropdown-item" href= "#">Jogos de quebra-cabeça</a>
-            <a class= "dropdown-item" href= "#">Livros interativos</a>
-            <a class= "dropdown-item" href= "#">Kit de arte</a>
-            <a class= "dropdown-item" href= "#">Jogos cooperativos</a>
-            <a class= "dropdown-item" href= "#">Caixa de Areia</a>
-          </div>
-                    <div class="card-body">
-                        <a href="https://github.com/kauaenrico/UNISAL_Proj_5" class="card-link">Github link</a>
-                        <a href="#" class="card-link">Another link</a>
-                    </div>
-                    <div class="card-footer text-muted">
-                        2 dias atrás
-                    </div>
+        <div class="container mt-5">
+    <div class="card mb-3">
+        <h2 class="card-header">Avisos gerais</h2>
+        <div class="card-body">
+            <h4 class="card-title">Novos brinquedos nas salas!</h4>
+            <h6 class="card-subtitle text-muted">Novas experiências para novos resultados</h6>
+        </div>
+        <img src="c:\Users\luke.belatine\OneDrive - Centro de Tecnologia Canavieira SA\Imagens\Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
+        <div class="card-body">
+            <p class="card-text">Novos jogos e brinquedos que nos possibilitarão um auxílio maior no desenvolvimento de nossos pacientes.</p>
+            <!-- Link "Saiba mais" -->
+            <a href="#" class="btn btn-primary" id="saibaMaisBtn">Saiba mais</a>
+            <!-- Div oculta com informações adicionais -->
+            <div id="infoAdicionais" style="display: none;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Brinquedos sensoriais</li>
+                    <li class="list-group-item">Jogos de quebra-cabeça</li>
+                    <li class="list-group-item">Livros interativos</li>
+                    <li class="list-group-item">Kit de arte</li>
+                    <li class="list-group-item">Jogos cooperativos</li>
+                    <li class="list-group-item">Livros para leitura conjunta</li>
+                    <li class="list-group-item">Caixa de Areia</li>
+                </ul>
+                <div class="card-body">
+                    <a href="https://github.com/kauaenrico/UNISAL_Proj_5" class="card-link">Github link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+                <div class="card-footer text-muted">
+                    2 dias atrás
                 </div>
             </div>
         </div>
     </div>
 </div>
+<script>
+    // Seleciona o link "Saiba mais" e a div das informações adicionais
+    const saibaMaisBtn = document.getElementById('saibaMaisBtn');
+    const infoAdicionais = document.getElementById('infoAdicionais');
+
+    // Adiciona um evento de clique ao link "Saiba mais"
+    saibaMaisBtn.addEventListener('click', function() {
+        // Verifica se a div das informações adicionais está visível
+        if (infoAdicionais.style.display === 'none') {
+            // Se estiver oculta, torna visível
+            infoAdicionais.style.display = 'block';
+            // Atualiza o texto do link "Saiba mais" para "Fechar"
+            saibaMaisBtn.textContent = 'Fechar';
+        } else {
+            // Se estiver visível, oculta
+            infoAdicionais.style.display = 'none';
+            // Atualiza o texto do link "Saiba mais" para "Saiba mais"
+            saibaMaisBtn.textContent = 'Saiba mais';
+        }
+    });
+</script>
+
 
 </body>
 </html>
