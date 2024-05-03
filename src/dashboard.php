@@ -20,21 +20,11 @@
 
             <div id="Infos" style="display: none;">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Novos Brinquedos sensoriais</li>
-                                <li class="list-group-item">Novos Jogos de quebra-cabeça</li>
-                                <li class="list-group-item">Novos Livros interativos</li>
-                                <li class="list-group-item">Novos Kits de arte</li>
-                                <li class="list-group-item">Novos Jogos cooperativos</li>
-                                <li class="list-group-item">Novos Livros para leitura conjunta</li>
-                                <li class="list-group-item">Nova Caixa de Areia</li>
+                                <li class="list-group-item">Pedro P.</li>
+                                <li class="list-group-item">carlos L.</li>
+                                <li class="list-group-item">fábio M.</li>
                             </ul>
-                            <div class="card-body">
-                                <a href="https://github.com/kauaenrico/UNISAL_Proj_5" class="card-link">Github link</a>
-                                <a href="#" class="card-link">Another link</a>
-                            </div>
-                            <div class="card-footer text-muted">
-                                2 dias atrás
-                            </div>
+                            
                         </div>
 
             <script>
