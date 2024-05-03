@@ -11,7 +11,7 @@
           <a class="nav-link active" href="index.php?page=dashboard">Pagina Inicial<span class="visually-hidden">(current)</span>
           </a>
         </li>
-        <li class="nav-item dropdown1">
+        <li class="nav-item dropdown">
           <a  class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Paciente</a>
           <div class= "dropdown-menu">
             <a class= "dropdown-item" href= "#">Cadastrar paciente</a>
