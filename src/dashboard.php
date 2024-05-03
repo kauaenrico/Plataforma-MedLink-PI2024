@@ -25,6 +25,48 @@
                 <li class="list-group-item">Kauan V.</li>
                 <li class="list-group-item">Paulo A.</li>
             </ul>
+            <a href="#" class="btn btn-primary" id="MostrarMais">Mostrar mais pacientes</a>
+
+            <div id="Infos" style="display: none;">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Novos Brinquedos sensoriais</li>
+                                <li class="list-group-item">Novos Jogos de quebra-cabeça</li>
+                                <li class="list-group-item">Novos Livros interativos</li>
+                                <li class="list-group-item">Novos Kits de arte</li>
+                                <li class="list-group-item">Novos Jogos cooperativos</li>
+                                <li class="list-group-item">Novos Livros para leitura conjunta</li>
+                                <li class="list-group-item">Nova Caixa de Areia</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="https://github.com/kauaenrico/UNISAL_Proj_5" class="card-link">Github link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                2 dias atrás
+                            </div>
+                        </div>
+
+            <script>
+    // Seleciona o link "Saiba mais" e a div das informações adicionais
+    const saibaMaisBtn = document.getElementById('MostrarMais');
+    const infoAdicionais = document.getElementById('Infos');
+
+    // Adiciona um evento de clique ao link "Saiba mais"
+    saibaMaisBtn.addEventListener('click', function() {
+        // Verifica se a div das informações adicionais está visível
+        if (infoAdicionais.style.display === 'none') {
+            // Se estiver oculta, torna visível
+            infoAdicionais.style.display = 'block';
+            // Atualiza o texto do link "Saiba mais" para "Fechar"
+            saibaMaisBtn.textContent = 'Fechar';
+        } else {
+            // Se estiver visível, oculta
+            infoAdicionais.style.display = 'none';
+            // Atualiza o texto do link "Saiba mais" para "Saiba mais"
+            saibaMaisBtn.textContent = 'mostrar mais pacientes';
+        }
+    });
+</script>
             <div class="d-flex justify-content-start mt-3">
                 <a href="index.php?page=cadpaciente">
                     <button type="button" class="btn btn-primary me-2">Novo Paciente</button>
