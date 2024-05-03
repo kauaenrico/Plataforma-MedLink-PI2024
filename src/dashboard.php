@@ -16,7 +16,8 @@
                 <input class="form-control me-sm-2" type="search" placeholder="Pesquisar paciente">
                 <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
             </form>
-            <a href="#" class="btn btn-primary" id="MostrarMais">Mostrar pacientes de hoje</a>
+            <div>
+                <a href="#" class="btn btn-primary" id="MostrarMais">Mostrar pacientes de hoje</a>
 
             <div id="Infos" style="display: none;">
                             <ul class="list-group list-group-flush">
@@ -24,6 +25,8 @@
                                 <li class="list-group-item">Carlos L.</li>
                                 <li class="list-group-item">Fábio M.</li>
                             </ul>
+            </div>
+
 
             <script>
     // Seleciona o link "Saiba mais" e a div das informações adicionais
