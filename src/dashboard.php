@@ -1,9 +1,3 @@
-<?php
-#session_start();
-#if (!isset($_SESSION["user"])) {
-#   header("Location: login.php");
-#}
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +9,7 @@
 </head>
 <body>
 
-<div class="container mt-5">
+<div class="container-fluid mt-5">
     <div class="row">
         <div class="col-md-4">
             <form class="d-flex">
@@ -64,40 +58,45 @@
                 </ul>
             </div>
         </div>
-        <div class="container mt-5">
-    <div class="card mb-3">
-        <h2 class="card-header">Avisos gerais</h2>
-        <div class="card-body">
-            <h4 class="card-title">Novos brinquedos nas salas!</h4>
-            <h6 class="card-subtitle text-muted">Novas experiências para novos resultados</h6>
-        </div>
-        <img src="c:\Users\luke.belatine\OneDrive - Centro de Tecnologia Canavieira SA\Imagens\Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
-        <div class="card-body">
-            <p class="card-text">Novos jogos e brinquedos que nos possibilitarão um auxílio maior no desenvolvimento de nossos pacientes.</p>
-            <!-- Link "Saiba mais" -->
-            <a href="#" class="btn btn-primary" id="saibaMaisBtn">Saiba mais</a>
-            <!-- Div oculta com informações adicionais -->
-            <div id="infoAdicionais" style="display: none;">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Brinquedos sensoriais</li>
-                    <li class="list-group-item">Jogos de quebra-cabeça</li>
-                    <li class="list-group-item">Livros interativos</li>
-                    <li class="list-group-item">Kit de arte</li>
-                    <li class="list-group-item">Jogos cooperativos</li>
-                    <li class="list-group-item">Livros para leitura conjunta</li>
-                    <li class="list-group-item">Caixa de Areia</li>
-                </ul>
-                <div class="card-body">
-                    <a href="https://github.com/kauaenrico/UNISAL_Proj_5" class="card-link">Github link</a>
-                    <a href="#" class="card-link">Another link</a>
-                </div>
-                <div class="card-footer text-muted">
-                    2 dias atrás
+        <div class="col-md-4">
+            <div class="container mt-5">
+                <div class="card mb-3">
+                    <h2 class="card-header">Avisos gerais</h2>
+                    <div class="card-body">
+                        <h4 class="card-title">Novos brinquedos nas salas!</h4>
+                        <h6 class="card-subtitle text-muted">Novas experiências para novos resultados</h6>
+                    </div>
+                    <img src="c:\Users\luke.belatine\OneDrive - Centro de Tecnologia Canavieira SA\Imagens\Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
+                    <div class="card-body">
+                        <p class="card-text">Novos jogos e brinquedos que nos possibilitarão um auxílio maior no desenvolvimento de nossos pacientes.</p>
+                        <!-- Link "Saiba mais" -->
+                        <a href="#" class="btn btn-primary" id="saibaMaisBtn">Saiba mais</a>
+                        <!-- Div oculta com informações adicionais -->
+                        <div id="infoAdicionais" style="display: none;">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Brinquedos sensoriais</li>
+                                <li class="list-group-item">Jogos de quebra-cabeça</li>
+                                <li class="list-group-item">Livros interativos</li>
+                                <li class="list-group-item">Kit de arte</li>
+                                <li class="list-group-item">Jogos cooperativos</li>
+                                <li class="list-group-item">Livros para leitura conjunta</li>
+                                <li class="list-group-item">Caixa de Areia</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="https://github.com/kauaenrico/UNISAL_Proj_5" class="card-link">Github link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                2 dias atrás
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 <script>
     // Seleciona o link "Saiba mais" e a div das informações adicionais
     const saibaMaisBtn = document.getElementById('saibaMaisBtn');
@@ -119,7 +118,6 @@
         }
     });
 </script>
-
 
 </body>
 </html>
