@@ -23,7 +23,9 @@
                 <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
             </form>
             <div class="d-flex justify-content-start mt-3">
-                <button type="button" class="btn btn-primary me-2" href="index.php?page=cadpaciente">Novo Paciente</button>
+                <a href="index.php?page=cadpaciente">
+                    <button type="button" class="btn btn-primary me-2">Novo Paciente</button>
+                </a>
                 <button type="button" class="btn btn-primary">Lista de Pacientes</button>
             </div>
         </div>
