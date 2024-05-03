@@ -64,9 +64,9 @@
                     <h2 class="card-header">Avisos gerais</h2>
                     <div class="card-body">
                         <h4 class="card-title">Novos brinquedos nas salas!</h4>
-                        <h6 class="card-subtitle text-muted">Novas experiências para novos resultados</h6>
+                        <h6 class="card-subtitle text-muted">Novas experiências para novos resultados!</h6>
                     </div>
-                    <img src="c:\Users\luke.belatine\OneDrive - Centro de Tecnologia Canavieira SA\Imagens\Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
+                    <img src="C:\Users\luke.belatine\OneDrive - Centro de Tecnologia Canavieira SA\Área de Trabalho\Unisal_5BI\Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
                     <div class="card-body">
                         <p class="card-text">Novos jogos e brinquedos que nos possibilitarão um auxílio maior no desenvolvimento de nossos pacientes.</p>
                         <!-- Link "Saiba mais" -->
