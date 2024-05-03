@@ -16,6 +16,15 @@
                 <input class="form-control me-sm-2" type="search" placeholder="Pesquisar paciente">
                 <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
             </form>
+            <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Pedro P.</li>
+                        <li class="list-group-item">Carlos L.</li>
+                        <li class="list-group-item">Vinicius S. B.</li>
+                        <li class="list-group-item">Lucas K.</li>
+                        <li class="list-group-item">George L.</li>
+                        <li class="list-group-item">Kauan V.</li>
+                        <li class="list-group-item">Paulo A.</li>
+                    </ul>
             <div class="d-flex justify-content-start mt-3">
                 <a href="index.php?page=cadpaciente">
                     <button type="button" class="btn btn-primary me-2">Novo Paciente</button>
