@@ -26,7 +26,9 @@
                 <a href="index.php?page=cadpaciente">
                     <button type="button" class="btn btn-primary me-2">Novo Paciente</button>
                 </a>
-                <button type="button" class="btn btn-primary">Lista de Pacientes</button>
+                <a href="#">
+                    <button type="button" class="btn btn-primary">Lista de Pacientes</button>
+                </a>
             </div>
         </div>
         <div class="col-md-4">
