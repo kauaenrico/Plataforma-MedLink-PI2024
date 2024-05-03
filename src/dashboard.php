@@ -16,17 +16,26 @@
                 <input class="form-control me-sm-2" type="search" placeholder="Pesquisar paciente">
                 <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
             </form>
-            <div>
-                <a href="#" class="btn btn-primary" id="MostrarMais">Mostrar pacientes de hoje</a>
+            <a href="#" class="btn btn-primary" id="MostrarMais">Mostrar pacientes de hoje</a>
 
             <div id="Infos" style="display: none;">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Pedro P.</li>
-                                <li class="list-group-item">Carlos L.</li>
-                                <li class="list-group-item">Fábio M.</li>
+                                <li class="list-group-item">Novos Brinquedos sensoriais</li>
+                                <li class="list-group-item">Novos Jogos de quebra-cabeça</li>
+                                <li class="list-group-item">Novos Livros interativos</li>
+                                <li class="list-group-item">Novos Kits de arte</li>
+                                <li class="list-group-item">Novos Jogos cooperativos</li>
+                                <li class="list-group-item">Novos Livros para leitura conjunta</li>
+                                <li class="list-group-item">Nova Caixa de Areia</li>
                             </ul>
-            </div>
-
+                            <div class="card-body">
+                                <a href="https://github.com/kauaenrico/UNISAL_Proj_5" class="card-link">Github link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                2 dias atrás
+                            </div>
+                        </div>
 
             <script>
     // Seleciona o link "Saiba mais" e a div das informações adicionais
@@ -45,7 +54,7 @@
             // Se estiver visível, oculta
             infoAdicionais.style.display = 'none';
             // Atualiza o texto do link "Saiba mais" para "Saiba mais"
-            saibaMaisBtn.textContent = 'mostrar pacientes  de hoje';
+            saibaMaisBtn.textContent = 'mostrar pacientes hoje';
         }
     });
 </script>
