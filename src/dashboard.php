@@ -16,38 +16,16 @@
                 <input class="form-control me-sm-2" type="search" placeholder="Pesquisar paciente">
                 <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
             </form>
-            <a href="#" class="btn btn-primary" id="MostrarMais">Mostrar pacientes de hoje</a>
+            <a href="#" class="btn btn-primary mt-3" id="MostrarMais">Mostrar pacientes de hoje</a>
 
             <div id="Infos" style="display: none;">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Pedro P.</li>
-                                <li class="list-group-item">Carlos L.</li>
-                                <li class="list-group-item">Fábio M.</li>
-                            </ul>
-
-                        </div>
-
-            <script>
-    // Seleciona o link "Saiba mais" e a div das informações adicionais
-    const saibaMaisBtn = document.getElementById('MostrarMais');
-    const infoAdicionais = document.getElementById('Infos');
-
-    // Adiciona um evento de clique ao link "Saiba mais"
-    saibaMaisBtn.addEventListener('click', function() {
-        // Verifica se a div das informações adicionais está visível
-        if (infoAdicionais.style.display === 'none') {
-            // Se estiver oculta, torna visível
-            infoAdicionais.style.display = 'block';
-            // Atualiza o texto do link "Saiba mais" para "Fechar"
-            saibaMaisBtn.textContent = 'Fechar';
-        } else {
-            // Se estiver visível, oculta
-            infoAdicionais.style.display = 'none';
-            // Atualiza o texto do link "Saiba mais" para "Saiba mais"
-            saibaMaisBtn.textContent = 'mostrar pacientes hoje';
-        }
-    });
-</script>
+                <ul class="list-group list-group-flush mt-3"> <!-- Adicionado mt-3 para espaço superior -->
+                    <li class="list-group-item">Pedro P.</li>
+                    <li class="list-group-item">Carlos L.</li>
+                    <li class="list-group-item">Fábio M.</li>
+                </ul>
+            </div>
+            
             <div class="d-flex justify-content-start mt-3">
                 <a href="index.php?page=cadpaciente">
                     <button type="button" class="btn btn-primary me-2">Novo Paciente</button>
