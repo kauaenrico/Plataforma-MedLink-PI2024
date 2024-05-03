@@ -29,6 +29,9 @@
                     case "admindashboard":
                         include "admindashboard.php";
                         break;
+                    case "cadpaciente":
+                        include "cadpaciente.php";
+                        break;    
                     default:
                         include "dashboard.php";
                         break;
@@ -36,7 +39,7 @@
             }
         ?>
     </main>
-
+    <foo
 
 
 </body>
