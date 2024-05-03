@@ -66,9 +66,9 @@
                         <h4 class="card-title">Novos brinquedos nas salas!</h4>
                         <h6 class="card-subtitle text-muted">Novas experiências para novos resultados!</h6>
                     </div>
-                    <img src="C:\Users\luke.belatine\OneDrive - Centro de Tecnologia Canavieira SA\Área de Trabalho\Unisal_5BI\Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
+                    <img src="src/Pasta_imagens/Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
                     <div class="card-body">
-                        <p class="card-text">Novos jogos e brinquedos que nos possibilitarão um auxílio maior no desenvolvimento de nossos pacientes. veja exemplos de alguns novos brinquedos que chegaram ao PequenosPassos</p>
+                        <p class="card-text">Novos jogos e brinquedos que nos possibilitarão um auxílio maior no desenvolvimento de nossos pacientes. Veja exemplos de alguns novos brinquedos que chegaram ao Pequenos Passos</p>
                         <!-- Link "Saiba mais" -->
                         <a href="#" class="btn btn-primary" id="saibaMaisBtn">Saiba mais</a>
                         <!-- Div oculta com informações adicionais -->
