@@ -16,35 +16,14 @@
                 <input class="form-control me-sm-2" type="search" placeholder="Pesquisar paciente">
                 <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
             </form>
-            <ul class="list-group list-group-flush mt-3"> <!-- Adicionado mt-3 para espaço superior -->
-                <li class="list-group-item">Pedro P.</li>
-                <li class="list-group-item">Carlos L.</li>
-                <li class="list-group-item">Vinicius S. B.</li>
-                <li class="list-group-item">Lucas K.</li>
-                <li class="list-group-item">George L.</li>
-                <li class="list-group-item">Kauan V.</li>
-                <li class="list-group-item">Paulo A.</li>
-            </ul>
-            <a href="#" class="btn btn-primary" id="MostrarMais">Mostrar mais pacientes</a>
+            <a href="#" class="btn btn-primary" id="MostrarMais">Mostrar pacientes de hoje</a>
 
             <div id="Infos" style="display: none;">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Novos Brinquedos sensoriais</li>
-                                <li class="list-group-item">Novos Jogos de quebra-cabeça</li>
-                                <li class="list-group-item">Novos Livros interativos</li>
-                                <li class="list-group-item">Novos Kits de arte</li>
-                                <li class="list-group-item">Novos Jogos cooperativos</li>
-                                <li class="list-group-item">Novos Livros para leitura conjunta</li>
-                                <li class="list-group-item">Nova Caixa de Areia</li>
+                                <li class="list-group-item">Pedro P.</li>
+                                <li class="list-group-item">Carlos L.</li>
+                                <li class="list-group-item">Fábio M.</li>
                             </ul>
-                            <div class="card-body">
-                                <a href="https://github.com/kauaenrico/UNISAL_Proj_5" class="card-link">Github link</a>
-                                <a href="#" class="card-link">Another link</a>
-                            </div>
-                            <div class="card-footer text-muted">
-                                2 dias atrás
-                            </div>
-                        </div>
 
             <script>
     // Seleciona o link "Saiba mais" e a div das informações adicionais
@@ -63,7 +42,7 @@
             // Se estiver visível, oculta
             infoAdicionais.style.display = 'none';
             // Atualiza o texto do link "Saiba mais" para "Saiba mais"
-            saibaMaisBtn.textContent = 'mostrar mais pacientes';
+            saibaMaisBtn.textContent = 'mostrar pacientes  de hoje';
         }
     });
 </script>
