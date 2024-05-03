@@ -21,10 +21,10 @@
             <div id="Infos" style="display: none;">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">Pedro P.</li>
-                                <li class="list-group-item">carlos L.</li>
-                                <li class="list-group-item">fábio M.</li>
+                                <li class="list-group-item">Carlos L.</li>
+                                <li class="list-group-item">Fábio M.</li>
                             </ul>
-                            
+
                         </div>
 
             <script>
