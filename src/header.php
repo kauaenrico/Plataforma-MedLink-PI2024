@@ -12,7 +12,7 @@
           </a>
         </li>
         <li class="nav-item dropdown1">
-          <a  class="nav-link" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Paciente</a>
+          <a  class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Paciente</a>
           <div class= "dropdown-menu">
             <a class= "dropdown-item" href= "#">Cadastrar paciente</a>
             <a class= "dropdown-item" href= "#">Lista de pacientes</a>
