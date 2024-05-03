@@ -67,7 +67,7 @@
         <div class="col-md-4">
             <div class="container mt-5">
                 <div class="card mb-3">
-                    <h2 class="card-header">Novidades</h2>
+                    <h2 class="card-header">Avisos gerais</h2>
                     <div class="card-body">
                         <h4 class="card-title">Novos brinquedos nas salas!</h4>
                         <h6 class="card-subtitle text-muted">Novas experiencias para novos resultados</h6>
@@ -77,15 +77,16 @@
                     <div class="card-body">
                         <p class="card-text">Novos jogos e brinquedos que nos possibilitarão um auxilio maior no desenvolvimento de nossos pacientes.</p>
                     </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Brinquedos sensoriais</li>
-                        <li class="list-group-item">Jogos de quebra-cabeça</li>
-                        <li class="list-group-item">Livros interativos</li>
-                        <li class="list-group-item">Kit de arte</li>
-                        <li class="list-group-item">Jogos cooperativos</li>
-                        <li class="list-group-item">Livros para leitura conjunta</li>
-                        <li class="list-group-item">Caixa de Areia</li>
-                    </ul>
+                    <li class="nav-item dropdown">
+          <a  class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Saiba maise</a>
+          <div class= "dropdown-menu">
+            <a class= "dropdown-item" href= "#">Brinquedos sensoriais</a>
+            <a class= "dropdown-item" href= "#">Jogos de quebra-cabeça</a>
+            <a class= "dropdown-item" href= "#">Livros interativos</a>
+            <a class= "dropdown-item" href= "#">Kit de arte</a>
+            <a class= "dropdown-item" href= "#">Jogos cooperativos</a>
+            <a class= "dropdown-item" href= "#">Caixa de Areia</a>
+          </div>
                     <div class="card-body">
                         <a href="https://github.com/kauaenrico/UNISAL_Proj_5" class="card-link">Github link</a>
                         <a href="#" class="card-link">Another link</a>
