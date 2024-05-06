@@ -145,7 +145,7 @@
             // Se estiver visível, oculta
             pacdodia.style.display = 'none';
             // Atualiza o texto do link "Saiba mais" para "Saiba mais"
-            pacdodiabtn.textContent = 'Saiba mais';
+            pacdodiabtn.textContent = 'Mostrar pacientes do dia';
         }
     });
 </script>
