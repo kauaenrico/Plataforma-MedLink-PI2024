@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css" crossorigin="anonymous">
-    <title>Formulário de Cadastro</title>
-</head>
-<body>
-
 <form data-bitwarden-watching="1">
   <fieldset>
     <legend>Legend</legend>
@@ -121,9 +110,6 @@
         <label for="customRange3" class="form-label">Example range</label>
         <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
     </fieldset>
-    <button type="submit" class="btn btn-primary mt-4">Submit</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
   </fieldset>
 </form>
-
-</body>
-</html>
