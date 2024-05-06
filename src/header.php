@@ -1,14 +1,14 @@
 <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
   <div class="container-fluid">
     <!-- <img src="assets/img/PequenosPassos_Logo02-bg.png" alt="" > -->
-    <a class="navbar-brand" href="index.php?page=dashboard">MedLink</a>
+    <a class="navbar-brand" href="index.php?page=pdashboard">MedLink</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="index.php?page=dashboard">Pagina Inicial<span class="visually-hidden">(current)</span>
+          <a class="nav-link active" href="index.php?page=pdashboard">Pagina Inicial<span class="visually-hidden">(current)</span>
           </a>
         </li>
         <li class="nav-item dropdown">
@@ -28,7 +28,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Avisos Gerais</a>
+          <a class="nav-link" href="index.php?page=pavisosgerais">Avisos Gerais</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Administração</a>
