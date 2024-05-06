@@ -1,4 +1,19 @@
 
+<<<<<<< HEAD
+<!-- pac_cpf
+pac_nome
+pac_nascimento
+pac_inicio da terapia (data)
+pac_responsavel
+pac_telefone
+pac_autresp autorizaca do responsavel
+pac_condicao
+pac_terapia
+pac_autimagem autorizacao de imagem
+pac_alergias
+pac_preferencias
+pac_observacoes
+pac_status -->
 
 
 
