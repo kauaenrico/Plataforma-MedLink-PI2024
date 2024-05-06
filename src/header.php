@@ -14,7 +14,7 @@
         <li class="nav-item dropdown">
           <a  class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Paciente</a>
           <div class= "dropdown-menu">
-            <a class= "dropdown-item" href= "#">Cadastrar paciente</a>
+            <a class= "dropdown-item" href= "index.php?page=pcadpaciente">Cadastrar paciente</a>
             <a class= "dropdown-item" href= "#">Lista de pacientes</a>
           </div>
         </li>
