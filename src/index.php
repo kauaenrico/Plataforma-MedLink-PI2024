@@ -18,17 +18,23 @@
         <?php
             if(isset($_GET["page"])){
                 switch($_GET["page"]){
-                    case "pavisosgerais":
-                        include "avisosgerais.php";
+                    case "pdashboard":
+                        include "dashboard.php";
                         break;
+                    case "pavisosgerais": include "avisosgerais.php"; break;
+                    
+                    
+                   
+
+
+
+
+
                     case "gitpull":
                         include "gitpull.php";
                         break;
                     case "erro":
                         include "error404.html";
-                        break;
-                    case "pdashboard":
-                        include "dashboard.php";
                         break;
                     case "admindashboard":
                         include "admindashboard.php";
