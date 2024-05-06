@@ -1,22 +1,20 @@
-<!-- pac_cpf
-pac_nome
-pac_nascimento
-pac_inicio da terapia (data)
-pac_responsavel
-pac_telefone
-pac_autresp autorizaca do responsavel
-pac_condicao
-pac_terapia
-pac_autimagem autorizacao de imagem
-pac_alergias
-pac_preferencias
-pac_observacoes
-pac_status -->
 
 
 
 
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css" crossorigin="anonymous">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+>>>>>>> 1a05603e52fea7093aa7940cc80de76ba7c1e8e6
 
 <form data-bitwarden-watching="1">
   <fieldset>
@@ -130,6 +128,9 @@ pac_status -->
         <label for="customRange3" class="form-label">Example range</label>
         <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
     </fieldset>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary mt-4">Submit</button>
   </fieldset>
 </form>
+
+</body>
+</html>
