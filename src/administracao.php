@@ -37,7 +37,7 @@
                 <input class="form-control" type="search" placeholder="Pesquisar Terapeuta">
                 <button class="btn btn-primary mt-2">Pesquisar Terapeuta</button>
             </div>
-            <a href="#" class="btn btn-secondary">Lista de Terapeutas</a>
+            <a href="#" class="btn btn-secondary">Cadastrar novo terapeuta</a>
             <ul class="list-group mt-3">
                 <!-- Lista de terapeutas fictícios -->
                 <li class="list-group-item d-flex justify-content-between align-items-center">Camily R. <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
