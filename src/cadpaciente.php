@@ -17,7 +17,7 @@ pac_status -->
 
 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,7 +26,7 @@ pac_status -->
     <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css" crossorigin="anonymous">
     <title>Formulário de Cadastro</title>
 </head>
-<body>
+<body> -->
 
 <form data-bitwarden-watching="1">
   <fieldset>
@@ -144,5 +144,5 @@ pac_status -->
   </fieldset>
 </form>
 
-</body>
-</html>
+<!-- </body>
+</html> -->
