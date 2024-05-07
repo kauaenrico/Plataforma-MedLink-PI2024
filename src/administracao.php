@@ -13,6 +13,7 @@
     <div class="row">
         <!-- Coluna da esquerda -->
         <div class="col-md-4">
+            <h2 class="mb-3">Pacientes</h2>
             <div class="mb-3">
                 <input class="form-control" type="search" placeholder="Pesquisar Paciente">
                 <button class="btn btn-primary mt-2">Pesquisar Paciente</button>
@@ -31,6 +32,7 @@
 
         <!-- Coluna do meio -->
         <div class="col-md-4">
+            <h2 class="mb-3">Terapeutas</h2>
             <div class="mb-3">
                 <input class="form-control" type="search" placeholder="Pesquisar Terapeuta">
                 <button class="btn btn-primary mt-2">Pesquisar Terapeuta</button>
