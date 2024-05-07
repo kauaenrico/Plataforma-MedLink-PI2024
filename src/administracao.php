@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://bootswatch.com/5/minty/bootstrap.min.css" crossorigin="anonymous">
-    <title>Admin Dashboard</title>
-</head>
-<body>
-
 <div class="container-fluid mt-5">
     <div class="row">
         <!-- Coluna da esquerda -->
@@ -37,7 +26,11 @@
                 <input class="form-control" type="search" placeholder="Pesquisar Terapeuta">
                 <button class="btn btn-primary mt-2">Pesquisar Terapeuta</button>
             </div>
-            <a href="#" class="btn btn-secondary">Cadastrar novo terapeuta</a>
+            <div>
+                <a href="index.php?page=cadterapeuta">
+                    <button type= "button" class=btn btn-secondary>Cadastrar novo terapeuta</button>
+                </a>
+            </div>
             <ul class="list-group mt-3">
                 <!-- Lista de terapeutas fictícios -->
                 <li class="list-group-item d-flex justify-content-between align-items-center">Camily R. <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
@@ -66,6 +59,3 @@
         </div>
     </div>
 </div>
-
-</body>
-</html>
