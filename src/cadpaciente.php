@@ -1,3 +1,33 @@
+
+<!-- pac_cpf
+pac_nome
+pac_nascimento
+pac_inicio da terapia (data)
+pac_responsavel
+pac_telefone
+pac_autresp autorizaca do responsavel
+pac_condicao
+pac_terapia
+pac_autimagem autorizacao de imagem
+pac_alergias
+pac_preferencias
+pac_observacoes
+pac_status -->
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css" crossorigin="anonymous">
+    <title>Formulário de Cadastro</title>
+</head>
+<body> -->
+
 <form data-bitwarden-watching="1">
   <fieldset>
     <legend>Informações do Paciente</legend>
@@ -66,3 +96,9 @@
     <button type="submit" class="btn btn-primary mt-3">Salvar</button>
   </fieldset>
 </form>
+<<<<<<< HEAD
+=======
+
+<!-- </body>
+</html> -->
+>>>>>>> 99e3bc6851f87c3bc5600f8035f42faa2a523b93
