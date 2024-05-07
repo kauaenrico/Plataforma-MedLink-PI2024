@@ -1,5 +1,5 @@
     <style>
-        .fieldset {
+        .body {
             border-left: 15px;
             border-right: 15px;
             margin-left: 10px;
@@ -9,6 +9,7 @@
 
 <form data-bitwarden-watching="1">
   <fieldset>
+    <div class= body>
     <legend>Informações do Paciente</legend>
     <div class="row">
       <div class="col-md-6">
@@ -73,6 +74,7 @@
       </div>
     </div>
     <button type="submit" class="btn btn-primary mt-3">Salvar</button>
+      </div class= body>
   </fieldset>
 </form>
 
