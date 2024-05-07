@@ -1,9 +1,9 @@
     <style>
         .form {
-            border-left: 2px solid #212529;
-            border-right: 2px solid #212529;
-            margin-left: -2px;
-            margin-right: -2px;
+            border-left: 20px solid #212529;
+            border-right: 20px solid #212529;
+            margin-left: -10px;
+            margin-right: -10px;
         }
     </style>
 
