@@ -1,7 +1,9 @@
     <style>
         .fieldset {
-            border-left: 20px;
-            border-right: 20px;
+            border-left: 15px;
+            border-right: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
         }
     </style>
 
