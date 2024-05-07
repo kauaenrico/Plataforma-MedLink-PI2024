@@ -36,8 +36,7 @@
                 <button class="btn btn-primary mt-2">Pesquisar Terapeuta</button>
             </div>
             <a href="#" class="btn btn-secondary">Lista de Terapeutas</a>
-        </div>
-        <div class="col-md-4">
+            <div class="col-md-4">
             <div class="mb-3">
                 <input class="form-control" type="search" placeholder="Pesquisar Paciente">
                 <button class="btn btn-primary mt-2">Pesquisar Paciente</button>
@@ -52,7 +51,9 @@
                 <li class="list-group-item d-flex justify-content-between align-items-center">Gabriel G. <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">Letícia B. <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
             </ul>
+             </div>
         </div>
+        
 
         <!-- Coluna da direita -->
         <div class="col-md-4">
