@@ -1,148 +1,68 @@
-
-<!-- pac_cpf
-pac_nome
-pac_nascimento
-pac_inicio da terapia (data)
-pac_responsavel
-pac_telefone
-pac_autresp autorizaca do responsavel
-pac_condicao
-pac_terapia
-pac_autimagem autorizacao de imagem
-pac_alergias
-pac_preferencias
-pac_observacoes
-pac_status -->
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css" crossorigin="anonymous">
-    <title>Formulário de Cadastro</title>
-</head>
-<body>
-
 <form data-bitwarden-watching="1">
   <fieldset>
-    <legend>Legend</legend>
+    <legend>Informações do Paciente</legend>
     <div class="row">
-      <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-      <div class="col-sm-10">
-        <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value="email@example.com">
+      <div class="col-md-6">
+        <label for="cpf" class="form-label mt-3">CPF</label>
+        <input type="text" class="form-control" id="cpf" placeholder="CPF">
+      </div>
+      <div class="col-md-6">
+        <label for="nome" class="form-label mt-3">Nome</label>
+        <input type="text" class="form-control" id="nome" placeholder="Nome">
+      </div>
+      <div class="col-md-6">
+        <label for="nascimento" class="form-label mt-3">Data de Nascimento</label>
+        <input type="date" class="form-control" id="nascimento">
+      </div>
+      <div class="col-md-6">
+        <label for="inicio_terapia" class="form-label mt-3">Início da Terapia</label>
+        <input type="date" class="form-control" id="inicio_terapia">
+      </div>
+      <div class="col-md-6">
+        <label for="responsavel" class="form-label mt-3">Responsável</label>
+        <input type="text" class="form-control" id="responsavel" placeholder="Responsável">
+      </div>
+      <div class="col-md-6">
+        <label for="telefone" class="form-label mt-3">Telefone</label>
+        <input type="tel" class="form-control" id="telefone" placeholder="Telefone">
+      </div>
+      <div class="col-md-6">
+        <label for="autresp" class="form-label mt-3">Autorização do Responsável</label>
+        <input type="text" class="form-control" id="autresp" placeholder="Autorização do Responsável">
+      </div>
+      <div class="col-md-6">
+        <label for="condicao" class="form-label mt-3">Condição</label>
+        <input type="text" class="form-control" id="condicao" placeholder="Condição">
+      </div>
+      <div class="col-md-6">
+        <label for="terapia" class="form-label mt-3">Terapia</label>
+        <input type="text" class="form-control" id="terapia" placeholder="Terapia">
+      </div>
+      <div class="col-md-6">
+        <label for="autimagem" class="form-label mt-3">Autorização de Imagem</label>
+        <input type="text" class="form-control" id="autimagem" placeholder="Autorização de Imagem">
+      </div>
+      <div class="col-md-6">
+        <label for="alergias" class="form-label mt-3">Alergias</label>
+        <input type="text" class="form-control" id="alergias" placeholder="Alergias">
+      </div>
+      <div class="col-md-6">
+        <label for="preferencias" class="form-label mt-3">Preferências</label>
+        <input type="text" class="form-control" id="preferencias" placeholder="Preferências">
+      </div>
+      <div class="col-md-12">
+        <label for="observacoes" class="form-label mt-3">Observações</label>
+        <textarea class="form-control" id="observacoes" rows="3" placeholder="Observações"></textarea>
+      </div>
+      <div class="col-md-6">
+        <label for="status" class="form-label mt-3">Status</label>
+        <select class="form-select" id="status">
+          <option selected>Selecione...</option>
+          <option value="ativo">Ativo</option>
+          <option value="inativo">Inativo</option>
+        </select>
       </div>
     </div>
-    <div>
-      <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-    </div>
-    <div>
-      <label for="exampleInputPassword1" class="form-label mt-4">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" autocomplete="off">
-    </div>
-    <div>
-      <label for="exampleSelect1" class="form-label mt-4">Example select</label>
-      <select class="form-select" id="exampleSelect1">
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-      </select>
-    </div>
-    <div>
-      <label for="exampleSelect1" class="form-label mt-4">Example disabled select</label>
-      <select class="form-select" id="exampleDisabledSelect1" disabled="">
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-      </select>
-    </div>
-    <div>
-      <label for="exampleSelect2" class="form-label mt-4">Example multiple select</label>
-      <select multiple="" class="form-select" id="exampleSelect2">
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-      </select>
-    </div>
-    <div>
-      <label for="exampleTextarea" class="form-label mt-4">Example textarea</label>
-      <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-    </div>
-    <div>
-      <label for="formFile" class="form-label mt-4">Default file input example</label>
-      <input class="form-control" type="file" id="formFile">
-    </div>
-    <fieldset>
-      <legend class="mt-4">Radio buttons</legend>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-        <label class="form-check-label" for="optionsRadios1">
-          Option one is this and that—be sure to include why it's great
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-        <label class="form-check-label" for="optionsRadios2">
-          Option two can be something else and selecting it will deselect option one
-        </label>
-      </div>
-      <div class="form-check disabled">
-        <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled="">
-        <label class="form-check-label" for="optionsRadios3">
-          Option three is disabled
-        </label>
-      </div>
-    </fieldset>
-    <fieldset>
-      <legend class="mt-4">Checkboxes</legend>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-        <label class="form-check-label" for="flexCheckDefault">
-          Default checkbox
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
-        <label class="form-check-label" for="flexCheckChecked">
-          Checked checkbox
-        </label>
-      </div>
-    </fieldset>
-    <fieldset>
-      <legend class="mt-4">Switches</legend>
-      <div class="form-check form-switch">
-        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-        <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
-      </div>
-      <div class="form-check form-switch">
-        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked="">
-        <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
-      </div>
-    </fieldset>
-    <fieldset>
-      <legend class="mt-4">Ranges</legend>
-        <label for="customRange1" class="form-label">Example range</label>
-        <input type="range" class="form-range" id="customRange1">
-        <label for="disabledRange" class="form-label">Disabled range</label>
-        <input type="range" class="form-range" id="disabledRange" disabled="">
-        <label for="customRange3" class="form-label">Example range</label>
-        <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
-    </fieldset>
-    <button type="submit" class="btn btn-primary mt-4">Submit</button>
+    <button type="submit" class="btn btn-primary mt-3">Salvar</button>
   </fieldset>
 </form>
-
-</body>
-</html>
