@@ -10,12 +10,8 @@
 <form data-bitwarden-watching="1">
     <fieldset>
         <div class="body">
-            <legend>Informações do Terapeuta</legend>
+            <legend>Cadastrar novo terapeuta</legend>
             <div class="row">
-                <div class="col-md-6">
-                    <label for="cpf" class="form-label mt-3">CPF</label>
-                    <input type="text" class="form-control" id="cpf" placeholder="CPF">
-                </div>
                 <div class="col-md-6">
                     <label for="nome" class="form-label mt-3">Nome</label>
                     <input type="text" class="form-control" id="nome" placeholder="Nome">
