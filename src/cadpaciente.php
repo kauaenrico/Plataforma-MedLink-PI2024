@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 <!-- pac_cpf
 pac_nome
 pac_nascimento
@@ -18,7 +17,6 @@ pac_status -->
 
 
 
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +27,6 @@ pac_status -->
     <title>Formulário de Cadastro</title>
 </head>
 <body>
->>>>>>> 1a05603e52fea7093aa7940cc80de76ba7c1e8e6
 
 <form data-bitwarden-watching="1">
   <fieldset>
