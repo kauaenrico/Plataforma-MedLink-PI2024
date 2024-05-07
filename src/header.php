@@ -31,7 +31,7 @@
           <a class="nav-link" href="index.php?page=pavisosgerais">Avisos Gerais</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Administração</a>
+          <a class="nav-link" href="index.php?page=padministracao">Administração</a>
         </li>
       </ul>
     </div>
