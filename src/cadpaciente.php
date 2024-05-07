@@ -1,5 +1,5 @@
     <style>
-        .col-md-6 {
+        .fieldset {
             border-left: 20px;
             border-right: 20px;
         }
