@@ -96,9 +96,6 @@ pac_status -->
     <button type="submit" class="btn btn-primary mt-3">Salvar</button>
   </fieldset>
 </form>
-<<<<<<< HEAD
-=======
 
 <!-- </body>
 </html> -->
->>>>>>> 99e3bc6851f87c3bc5600f8035f42faa2a523b93
