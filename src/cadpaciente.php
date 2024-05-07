@@ -2,8 +2,8 @@
         .body {
             border-left: 15px;
             border-right: 15px;
-            margin-left: 10px;
-            margin-right: 10px;
+            margin-left: 15px;
+            margin-right: 15px;
         }
     </style>
 
