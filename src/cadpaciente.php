@@ -1,5 +1,5 @@
     <style>
-        .form {
+        .col-md-6 {
             border-left: 20px solid #212529;
             border-right: 20px solid #212529;
             margin-left: -10px;
