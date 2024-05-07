@@ -15,7 +15,7 @@
         <div class="col-md-4">
             <div class="mb-3">
                 <input class="form-control" type="search" placeholder="Pesquisar Paciente">
-                <button class="btn btn-primary mt-2">Pesquisar Paciente</button>
+                <button class="btn btn-primary mt-2">Cadastrar novo Paciente</button>
             </div>
             <a href="#" class="btn btn-secondary">Lista de Pacientes</a>
         </div>
@@ -24,7 +24,7 @@
         <div class="col-md-4">
             <div class="mb-3">
                 <input class="form-control" type="search" placeholder="Pesquisar Terapeuta">
-                <button class="btn btn-primary mt-2">Pesquisar Terapeuta</button>
+                <button class="btn btn-primary mt-2">cadastrar novo Terapeuta</button>
             </div>
             <a href="#" class="btn btn-secondary">Lista de Terapeutas</a>
         </div>
