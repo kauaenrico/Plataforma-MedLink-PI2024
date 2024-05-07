@@ -28,31 +28,31 @@
     <div class="cd-schedule__events">
       <ul>
         <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Monday</span></div>
+          <div class="cd-schedule__top-info"><span>Segunda-feira</span></div>
   
           <ul>
             <li class="cd-schedule__event">
               <a data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Abs Circuit</em>
+                <em class="cd-schedule__name">Reunião terapeutas - Sala 7 </em>
               </a>
             </li>
   
             <li class="cd-schedule__event">
               <a data-start="11:00" data-end="12:30" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Rowing Workout</em>
+                <em class="cd-schedule__name">Sessão com Sergio B.</em>
               </a>
             </li>
   
             <li class="cd-schedule__event">
               <a data-start="14:00" data-end="15:15"  data-content="event-yoga-1" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Yoga Level 1</em>
+                <em class="cd-schedule__name">Sessão com Angélica F.</em>
               </a>
             </li>
           </ul>
         </li>
   
         <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Tuesday</span></div>
+          <div class="cd-schedule__top-info"><span>Terça-feira</span></div>
   
           <ul>
             <li class="cd-schedule__event">
