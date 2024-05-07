@@ -17,7 +17,7 @@
                 <input class="form-control" type="search" placeholder="Pesquisar Paciente">
                 <button class="btn btn-primary mt-2">Pesquisar Paciente</button>
             </div>
-            <a href="#" class="btn btn-secondary">Lista de Pacientes</a>
+            <a href="#" class="btn btn-secondary">Cadastrar novo paciente</a>
             <ul class="list-group mt-3">
                 <!-- Lista de pacientes fictícios -->
                 <li class="list-group-item d-flex justify-content-between align-items-center">João Silva <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
@@ -36,6 +36,22 @@
                 <button class="btn btn-primary mt-2">Pesquisar Terapeuta</button>
             </div>
             <a href="#" class="btn btn-secondary">Lista de Terapeutas</a>
+        </div>
+        <div class="col-md-4">
+            <div class="mb-3">
+                <input class="form-control" type="search" placeholder="Pesquisar Paciente">
+                <button class="btn btn-primary mt-2">Pesquisar Paciente</button>
+            </div>
+            <a href="#" class="btn btn-secondary">Cadastrar novo paciente</a>
+            <ul class="list-group mt-3">
+                <!-- Lista de pacientes fictícios -->
+                <li class="list-group-item d-flex justify-content-between align-items-center">Camily R. <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">Maria S. <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">Carlos O. <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">Fábio M. <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">Gabriel G. <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">Letícia B. <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
+            </ul>
         </div>
 
         <!-- Coluna da direita -->
