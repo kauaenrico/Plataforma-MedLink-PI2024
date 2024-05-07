@@ -1,7 +1,7 @@
 <style>
     .body {
-        border-left: 5px solid black;
-        border-right: 5px solid black;
+        border-left: 15px;
+        border-right: 15px;
         margin-left: 15px;
         margin-right: 15px;
     }
