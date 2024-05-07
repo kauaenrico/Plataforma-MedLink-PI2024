@@ -23,7 +23,7 @@
                     case "gitpull":         include "gitpull.php";          break;
                     case "erro":            include "error404.html";        break;
                     case "admindashboard":  include "admindashboard.php";   break;
-                    case "pcadpaciente":    include "pcadpaciente.php";     break;    
+                    case "pcadpaciente":    include "cadpaciente.php";      break;    
                     default:                include "dashboard.php";        break;
                 }
             }
