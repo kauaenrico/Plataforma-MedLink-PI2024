@@ -20,11 +20,10 @@
                 switch($_GET["page"]){
                     case "pdashboard":      include "dashboard.php";        break;
                     case "pavisosgerais":   include "avisosgerais.php";     break;
-                    case "gitpull":         include "gitpull.php";          break;
+                    case "padministracao":  include "administracao.php";    break;
                     case "erro":            include "error404.html";        break;
-                    case "admindashboard":  include "admindashboard.php";   break;
                     case "pcadpaciente":    include "cadpaciente.php";      break;    
-                    default:                include "dashboard.php";        break;
+                    default:                include "error404.php";        break;
                 }
             }
         ?>
