@@ -21,6 +21,10 @@
                     <input type="text" class="form-control" id="nome" placeholder="Nome">
                 </div>
                 <div class="col-md-6">
+                    <label for="Identificador" class="form-label mt-3">ID</label>
+                    <input type="Numero" class="form-control" id="ID">
+                </div>
+                <div class="col-md-6">
                     <label for="nascimento" class="form-label mt-3">Data de Nascimento</label>
                     <input type="date" class="form-control" id="nascimento">
                 </div>
