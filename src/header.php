@@ -23,7 +23,7 @@
           <div class="dropdown-menu">
             <a class="dropdown-item" href="index.php?page=pagenda">Minha Agenda</a>
             <div>
-              <a class="dropdown-item" href="index.php?page=pnovagenda">Nova Sessão</a>
+              <a class="dropdown-item" href="index.php?page=pnovaagenda">Nova Sessão</a>
             </div>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Separated link</a>
