@@ -301,7 +301,8 @@
 	      }
 	    }
 		};
-		httpRequest.open('GET', content+'.html');
+		// httpRequest.open('GET', content+'.html');
+		httpRequest.open('GET', 'assets/agenda/'+content+'.html');
     httpRequest.send();
 	};
 
