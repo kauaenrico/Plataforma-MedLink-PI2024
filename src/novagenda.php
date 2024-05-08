@@ -18,6 +18,19 @@
                         <button class="btn btn-primary" type="button">Pesquisar</button>
                     </div>
                 </div>
+                <div class="col-md-6">
+                    <label for="local" class="form-label mt-3">Local</label>
+                    <select class="form-select" id="local">
+                        <option selected>Selecione...</option>
+                        <option value="sala1">Sala 1</option>
+                        <option value="sala2">Sala 2</option>
+                        <option value="sala3">Sala 3</option>
+                        <option value="sala3">Sala de brinquedos</option>
+                        <option value="sala3">Sala 7</option>
+                        <option value="sala3">Sala dos terapeutas</option>
+                        <!-- Adicione mais opções de local conforme necessário -->
+                    </select>
+                </div>
                 <div class="col-md-12">
                     <label for="terapeuta" class="form-label mt-3">Convidar terapeuta</label>
                     <select class="form-select" id="terapeuta">
