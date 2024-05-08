@@ -62,7 +62,7 @@
             </li>
   
             <li class="cd-schedule__event">
-              <a data-start="11:30" data-end="13:00"  data-content="event-restorative-yoga" data-event="event-4" href="#0">
+              <a data-start="11:30" data-end="13:00"  data-content="assets/agenda/event-restorative-yoga" data-event="event-4" href="#0">
                 <em class="cd-schedule__name">Restorative Yoga</em>
               </a>
             </li>
@@ -86,7 +86,7 @@
   
           <ul>
             <li class="cd-schedule__event">
-              <a data-start="09:00" data-end="10:15" data-content="event-restorative-yoga" data-event="event-4" href="#0">
+              <a data-start="09:00" data-end="10:15" data-content="assets/agenda/event-restorative-yoga" data-event="event-4" href="#0">
                 <em class="cd-schedule__name">Restorative Yoga</em>
               </a>
             </li>
@@ -122,7 +122,7 @@
             </li>
   
             <li class="cd-schedule__event">
-              <a data-start="12:00" data-end="13:45" data-content="event-restorative-yoga" data-event="event-4" href="#0">
+              <a data-start="12:00" data-end="13:45" data-content="assets/agenda/event-restorative-yoga" data-event="event-4" href="#0">
                 <em class="cd-schedule__name">Restorative Yoga</em>
               </a>
             </li>
