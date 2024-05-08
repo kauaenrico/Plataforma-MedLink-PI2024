@@ -27,7 +27,7 @@
                 <button class="btn btn-primary mt-2">Pesquisar Terapeuta</button>
             </div>
             <div>
-                <a href="index.php?page=cadterapeuta">
+                <a href="index.php?page=pcadterapeuta">
                     <button type= "button" class=btn btn-secondary>Cadastrar novo terapeuta</button>
                 </a>
             </div>
