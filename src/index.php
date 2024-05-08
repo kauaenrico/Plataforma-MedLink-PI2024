@@ -22,8 +22,9 @@
                     case "pavisosgerais":   include "avisosgerais.php";     break;
                     case "padministracao":  include "administracao.php";    break;
                     case "erro":            include "error404.html";        break;
-                    case "pcadpaciente":    include "cadpaciente.php";      break;    
-                    default:                include "error404.php";        break;
+                    case "pcadpaciente":    include "cadpaciente.php";      break;
+                    case "pcadterapeuta":   include "cadterapeuta.php";     break;     
+                    default:                include "error404.php";         break;
                 }
             }
         ?>
