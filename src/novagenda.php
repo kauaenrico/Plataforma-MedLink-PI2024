@@ -12,28 +12,28 @@
                     <input type="time" class="form-control" id="hora">
                 </div>
                 <div class="col-md-12">
-                    <label for="paciente" class="form-label mt-3">Paciente</label>
-                    <select class="form-select" id="paciente">
-                        <option selected>Selecione...</option>
-                        <option value="paciente1">Paciente 1</option>
-                        <option value="paciente2">Paciente 2</option>
-                        <option value="paciente3">Paciente 3</option>
-                        <!-- Adicione mais pacientes conforme necessário -->
-                    </select>
+                    <label for="convidarPaciente" class="form-label mt-3">Convidar Paciente</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="convidarPaciente" placeholder="Pesquisar paciente">
+                        <button class="btn btn-primary" type="button">Pesquisar</button>
+                    </div>
                 </div>
                 <div class="col-md-12">
-                    <label for="terapeuta" class="form-label mt-3">Terapeuta</label>
+                    <label for="terapeuta" class="form-label mt-3">Convidar terapeuta</label>
                     <select class="form-select" id="terapeuta">
                         <option selected>Selecione...</option>
-                        <option value="terapeuta1">Terapeuta 1</option>
-                        <option value="terapeuta2">Terapeuta 2</option>
-                        <option value="terapeuta3">Terapeuta 3</option>
+                        <option value="terapeuta1">Camily R.</option>
+                        <option value="terapeuta2">Maria S.</option>
+                        <option value="terapeuta3">Carlos O.</option>
+                        <option value="terapeuta3">Fábio M.</option>
+                        <option value="terapeuta3">Gabriel G.</option>
+                        <option value="terapeuta3">Letícia B.</option>
                         <!-- Adicione mais terapeutas conforme necessário -->
                     </select>
                 </div>
                 <div class="col-md-12">
                     <label for="observacoes" class="form-label mt-3">Observações</label>
-                    <textarea class="form-control" id="observacoes" rows="3" placeholder="Observações"></textarea>
+                    <textarea class="form-control" id="observacoes" rows="3" placeholder="Adicionar uma descrição"></textarea>
                 </div>
             </div>
             <button type="submit" class="btn btn-primary mt-3">Agendar</button>
