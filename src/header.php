@@ -22,7 +22,9 @@
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Agenda</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="index.php?page=pagenda">Minha Agenda</a>
-            <a class="dropdown-item" href="#">Nova Sessão</a>
+            <div>
+              <a class="dropdown-item" href="index.php?pag=pnovagenda">Nova Sessão</a>
+            </div>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Separated link</a>
           </div>
