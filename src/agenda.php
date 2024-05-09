@@ -1,4 +1,4 @@
-  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+<script>document.getElementsByTagName("html")[0].className += " js";</script>
   <link rel="stylesheet" href="assets/css/agenda_style.css">
   <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
     <div class="cd-schedule__timeline">
@@ -190,4 +190,3 @@
 
   <script src="assets/scripts/agenda_util.js"></script> <!-- util functions included in the CodyHouse framework -->
   <script src="assets/scripts/agenda_main.js"></script>
-</body>
