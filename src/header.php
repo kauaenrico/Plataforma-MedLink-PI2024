@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
   <div class="container-fluid">
     <!-- <img src="assets/img/PequenosPassos_Logo02-bg.png" alt="" > -->
-    <a class="navbar-brand" href="index.php?page=pdashboard">XXXMedLink</a>
+    <a class="navbar-brand" href="index.php?page=pdashboard">MedLink</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
