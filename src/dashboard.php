@@ -27,7 +27,7 @@
             </div>
             
             <div class="d-flex justify-content-start mt-3">
-                <a href="index.php?page=cadpaciente">
+                <a href="index.php?page=pcadpaciente">
                     <button type="button" class="btn btn-primary me-2">Novo Paciente</button>
                 </a>
                 <a href="#">
