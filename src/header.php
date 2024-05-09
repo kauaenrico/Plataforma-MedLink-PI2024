@@ -35,6 +35,12 @@
         <li class="nav-item">
           <a class="nav-link" href="index.php?page=padministracao">Administração</a>
         </li>
+        <li class="nav-item">
+          <p>
+            <?php include 'counter.php'; ?>
+          </p>
+        </li>
+        
       </ul>
     </div>
   </div>
