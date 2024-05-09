@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <!-- <img src="assets/img/PequenosPassos_Logo02-bg.png" alt="" > -->
     <li class="nav-item">
-      <img src="assets/img/PequenosPassos_Logo02-bg.png" max-width=100% height=auto display=block>
+      <img src="assets/img/PequenosPassos_Logo02-bg.png" max-width=30% height=auto display=block>
     </li>
     <a class="navbar-brand" href="index.php?page=pdashboard">MedLink</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
