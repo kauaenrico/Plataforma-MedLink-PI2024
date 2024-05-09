@@ -1,6 +1,6 @@
 <?php
 // Caminho para o arquivo de contador
-$counterFile = 'contador.txt';
+$counterFile = 'assets/counter.txt';
 
 // Verifica se o arquivo existe
 if (file_exists($counterFile)) {
