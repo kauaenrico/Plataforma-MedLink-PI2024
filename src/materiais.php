@@ -2,10 +2,15 @@
     <div class="row">
       <!-- 1/3 para os botões de categorias -->
       <div class="col-md-4">
-        <h2>Categorias</h2>
+        <br>        <br>
+        <h2>Materiais para Download</h2>
         <div class="list-group">
-          <button type="button" class="list-group-item list-group-item-action" data-category="categoria1">Categoria 1</button>
-          <button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Categoria 2</button>
+          <button type="button" class="list-group-item list-group-item-action" data-category="categoria1">Tratamento ABA</button>
+          <button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento A</button>
+          <button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento B</button>
+          <button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento C</button>
+          <button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento D</button>
+          <button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento E</button>
           <!-- Adicione mais botões conforme necessário -->
         </div>
       </div>
