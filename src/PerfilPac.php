@@ -28,28 +28,29 @@
                 <h3>Paulo Pereira</h3>
                 <p>13 anos</p>
             </div>
-            <div class="descricao">
-                <h4>Descrição:</h4>
-                <p>
-                    João é um paciente muito animado e adora brincar com seus brinquedos favoritos, especialmente seus carros de controle remoto.
-                    Ele gosta de passar o tempo ao ar livre e é muito sociável. Ele também adora desenhar e pintar.
-                </p>
-                <h4>Diagnósticos:</h4>
-                <ul>
-                    <li>Autismo leve</li>
-                    <li>TDAH (Transtorno de Déficit de Atenção e Hiperatividade)</li>
-                </ul>
-                <h4>Remédios:</h4>
-                <ul>
-                    <li>Risperidona - 2mg</li>
-                    <li>Methylphenidate - 10mg</li>
-                </ul>
-                <h4>Brinquedos Favoritos:</h4>
-                <ul>
-                    <li>Carros de controle remoto</li>
-                    <li>Blocos de construção</li>
-                    <li>Bolas de futebol</li>
-                </ul>
+            <div class="col-md-8">
+                <div class="descricao">
+                    <h4>Sobre:</h4>
+                    <p>João é um paciente muito animado e adora brincar com seus brinquedos favoritos, especialmente seus carros de controle remoto.
+                    Ele gosta de passar o tempo ao ar livre e é muito sociável. Ele também adora desenhar e pintar.</p>
+                </div>
+                <div class="outras-informacoes">
+                    <h4>Outras Informações:</h4>
+                    <ul>
+                        <li>Diagnósticos</li>
+                        <p>Autismo leve</p>
+                        <p>TDAH (Transtorno de Déficit de Atenção e Hiperatividade</p>
+                        <li>Remédios</li>]
+                        <p>Risperidona - 2mg</p>
+                        <p>Methylphenidate - 10mg</p>
+                        <li>Brinquedos Favoritos</li>
+                        <p>Carros de controle remoto</p>
+                        <p>Blocos de construção</p>
+                        <p>Bolas de futebol</p>
+
+                        <!-- Adicione mais informações aqui conforme necessário -->
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
