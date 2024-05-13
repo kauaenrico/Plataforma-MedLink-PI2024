@@ -18,8 +18,9 @@
         <?php
             if(isset($_GET["page"])){
                 switch($_GET["page"]){
-                    case "plistaprofiss":  include "listaProfi.php";    break;
-                    case "plistapaciente":  include "listaPaci.php";    break;
+                    case "pmateriais":      include "materiais.php";        break;
+                    case "plistaprofiss":   include "listaProfi.php";       break;
+                    case "plistapaciente":  include "listaPaci.php";        break;
                     case "pnovaagenda":     include "novaagenda.php";       break;
                     case "pagenda":         include "agenda.php";           break;
                     case "pdashboard":      include "dashboard.php";        break;

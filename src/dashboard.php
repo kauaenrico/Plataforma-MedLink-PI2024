@@ -17,8 +17,7 @@
             </form>
 
             <div class="d-grid gap-2">
-                <button class="btn btn-lg btn-primary" type="button">Novo Paciente</button>
-                <button class="btn btn-lg btn-primary" type="button">Lista de Pacientes</button>
+                <a href= "index.php?page=pmateriais"><button class="btn btn-lg btn-primary" type="button">Materiais para download</button></a>
             </div>
             
         </div>
