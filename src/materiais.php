@@ -1,4 +1,16 @@
-  <div class="container">
+<?php
+    if(isset($_GET["mat"])){
+        switch($_GET["mat"]){
+            case "pmateriais":      include "materiais.php";        break;
+            case "plistaprofiss":   include "listaProfi.php";       break;
+            case "plistapaciente":  include "listaPaci.php";        break;     
+            default:                include "error404.php";         break;
+        }
+    }
+?>
+
+
+<div class="container">
     <div class="row">
       <!-- 1/3 para os botões de categorias -->
       <div class="col-md-4">
