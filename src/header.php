@@ -30,7 +30,7 @@
             </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php?page=pavisosgerais">Materiais</a>
+          <a class="nav-link" href="index.php?page=pmateriais">Materiais para Download</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="index.php?page=pavisosgerais">Avisos Gerais</a>

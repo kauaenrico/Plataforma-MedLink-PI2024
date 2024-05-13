@@ -10,18 +10,21 @@
 <body> -->
 <div class="container-fluid mt-5">
     <div class="row justify-content-center"> <!-- Adicionado justify-content-center para centralizar as colunas -->
+
+        <!-- Primeira coluna -->
         <div class="col-md-4">
             <form class="d-flex">
                 <input class="form-control me-sm-2" type="search" placeholder="Pesquisar paciente">
                 <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
             </form>
 
-            <div class="d-grid gap-2">
-                <button class="btn btn-lg btn-primary" type="button">Novo Paciente</button>
-                <button class="btn btn-lg btn-primary" type="button">Lista de Pacientes</button>
+            <div class="d-grid gap-2" href= "index.php?page=pmateriais">
+                    <button class="btn btn-lg btn-primary" type="button">Materiais para download</button>
             </div>
             
         </div>
+
+        <!-- Segunda coluna -->
         <div class="col-md-4">
             <div class="container mt-5">
                 <h5 class="text-center mb-4">Agenda do dia- <?php echo date("d/m/Y"); ?></h5>
@@ -55,6 +58,8 @@
                 </ul>
             </div>
         </div>
+
+        <!-- Terceira coluna -->
         <div class="col-md-4">
             <div class="container mt-5">
                 <div class="card mb-3">
