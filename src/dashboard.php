@@ -10,6 +10,8 @@
 <body> -->
 <div class="container-fluid mt-5">
     <div class="row justify-content-center"> <!-- Adicionado justify-content-center para centralizar as colunas -->
+
+        <!-- Primeira coluna -->
         <div class="col-md-4">
             <form class="d-flex">
                 <input class="form-control me-sm-2" type="search" placeholder="Pesquisar paciente">
@@ -21,6 +23,8 @@
             </div>
             
         </div>
+
+        <!-- Segunda coluna -->
         <div class="col-md-4">
             <div class="container mt-5">
                 <h5 class="text-center mb-4">Agenda do dia- <?php echo date("d/m/Y"); ?></h5>
@@ -54,6 +58,8 @@
                 </ul>
             </div>
         </div>
+
+        <!-- Terceira coluna -->
         <div class="col-md-4">
             <div class="container mt-5">
                 <div class="card mb-3">
