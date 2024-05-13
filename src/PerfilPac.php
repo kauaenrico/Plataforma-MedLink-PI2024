@@ -37,19 +37,19 @@
                 <div class="remedios">
                     <h4>Medicamentos</h4>
                         <li>Methylphenidate - 10mg</li>
-                        <li>>Risperidona - 2mg</li>
+                        <li>Risperidona - 2mg</li>
                 </div>
                 <div class="Diagnóticos">
                     <h4>Diagnóticos</h4>
                         <li>Autismo leve</li>
-                        <li>>TDAH (Transtorno de Déficit de Atenção e Hiperatividade)</li>
+                        <li>TDAH (Transtorno de Déficit de Atenção e Hiperatividade)</li>
                 </div>
                 <div class="outras-informacoes">
                     <h4>Informações Relevantes:</h4>
                     <ul>
-                        <li>Brinquedos Favoritos</li>
+                    <li>Brinquedos Favoritos</li>
                             <p>Carros de controle remoto</p>
-                             <p>Blocos de construção</p>
+                            <p>Blocos de construção</p>
                             <p>Bolas de futebol</p>
                             <p>Brinquedos que brilham</p>
                         <!-- Adicione mais informações aqui conforme necessário -->
