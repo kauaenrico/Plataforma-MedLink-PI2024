@@ -38,15 +38,15 @@
                     <h4>Outras Informações:</h4>
                     <ul>
                         <li>Diagnósticos</li>
-                        <p>Autismo leve</p>
-                        <p>TDAH (Transtorno de Déficit de Atenção e Hiperatividade</p>
-                        <li>Remédios</li>]
-                        <p>Risperidona - 2mg</p>
-                        <p>Methylphenidate - 10mg</p>
+                            <p>Autismo leve</p>
+                            <p>TDAH (Transtorno de Déficit de Atenção e Hiperatividade)</p>
+                        <li>Remédios</li>
+                            <p>Risperidona - 2mg</p>
+                            <p>Methylphenidate - 10mg</p>
                         <li>Brinquedos Favoritos</li>
-                        <p>Carros de controle remoto</p>
-                        <p>Blocos de construção</p>
-                        <p>Bolas de futebol</p>
+                            <p>Carros de controle remoto</p>
+                             <p>Blocos de construção</p>
+                            <p>Bolas de futebol</p>
 
                         <!-- Adicione mais informações aqui conforme necessário -->
                     </ul>
