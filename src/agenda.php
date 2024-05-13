@@ -1,4 +1,4 @@
-<script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
   <link rel="stylesheet" href="assets/css/agenda_style.css">
   <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
     <div class="cd-schedule__timeline">
@@ -82,7 +82,7 @@
         </li>
   
         <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Wednesday</span></div>
+          <div class="cd-schedule__top-info"><span>Quarta-feira</span></div>
   
           <ul>
             <li class="cd-schedule__event">
@@ -112,7 +112,7 @@
         </li>
   
         <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Thursday</span></div>
+          <div class="cd-schedule__top-info"><span>Quinta-feira</span></div>
   
           <ul>
             <li class="cd-schedule__event">
@@ -142,7 +142,7 @@
         </li>
   
         <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Friday</span></div>
+          <div class="cd-schedule__top-info"><span>Sexta-feira</span></div>
   
           <ul>
             <li class="cd-schedule__event">
@@ -190,3 +190,4 @@
 
   <script src="assets/scripts/agenda_util.js"></script> <!-- util functions included in the CodyHouse framework -->
   <script src="assets/scripts/agenda_main.js"></script>
+</body>
