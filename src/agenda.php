@@ -190,4 +190,3 @@
 
   <script src="assets/scripts/agenda_util.js"></script> <!-- util functions included in the CodyHouse framework -->
   <script src="assets/scripts/agenda_main.js"></script>
-</body>
