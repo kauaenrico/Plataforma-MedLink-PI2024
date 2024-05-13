@@ -30,17 +30,14 @@
             </div>
         </li>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Administração</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="index.php?page=pagenda">Lista de Pacientes</a>
-          </div>
-        </li>
-
         <li class="nav-item">
           <a class="nav-link" href="index.php?page=pavisosgerais">Avisos Gerais</a>
         </li>
         
+        <li class="nav-item">
+          <a class="nav-link" href="index.php?page=padministracao">Administração</a>
+        </li>
+
       </ul>
     </div>
   </div>
