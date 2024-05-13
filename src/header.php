@@ -29,11 +29,12 @@
               <a class="dropdown-item" href="index.php?page=pnovaagenda">Nova Sessão</a>
             </div>
         </li>
-
+        <li class="nav-item">
+          <a class="nav-link" href="index.php?page=pavisosgerais">Materiais</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="index.php?page=pavisosgerais">Avisos Gerais</a>
         </li>
-        
         <li class="nav-item">
           <a class="nav-link" href="index.php?page=padministracao">Administração</a>
         </li>

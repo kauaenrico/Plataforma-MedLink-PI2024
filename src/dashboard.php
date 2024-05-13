@@ -15,24 +15,12 @@
                 <input class="form-control me-sm-2" type="search" placeholder="Pesquisar paciente">
                 <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
             </form>
-            <a href="#" class="btn btn-primary mt-3" id="pacdodiabtn">Mostrar pacientes de hoje</a>
 
-            <div id="pacdodia" style="display: none;">
-                <ul class="list-group list-group-flush mt-3"> <!-- Adicionado mt-3 para espaço superior -->
-                    <li class="list-group-item">Pedro P.</li>
-                    <li class="list-group-item">Carlos L.</li>
-                    <li class="list-group-item">Fábio M.</li>
-                </ul>
+            <div class="d-grid gap-2">
+                <button class="btn btn-lg btn-primary" type="button">Novo Paciente</button>
+                <button class="btn btn-lg btn-primary" type="button">Lista de Pacientes</button>
             </div>
             
-            <div class="d-flex justify-content-start mt-3">
-                <a href="index.php?page=pcadpaciente">
-                    <button type="button" class="btn btn-primary me-2">Novo Paciente</button>
-                </a>
-                <a href="#">
-                    <button type="button" class="btn btn-primary">Lista de Pacientes</button>
-                </a>
-            </div>
         </div>
         <div class="col-md-4">
             <div class="container mt-5">
