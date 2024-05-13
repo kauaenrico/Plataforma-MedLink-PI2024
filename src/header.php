@@ -18,7 +18,7 @@
           <a  class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Paciente</a>
           <div class= "dropdown-menu">
             <a class= "dropdown-item" href= "index.php?page=pcadpaciente">Cadastrar paciente</a>
-            <a class= "dropdown-item" href= "#">Lista de pacientes</a>
+            <a class= "dropdown-item" href= "index.php?page=plistapaciente">Lista de pacientes</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -28,17 +28,16 @@
             <div>
               <a class="dropdown-item" href="index.php?page=pnovaagenda">Nova Sessão</a>
             </div>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
         </li>
+
         <li class="nav-item">
           <a class="nav-link" href="index.php?page=pavisosgerais">Avisos Gerais</a>
         </li>
+        
         <li class="nav-item">
           <a class="nav-link" href="index.php?page=padministracao">Administração</a>
         </li>
-        
+
       </ul>
     </div>
   </div>
