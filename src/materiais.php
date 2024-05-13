@@ -1,15 +1,3 @@
-<?php
-    if(isset($_GET["mat"])){
-        switch($_GET["mat"]){
-            case "pmateriais":      include "materiais.php";        break;
-            case "plistaprofiss":   include "listaProfi.php";       break;
-            case "plistapaciente":  include "listaPaci.php";        break;     
-            default:                include "error404.php";         break;
-        }
-    }
-?>
-
-
 <div class="container">
     <div class="row">
       <!-- 1/3 para os botões de categorias -->
@@ -28,6 +16,16 @@
       <!-- 2/3 para exibir os arquivos -->
       <div class="col-md-8">
         <div id="conteudo"></div> <!-- Aqui será carregado o conteúdo dos arquivos -->
+        <?php
+    if(isset($_GET["mat"])){
+        switch($_GET["mat"]){
+            case "pmateriais":      include "materiais.php";        break;
+            case "plistaprofiss":   include "listaProfi.php";       break;
+            case "plistapaciente":  include "listaPaci.php";        break;     
+            default:                include "error404.php";         break;
+        }
+    }
+?>
       </div>
     </div>
   </div>
