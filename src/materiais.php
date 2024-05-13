@@ -2,8 +2,7 @@
     <div class="row">
       <!-- 1/3 para os botões de categorias -->
       <div class="col-md-4">
-        <br>        <br>
-        <h2>Materiais para Download</h2>
+        <br><h2>Materiais para Download</h2><br>
         <div class="list-group">
           <button type="button" class="list-group-item list-group-item-action" data-category="categoria1">Tratamento ABA</button>
           <button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento A</button>
