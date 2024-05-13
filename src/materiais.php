@@ -4,7 +4,7 @@
       <div class="col-md-4">
         <br><h2>Materiais para Download</h2><br>
         <div class="list-group">
-          <button type="button" class="list-group-item list-group-item-action" data-category="categoria1">Tratamento ABA</button>
+          <a href= "index.php?mat=pdashboard"><button type="button" class="list-group-item list-group-item-action" data-category="categoria1">Tratamento ABA</button></a>
           <button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento A</button>
           <button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento B</button>
           <button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento C</button>
@@ -19,7 +19,7 @@
         <?php
     if(isset($_GET["mat"])){
         switch($_GET["mat"]){
-            case "pmateriais":      include "materiais.php";        break;
+            case "pdashboard":      include "dashboard.php";        break;
             case "plistaprofiss":   include "listaProfi.php";       break;
             case "plistapaciente":  include "listaPaci.php";        break;     
             default:                include "error404.php";         break;
