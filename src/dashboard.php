@@ -16,8 +16,8 @@
                 <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
             </form>
 
-            <div class="d-grid gap-2">
-                <a href= "index.php?page=pmateriais"><button class="btn btn-lg btn-primary" type="button">Materiais para download</button></a>
+            <div class="d-grid gap-2" href= "index.php?page=pmateriais">
+                    <button class="btn btn-lg btn-primary" type="button">Materiais para download</button>
             </div>
             
         </div>
