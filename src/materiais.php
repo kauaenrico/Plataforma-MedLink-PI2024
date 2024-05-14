@@ -4,12 +4,12 @@
       <div class="col-md-4">
         <br><h2>Materiais para Download</h2><br>
         <div class="list-group">
-          <a href= "index.php?page=pmateriais&mat=pdashboard"><button type="button" class="list-group-item list-group-item-action" data-category="categoria1">Tratamento ABA</button></a>
-          <button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento A</button>
-          <button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento B</button>
-          <button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento C</button>
-          <button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento D</button>
-          <button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento E</button>
+          <a href= "index.php?page=pmateriais&m=tABA"><button type="button" class="list-group-item list-group-item-action" data-category="categoria1">Tratamento ABA</button></a>
+          <a href= "index.php?page=pmateriais&m=XXXXX"><button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento A</button></a>
+          <a href= "index.php?page=pmateriais&m=XXXXX"><button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento B</button></a>
+          <a href= "index.php?page=pmateriais&m=XXXXX"><button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento C</button></a>
+          <a href= "index.php?page=pmateriais&m=XXXXX"><button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento D</button></a>
+          <a href= "index.php?page=pmateriais&m=XXXXX"><button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento E</button></a>
           <!-- Adicione mais botões conforme necessário -->
         </div>
       </div>
@@ -17,11 +17,9 @@
       <div class="col-md-8">
         <div id="conteudo"></div> <!-- Aqui será carregado o conteúdo dos arquivos -->
         <?php
-    if(isset($_GET["mat"])){
-        switch($_GET["mat"]){
-            case "pdashboard":      include "dashboard.php";        break;
-            case "plistaprofiss":   include "listaProfi.php";       break;
-            case "plistapaciente":  include "listaPaci.php";        break;     
+    if(isset($_GET["m"])){
+        switch($_GET["m"]){
+            case "tABA":      include "materiaisABA.php";        break;    
             default:                include "error404.php";         break;
         }
     }
