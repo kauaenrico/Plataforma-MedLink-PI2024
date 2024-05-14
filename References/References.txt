@@ -26,3 +26,5 @@ https://github.com/ironman-zaman/login-register
 https://codyhouse.co/demo/schedule-template/index.html
 
 https://wpdean.com/html-calendar/
+
+https://www.semrush.com/blog/url-parameters/
