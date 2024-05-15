@@ -1,16 +1,5 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://bootswatch.com/5/minty/bootstrap.min.css" crossorigin="anonymous">
-    <title>Dashboard</title>
-</head>
-<body> -->
 <div class="container-fluid mt-5">
     <div class="row justify-content-center"> <!-- Adicionado justify-content-center para centralizar as colunas -->
-
         <!-- Primeira coluna -->
         <div class="col-md-4">
             <form class="d-flex">
@@ -140,6 +129,3 @@
         }
     });
 </script>
-
-<!-- </body>
-</html> -->
