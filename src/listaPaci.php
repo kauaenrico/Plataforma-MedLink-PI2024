@@ -21,7 +21,7 @@
                     <td>(19) 9876-5432</td>
                     <td>Aba</td>
                     <td>
-                        <button type="button" class="btn btn-primary btn-sm">Detalhes</button>
+                        <a href="index.php?pid=54164684089"><button type="button" class="btn btn-primary btn-sm">Detalhes</button></a>
                         <button type="button" class="btn btn-danger btn-sm">Excluir</button>
                     </td>
                 </tr>
