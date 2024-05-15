@@ -54,64 +54,7 @@
           </div>
         </div>
       </div>
-     <style>
-        .coluna-1{
-            left= 80%;
-        }
-
-
-     </style>
-        
-      <div class="coluna-1">
-        <div class="Row-1">
-          <div class="Ror-2">
-            <div class="row">
-              <div class="col-sm-3">
-                <p class="mb-0">Nome Completo</p>
-              </div>
-              <div class="col-sm-9">
-                <p class="text-muted mb-0">Maria da Silva</p>
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
-                <p class="mb-0">Medicamentos</p>
-              </div>
-              <div class="col-sm-9">
-                <p class="text-muted mb-0">Methylphenidate - 10mg</p>
-                <p class= "text-muted mb-0">Risperidona - 2mg</p>
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
-                <p class="mb-0">Telefone dos responsáveis</p>
-              </div>
-              <div class="col-sm-9">
-                <p class="text-muted mb-0">(19) 9876-5432</p>
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
-                <p class="mb-0">Mobile</p>
-              </div>
-              <div class="col-sm-9">
-                <p class="text-muted mb-0">(098) 765-4321</p>
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
-                <p class="mb-0">Endereço</p>
-              </div>
-              <div class="col-sm-9">
-                <p class="text-muted mb-0">Santa Rita, Santa Barbara D'Oeste, SP</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      
         <div class="row">
           <div class="col-md-6">
             <div class="card mb-4 mb-md-0">
