@@ -32,6 +32,12 @@
                     default:                include "error404.php";         break;
                 }
             }
+            if(isset($_GET["pid"])){
+                switch($_GET["pid"]){
+                    case "54164684089":      include "PerfilPac.php";        break;   
+                    default:                include "error404.php";         break;
+                }
+            }
         ?>
     </main>
     
