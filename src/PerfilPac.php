@@ -18,7 +18,7 @@
           <div class="card-body text-center">
             <img src="assets/img/Children.png" alt="avatar"
               class="rounded-circle img-fluid" style="width: 150px;">
-            <h5 class="my-3">Maria da Silva</h5>
+            <h5 class="my-3">Mariazinha, 13</h5>
             <p class="text-muted mb-1">Aba, Fono</p>
             <p class="text-muted mb-4">Santa Rita, Santa Barbara D'Oeste, SP</p>
             <div class="d-flex justify-content-center mb-2">
@@ -59,7 +59,7 @@
           <div class="card-body">
             <div class="row">
               <div class="col-sm-3">
-                <p class="mb-0">Full Name</p>
+                <p class="mb-0">Nome Completo</p>
               </div>
               <div class="col-sm-9">
                 <p class="text-muted mb-0">Maria da Silva</p>
