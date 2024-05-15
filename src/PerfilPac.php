@@ -24,7 +24,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <img src="caminho_da_imagem" alt="Foto do Perfil" class="perfil-foto">
+                <img src="assets/img/Children.png" alt="Foto do Perfil" class="perfil-foto">
                 <h3>Paulo Pereira</h3>
                 <p>13 anos</p>
             </div>
