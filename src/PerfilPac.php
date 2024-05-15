@@ -54,9 +54,17 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-8">
-        <div class="card mb-4">
-          <div class="card-body">
+     <style>
+        .coluna-1{
+            left= 80%;
+        }
+
+
+     </style>
+        
+      <div class="coluna-1">
+        <div class="Row-1">
+          <div class="Ror-2">
             <div class="row">
               <div class="col-sm-3">
                 <p class="mb-0">Nome Completo</p>
