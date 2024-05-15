@@ -52,7 +52,7 @@
                 <!-- Adicione mais linhas conforme necessário -->
             </tbody>
         </table>
-        <button type="button" class="btn btn-success">Adicionar Paciente</button>
+        <a href=index?page=pcadpaciente><button type="button" class="btn btn-success">Adicionar Paciente</button></a>
     </div>
 
     <!-- Bootstrap JS (opcional, se necessário) -->
