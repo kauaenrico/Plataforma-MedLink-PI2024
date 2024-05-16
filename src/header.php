@@ -8,10 +8,12 @@
     <style>
     .medlink-text {
         font-family: 'Oswald', sans-serif;
+        color: #212529; /* cor padrão do texto do Bootstrap */
+        font-size: 1.25rem; /* tamanho padrão do texto do Bootstrap */
     }
 </style>
 
-    <a class="nav-link" href="index.php?page=pdashboard"><span class="medlink-text">MedLink</span></a>
+    <a class="navbar-brand" href="index.php?page=pdashboard"><span class="medlink-text">MedLink</span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
