@@ -24,7 +24,7 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Agenda</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.php?page=pagenda" role="button" aria-haspopup="true" aria-expanded="false">Agenda</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="index.php?page=pagenda">Minha Agenda</a>
             <div>
@@ -38,10 +38,12 @@
           </li>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php?page=pavisosgerais">Avisos Gerais</a>
+          <!-- <a class="nav-link" href="index.php?page=pavisosgerais">Avisos Gerais</a> -->
+          <a class="nav-link <?php echo isset($_GET['page']) && $_GET['page'] === 'pavisosgerais' ? 'active' : ''; ?>" href="index.php?page=pavisosgerais">Avisos Gerais</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php?page=padministracao">Administração</a>
+          <!-- <a class="nav-link" href="index.php?page=padministracao">Administração</a> -->
+          <a class="nav-link <?php echo isset($_GET['page']) && $_GET['page'] === 'padministracao' ? 'active' : ''; ?>" href="index.php?page=padministracao">Administração</a>
         </li>
 
       </ul>
