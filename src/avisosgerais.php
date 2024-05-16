@@ -35,7 +35,7 @@
         <h5 class="card-title">12/04/2024 às 10h46</h5>
         <h6 class="card-subtitle text-muted">Por Camilly R.</h6>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+      <img src="assets/img/Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
         <rect width="100%" height="100%" fill="#868e96"></rect>
         <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
       </svg>
@@ -54,7 +54,7 @@
         <h5 class="card-title">15/04/2024 às 08h00</h5>
         <h6 class="card-subtitle text-muted">Por Dr. João Silva</h6>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+      <img src="assets/img/Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
         <rect width="100%" height="100%" fill="#868e96"></rect>
         <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
       </svg>
@@ -73,7 +73,7 @@
         <h5 class="card-title">20/04/2024 às 09h30</h5>
         <h6 class="card-subtitle text-muted">Por Ana P.</h6>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+      <img src="assets/img/Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
         <rect width="100%" height="100%" fill="#868e96"></rect>
         <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
       </svg>
@@ -92,7 +92,7 @@
         <h5 class="card-title">25/04/2024 às 18h00</h5>
         <h6 class="card-subtitle text-muted">Por Pedro L.</h6>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+      <img src="assets/img/Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
         <rect width="100%" height="100%" fill="#868e96"></rect>
         <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
       </svg>
@@ -111,7 +111,7 @@
         <h5 class="card-title">30/04/2024 às 14h00</h5>
         <h6 class="card-subtitle text-muted">Por Rafael M.</h6>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+      <img src="assets/img/Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
         <rect width="100%" height="100%" fill="#868e96"></rect>
         <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
       </svg>
