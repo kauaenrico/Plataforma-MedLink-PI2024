@@ -23,16 +23,9 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.css">
-</head>
 <body>
   <div class="container my-4">
+    <h2>Avisos Gerais</h2>
     <div class="card mb-3 mx-auto" style="max-width: 600px;">
       <h3 class="card-header">Card header</h3>
       <div class="card-body">
