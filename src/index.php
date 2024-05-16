@@ -45,9 +45,3 @@
 
 </body>
 </html>
-
-
-<li class="nav-item">
-    <a class="nav-link <?php echo isset($_GET['page']) && $_GET['page'] === 'pdashboard' ? 'active' : ''; ?>"
-    href="index.php?page=pdashboard">Pagina Inicial</a>
-</li>
