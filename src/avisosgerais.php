@@ -36,9 +36,6 @@
         <h6 class="card-subtitle text-muted">Por Camilly R.</h6>
       </div>
       <img src="assets/img/Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
-        <rect width="100%" height="100%" fill="#868e96"></rect>
-        <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-      </svg>
       <div class="card-body">
         <p class="card-text">Novos jogos e brinquedos que nos possibilitarão um auxílio maior no desenvolvimento de nossos pacientes. Veja exemplos de alguns novos brinquedos que chegaram ao Pequenos Passos, incluindo quebra-cabeças, blocos de construção e jogos de tabuleiro educativos.</p>
       </div>
@@ -55,9 +52,6 @@
         <h6 class="card-subtitle text-muted">Por Dr. João Silva</h6>
       </div>
       <img src="assets/img/Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
-        <rect width="100%" height="100%" fill="#868e96"></rect>
-        <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-      </svg>
       <div class="card-body">
         <p class="card-text">Informamos que, excepcionalmente, no dia 15/04/2024, a clínica abrirá às 08h00, uma hora mais cedo que o habitual, para acomodar um maior número de pacientes. Agradecemos a compreensão de todos.</p>
       </div>
@@ -74,9 +68,6 @@
         <h6 class="card-subtitle text-muted">Por Ana P.</h6>
       </div>
       <img src="assets/img/Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
-        <rect width="100%" height="100%" fill="#868e96"></rect>
-        <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-      </svg>
       <div class="card-body">
         <p class="card-text">Temos o prazer de anunciar que a Dra. Maria Souza, especialista em psicologia infantil, juntou-se à nossa equipe. A Dra. Maria traz uma vasta experiência em terapias para crianças e adolescentes. Agende uma consulta para conhecer mais sobre seu trabalho.</p>
       </div>
@@ -93,9 +84,6 @@
         <h6 class="card-subtitle text-muted">Por Pedro L.</h6>
       </div>
       <img src="assets/img/Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
-        <rect width="100%" height="100%" fill="#868e96"></rect>
-        <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-      </svg>
       <div class="card-body">
         <p class="card-text">Convidamos todos os pais a participarem do nosso grupo de apoio mensal. O próximo encontro será no dia 25/04/2024, às 18h00. Venha compartilhar experiências e aprender com outros pais e nossos especialistas.</p>
       </div>
@@ -112,9 +100,6 @@
         <h6 class="card-subtitle text-muted">Por Rafael M.</h6>
       </div>
       <img src="assets/img/Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
-        <rect width="100%" height="100%" fill="#868e96"></rect>
-        <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-      </svg>
       <div class="card-body">
         <p class="card-text">No dia 30/04/2024, realizaremos uma campanha de vacinação gratuita para todas as crianças da comunidade. A campanha começará às 14h00. Proteja seu filho e ajude a combater doenças preveníveis.</p>
       </div>
