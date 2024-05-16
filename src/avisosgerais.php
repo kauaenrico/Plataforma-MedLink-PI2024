@@ -22,10 +22,13 @@
 </div>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
 
+
+
+
 <body>
   <div class="container my-4">
-    <h2>Avisos Gerais</h2>
-    <div class="card mb-3 mx-auto" style="max-width: 600px;">
+    <h2 class="text-center">Avisos Gerais</h2>
+    <div class="card mb-3 mx-auto" style="max-width: 800px;">
       <h3 class="card-header">Card header</h3>
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
