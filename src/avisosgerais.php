@@ -27,7 +27,7 @@
 
 <body>
   <div class="container my-4">
-    <h2 class="text-center">Avisos Gerais</h2>
+    <h2 class="text-center">Avisos Gerais</h2><br>
     <div class="card mb-3 mx-auto" style="max-width: 800px;">
       <h3 class="card-header">Card header</h3>
       <div class="card-body">
