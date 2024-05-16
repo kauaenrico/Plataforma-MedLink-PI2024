@@ -4,7 +4,14 @@
     <!-- <li class="nav-item">
       <img src="assets/img/PequenosPassos_Logo02-bg.png" max-width=30% height=auto display=block>
     </li> -->
-    <a class="navbar-brand" href="index.php?page=pdashboard">MedLink</a>
+    <!-- <a class="navbar-brand" href="index.php?page=pdashboard">MedLink</a> -->
+    <style>
+    .medlink-text {
+        font-family: 'Oswald', sans-serif;
+    }
+</style>
+
+    <a class="nav-link" href="index.php?page=pdashboard"><span class="medlink-text">MedLink</span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
