@@ -22,7 +22,6 @@
 </div>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
 
-
 <body>
   <div class="container my-4">
     <h2>Avisos Gerais</h2>
@@ -54,4 +53,3 @@
     </div>
   </div>
 </body>
-</html>
