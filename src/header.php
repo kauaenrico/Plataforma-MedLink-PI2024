@@ -11,8 +11,10 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="index.php?page=pdashboard">Pagina Inicial<span class="visually-hidden">(current)</span>
-          </a>
+          <!-- <a class="nav-link active" href="index.php?page=pdashboard">Pagina Inicial<span class="visually-hidden">(current)</span></a> -->
+          <li class="nav-item">
+            <a class="nav-link <?php echo isset($_GET['page']) && $_GET['page'] === 'pdashboard' ? 'active' : ''; ?>" href="index.php?page=pdashboard">Pagina Inicial</a>
+          </li>
         </li>
         <li class="nav-item dropdown">
           <a  class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Paciente</a>
@@ -30,7 +32,10 @@
             </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php?page=pmateriais">Materiais para Download</a>
+          <!-- <a class="nav-link" href="index.php?page=pmateriais">Materiais para Download</a> -->
+          <li class="nav-item">
+            <a class="nav-link <?php echo isset($_GET['page']) && $_GET['page'] === 'pmateriais' ? 'active' : ''; ?>" href="index.php?page=pmateriais">Materiais para Download</a>
+          </li>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="index.php?page=pavisosgerais">Avisos Gerais</a>
