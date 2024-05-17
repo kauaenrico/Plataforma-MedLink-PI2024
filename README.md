@@ -1,7 +1,16 @@
 # MedLink   |   Plataforma de Gestão de Terapias
 ### Projeto Integrador de Engenharia de Computação - 5º Semestre
 
-Bem-vindo ao repositório da Plataforma de Gestão de Terapia ABA para Crianças com Transtorno do Espectro Autista (TEA). Este projeto tem como objetivo desenvolver uma solução inovadora e centrada no usuário para o acompanhamento e progresso de crianças diagnosticadas com TEA, oferecendo uma abordagem baseada na Análise do Comportamento Aplicada (ABA) e utilizando tecnologias web modernas.
+Bem-vindo ao repositório de mais um Projeto Integrador do curso de Engenharia de Computação, atualmente do 5º semestre UNISAL Americana. Este projeto é parte integrante do currículo acadêmico e representa um esforço conjunto dos alunos para aplicar os conhecimentos adquiridos ao longo do curso em um projeto prático e relevante.
+
+### Equipe:
+* Kauã Enrico Pasti Altran
+* 
+* 
+* 
+* 
+* 
+
 
 ## Sobre o Projeto
 
@@ -53,9 +62,7 @@ Este projeto está licenciado sob a [Licença MIT](LICENSE). Sinta-se à vontade
 
 
 
-Bem-vindo ao repositório de mais um Projeto Integrador do curso de Engenharia de Computação, atualmente do 5º semestre UNISAL Americana. Este projeto é parte integrante do currículo acadêmico e representa um esforço conjunto dos alunos para aplicar os conhecimentos adquiridos ao longo do curso em um projeto prático e relevante.
 
-### Equipe:
 
 
 ## Sobre o Projeto
@@ -80,3 +87,6 @@ Este projeto não apenas atende aos requisitos acadêmicos do curso, mas também
 ## Considerações Finais
 
 O Projeto Integrador do 5º semestre representa um marco importante na jornada acadêmica dos estudantes de Engenharia de Computação da UNISAL. É uma oportunidade de aplicar o conhecimento em um projeto prático e relevante, além de contribuir para a sociedade por meio da tecnologia. Estamos ansiosos para compartilhar os resultados e aprendizados deste projeto com a comunidade acadêmica e profissional.
+
+
+Bem-vindo ao repositório da Plataforma de Gestão de Terapia ABA para Crianças com Transtorno do Espectro Autista (TEA). Este projeto tem como objetivo desenvolver uma solução inovadora e centrada no usuário para o acompanhamento e progresso de crianças diagnosticadas com TEA, oferecendo uma abordagem baseada na Análise do Comportamento Aplicada (ABA) e utilizando tecnologias web modernas.
