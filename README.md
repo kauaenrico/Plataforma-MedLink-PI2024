@@ -4,7 +4,7 @@
 Bem-vindo ao repositório de mais um Projeto Integrador do curso de Engenharia de Computação, atualmente do 5º semestre UNISAL Americana. Este projeto é parte integrante do currículo acadêmico e representa um esforço conjunto dos alunos para aplicar os conhecimentos adquiridos ao longo do curso em um projeto prático e relevante.
 
 Veja a plataforma na íntegra:
-[Abrir a Plataforma](http://proj01.ddnsfree.com)
+[MedLink | Plataforma](http://proj01.ddnsfree.com)
 
 
 ### Equipe:
