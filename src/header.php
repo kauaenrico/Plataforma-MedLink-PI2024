@@ -11,18 +11,20 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="index.php?page=pdashboard">Pagina Inicial<span class="visually-hidden">(current)</span>
-          </a>
+          <!-- <a class="nav-link active" href="index.php?page=pdashboard">Pagina Inicial<span class="visually-hidden">(current)</span></a> -->
+          <li class="nav-item">
+            <a class="nav-link <?php echo isset($_GET['page']) && $_GET['page'] === 'pdashboard' ? 'active' : ''; ?>" href="index.php?page=pdashboard">Pagina Inicial</a>
+          </li>
         </li>
         <li class="nav-item dropdown">
-          <a  class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Paciente</a>
+          <a  class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.php?page=plistapaciente" role="button" aria-haspopup="true" aria-expanded="false">Paciente</a>
           <div class= "dropdown-menu">
             <a class= "dropdown-item" href= "index.php?page=pcadpaciente">Cadastrar paciente</a>
             <a class= "dropdown-item" href= "index.php?page=plistapaciente">Lista de pacientes</a>
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Agenda</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.php?page=pagenda" role="button" aria-haspopup="true" aria-expanded="false">Agenda</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="index.php?page=pagenda">Minha Agenda</a>
             <div>
@@ -30,13 +32,18 @@
             </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php?page=pmateriais">Materiais para Download</a>
+          <!-- <a class="nav-link" href="index.php?page=pmateriais">Materiais para Download</a> -->
+          <li class="nav-item">
+            <a class="nav-link <?php echo isset($_GET['page']) && $_GET['page'] === 'pmateriais' ? 'active' : ''; ?>" href="index.php?page=pmateriais">Materiais para Download</a>
+          </li>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php?page=pavisosgerais">Avisos Gerais</a>
+          <!-- <a class="nav-link" href="index.php?page=pavisosgerais">Avisos Gerais</a> -->
+          <a class="nav-link <?php echo isset($_GET['page']) && $_GET['page'] === 'pavisosgerais' ? 'active' : ''; ?>" href="index.php?page=pavisosgerais">Avisos Gerais</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php?page=padministracao">Administração</a>
+          <!-- <a class="nav-link" href="index.php?page=padministracao">Administração</a> -->
+          <a class="nav-link <?php echo isset($_GET['page']) && $_GET['page'] === 'padministracao' ? 'active' : ''; ?>" href="index.php?page=padministracao">Administração</a>
         </li>
 
       </ul>
