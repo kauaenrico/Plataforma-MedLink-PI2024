@@ -87,10 +87,10 @@
             <hr>
             <div class="row">
               <div class="col-sm-3">
-                <p class="mb-0">Mobile</p>
+                <p class="mb-0">interesses</p>
               </div>
               <div class="col-sm-9">
-                <p class="text-muted mb-0">(098) 765-4321</p>
+                <p class="text-muted mb-0">Bonecas, pintar, brinquedos que brilham, suco de maçã</p>
               </div>
             </div>
             <hr>
@@ -108,31 +108,31 @@
           <div class="col-md-6">
             <div class="card mb-4 mb-md-0">
               <div class="card-body">
-                <p class="mb-4"><span class="text-primary font-italic me-1">assigment</span> Project Status
+                <p class="mb-4"><span class="text-primary font-italic me-1">Desenvolvimento</span> Primeiras medições
                 </p>
-                <p class="mb-1" style="font-size: .77rem;">Web Design</p>
+                <p class="mb-1" style="font-size: .77rem;">Tato Simples</p>
                 <div class="progress rounded" style="height: 5px;">
-                  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                  <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <p class="mt-4 mb-1" style="font-size: .77rem;">Website Markup</p>
+                <p class="mt-4 mb-1" style="font-size: .77rem;">Imitação Oral</p>
                 <div class="progress rounded" style="height: 5px;">
-                  <div class="progress-bar" role="progressbar" style="width: 72%" aria-valuenow="72"
+                  <div class="progress-bar" role="progressbar" style="width: 42%" aria-valuenow="42"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <p class="mt-4 mb-1" style="font-size: .77rem;">One Page</p>
+                <p class="mt-4 mb-1" style="font-size: .77rem;">Seguimento de Instrução</p>
                 <div class="progress rounded" style="height: 5px;">
-                  <div class="progress-bar" role="progressbar" style="width: 89%" aria-valuenow="89"
+                  <div class="progress-bar" role="progressbar" style="width: 39%" aria-valuenow="39"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <p class="mt-4 mb-1" style="font-size: .77rem;">Mobile Template</p>
+                <p class="mt-4 mb-1" style="font-size: .77rem;">Desfraude</p>
                 <div class="progress rounded" style="height: 5px;">
                   <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <p class="mt-4 mb-1" style="font-size: .77rem;">Backend API</p>
+                <p class="mt-4 mb-1" style="font-size: .77rem;">Identificação</p>
                 <div class="progress rounded mb-2" style="height: 5px;">
-                  <div class="progress-bar" role="progressbar" style="width: 66%" aria-valuenow="66"
+                  <div class="progress-bar" role="progressbar" style="width: 46%" aria-valuenow="46"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
@@ -141,29 +141,29 @@
           <div class="col-md-6">
             <div class="card mb-4 mb-md-0">
               <div class="card-body">
-                <p class="mb-4"><span class="text-primary font-italic me-1">assigment</span> Project Status
+                <p class="mb-4"><span class="text-primary font-italic me-1">Desenvolvimento</span> Ultima Medição
                 </p>
-                <p class="mb-1" style="font-size: .77rem;">Web Design</p>
+                <p class="mb-1" style="font-size: .77rem;">Tato Simples</p>
                 <div class="progress rounded" style="height: 5px;">
                   <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <p class="mt-4 mb-1" style="font-size: .77rem;">Website Markup</p>
+                <p class="mt-4 mb-1" style="font-size: .77rem;">Imitação Oral</p>
                 <div class="progress rounded" style="height: 5px;">
                   <div class="progress-bar" role="progressbar" style="width: 72%" aria-valuenow="72"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <p class="mt-4 mb-1" style="font-size: .77rem;">One Page</p>
+                <p class="mt-4 mb-1" style="font-size: .77rem;">Seguimento de Instrução</p>
                 <div class="progress rounded" style="height: 5px;">
                   <div class="progress-bar" role="progressbar" style="width: 89%" aria-valuenow="89"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <p class="mt-4 mb-1" style="font-size: .77rem;">Mobile Template</p>
+                <p class="mt-4 mb-1" style="font-size: .77rem;">Desfraude</p>
                 <div class="progress rounded" style="height: 5px;">
-                  <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55"
+                  <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <p class="mt-4 mb-1" style="font-size: .77rem;">Backend API</p>
+                <p class="mt-4 mb-1" style="font-size: .77rem;">Identificação</p>
                 <div class="progress rounded mb-2" style="height: 5px;">
                   <div class="progress-bar" role="progressbar" style="width: 66%" aria-valuenow="66"
                     aria-valuemin="0" aria-valuemax="100"></div>
