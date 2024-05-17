@@ -1,4 +1,4 @@
-# Plataforma de Gestão de Terapia ABA para Crianças com TEA
+# MedLink   |   Plataforma de Gestão de Terapias
 
 Bem-vindo ao repositório da Plataforma de Gestão de Terapia ABA para Crianças com Transtorno do Espectro Autista (TEA). Este projeto tem como objetivo desenvolver uma solução inovadora e centrada no usuário para o acompanhamento e progresso de crianças diagnosticadas com TEA, oferecendo uma abordagem baseada na Análise do Comportamento Aplicada (ABA) e utilizando tecnologias web modernas.
 
