@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title>MedLink | Pequenos Passos</title>
+    <title>XXXMedLink | Pequenos Passos</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon-32x32.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
