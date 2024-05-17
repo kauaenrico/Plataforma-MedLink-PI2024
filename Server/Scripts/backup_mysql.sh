@@ -27,6 +27,6 @@ fi
 header
 echo "Gerando dump do MySQL"
 echo "#"
-sudo mysqldump -u admin -punisal@2024 --all-databases > $sqlfile 
+sudo mysqldump -u USER -pSENHA --all-databases > $sqlfile 
 
 echo "Backup concluído. Arquivo de dump criado em /opt/backups."
