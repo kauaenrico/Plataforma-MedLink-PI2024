@@ -5,11 +5,12 @@ Bem-vindo ao repositório de mais um Projeto Integrador do curso de Engenharia d
 
 ### Equipe:
 * Kauã Enrico Pasti Altran
-* 
-* 
-* 
-* 
-* 
+* Henrique Pignato
+* Leonardo Fernandes Fanhani
+* Lucas Gabriel Bento Correa
+* Luke G. dos S. Belatine
+* Gabriel Vitor Rosa
+
 
 
 ## Sobre o Projeto
