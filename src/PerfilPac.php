@@ -59,7 +59,7 @@
                 <p class="mb-0">Interesses</p>
               </div>
               <div class="col-sm-9">
-                <p class="text-muted mb-0">Bonecas, pintar, brinquedos que brilham, suco de maçã</p>
+                <p class="text-muted mb-0">Bonecas, Pintar, Brinquedos que brilham, Suco de maçã</p>
               </div>
             </div>
             <hr>
