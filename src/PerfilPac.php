@@ -1,5 +1,6 @@
 <section style="background-color: #eee;">
-    <div class="row">
+  <div class="container py-5">
+        <div class="row">
       <div class="col-lg-4">
         <div class="card mb-4">
           <div class="card-body text-center">
