@@ -24,8 +24,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Conexão com o banco de dados
     $servername = "localhost";
-    $username = "root";
-    $password = "";
+    $username = "plataforma";
+    $password = "unisal@2024";
     $dbname = "loja";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
