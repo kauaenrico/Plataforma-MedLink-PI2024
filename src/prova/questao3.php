@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Conexão com o banco de dados
     $servername = "localhost";
-    $username = "plataforma";
+    $username = "admin";
     $password = "unisal@2024";
     $dbname = "loja";
 
