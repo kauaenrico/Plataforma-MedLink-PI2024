@@ -1,3 +1,15 @@
+<!-- Desenvolva um Formulário em PHP que seja capaz de receber as informações de um Vendedor:
+- ID
+- Nome
+- Data Nascimento
+- Telefone
+- CPF
+- Endereço
+- Email
+- Data de Admissão
+- Regional
+Os dados devem ser armazenados em uma tabela no Banco de Dados MySQL -->
+
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nome = $_POST['nome'];
@@ -49,6 +61,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <h1>Cadastro de Vendedor</h1>
     <form action="processa_cadastro.php" method="post">
+        <label for="id">ID:</label>
+        <input type="number" id="id" name="id" required><br>
+
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required><br>
 
