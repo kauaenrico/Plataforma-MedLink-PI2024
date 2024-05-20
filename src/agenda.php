@@ -57,109 +57,109 @@
           <ul>
             <li class="cd-schedule__event">
               <a data-start="10:00" data-end="11:00"  data-content="event-rowing-workout" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Rowing Workout</em>
+                <em class="cd-schedule__name">Sessão com Maria S.</em>
               </a>
             </li>
   
             <li class="cd-schedule__event">
               <a data-start="11:30" data-end="13:00"  data-content="event-restorative-yoga" data-event="event-4" href="#0">
-                <em class="cd-schedule__name">Restorative Yoga</em>
+                <em class="cd-schedule__name">Sessão com Flavio P.</em>
               </a>
             </li>
   
             <li class="cd-schedule__event">
               <a data-start="13:30" data-end="15:00" data-content="event-abs-circuit" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Abs Circuit</em>
+                <em class="cd-schedule__name">Reunião em grupo</em>
               </a>
             </li>
   
             <li class="cd-schedule__event">
               <a data-start="15:45" data-end="16:45"  data-content="event-yoga-1" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Yoga Level 1</em>
+                <em class="cd-schedule__name">Atualização dos prontuários</em>
               </a>
             </li>
           </ul>
         </li>
   
         <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Wednesday</span></div>
+          <div class="cd-schedule__top-info"><span>Quarta-feira</span></div>
   
           <ul>
             <li class="cd-schedule__event">
               <a data-start="09:00" data-end="10:15" data-content="event-restorative-yoga" data-event="event-4" href="#0">
-                <em class="cd-schedule__name">Restorative Yoga</em>
+                <em class="cd-schedule__name">Sessão com Enzo R.</em>
               </a>
             </li>
   
             <li class="cd-schedule__event">
               <a data-start="10:45" data-end="11:45" data-content="event-yoga-1" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Yoga Level 1</em>
+                <em class="cd-schedule__name">Reunião com a fono</em>
               </a>
             </li>
   
             <li class="cd-schedule__event">
               <a data-start="12:00" data-end="13:45"  data-content="event-rowing-workout" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Rowing Workout</em>
+                <em class="cd-schedule__name">Sessão com Arthur B.</em>
               </a>
             </li>
   
             <li class="cd-schedule__event">
               <a data-start="13:45" data-end="15:00" data-content="event-yoga-1" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Yoga Level 1</em>
+                <em class="cd-schedule__name">Sessão com Stefan B.</em>
               </a>
             </li>
           </ul>
         </li>
   
         <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Thursday</span></div>
+          <div class="cd-schedule__top-info"><span>Quinta-feira</span></div>
   
           <ul>
             <li class="cd-schedule__event">
               <a data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Abs Circuit</em>
+                <em class="cd-schedule__name">Sessão com Maria S.</em>
               </a>
             </li>
   
             <li class="cd-schedule__event">
               <a data-start="12:00" data-end="13:45" data-content="event-restorative-yoga" data-event="event-4" href="#0">
-                <em class="cd-schedule__name">Restorative Yoga</em>
+                <em class="cd-schedule__name">Sessão com Angelica F.</em>
               </a>
             </li>
   
             <li class="cd-schedule__event">
               <a data-start="15:30" data-end="16:30" data-content="event-abs-circuit" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Abs Circuit</em>
+                <em class="cd-schedule__name">Reunião com os pais</em>
               </a>
             </li>
   
             <li class="cd-schedule__event">
               <a data-start="17:00" data-end="18:30"  data-content="event-rowing-workout" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Rowing Workout</em>
+                <em class="cd-schedule__name">Atualização dos Prontuários</em>
               </a>
             </li>
           </ul>
         </li>
   
         <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Friday</span></div>
+          <div class="cd-schedule__top-info"><span>Sexta-feira</span></div>
   
           <ul>
             <li class="cd-schedule__event">
               <a data-start="10:00" data-end="11:00"  data-content="event-rowing-workout" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Rowing Workout</em>
+                <em class="cd-schedule__name">Sessão com Arthur B.</em>
               </a>
             </li>
   
             <li class="cd-schedule__event">
               <a data-start="12:30" data-end="14:00" data-content="event-abs-circuit" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Abs Circuit</em>
+                <em class="cd-schedule__name">Sessão com Enzo R.</em>
               </a>
             </li>
   
             <li class="cd-schedule__event">
               <a data-start="15:45" data-end="16:45"  data-content="event-yoga-1" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Yoga Level 1</em>
+                <em class="cd-schedule__name">Sessão com Sergio B.</em>
               </a>
             </li>
           </ul>
@@ -190,5 +190,3 @@
 
   <script src="assets/scripts/agenda_util.js"></script> <!-- util functions included in the CodyHouse framework -->
   <script src="assets/scripts/agenda_main.js"></script>
-</body>
-</html>

@@ -1,40 +1,18 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://bootswatch.com/5/minty/bootstrap.min.css" crossorigin="anonymous">
-    <title>Dashboard</title>
-</head>
-<body> -->
-
 <div class="container-fluid mt-5">
     <div class="row justify-content-center"> <!-- Adicionado justify-content-center para centralizar as colunas -->
+        <!-- Primeira coluna -->
         <div class="col-md-4">
             <form class="d-flex">
                 <input class="form-control me-sm-2" type="search" placeholder="Pesquisar paciente">
                 <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
             </form>
-            <a href="#" class="btn btn-primary mt-3" id="pacdodiabtn">Mostrar pacientes de hoje</a>
-
-            <div id="pacdodia" style="display: none;">
-                <ul class="list-group list-group-flush mt-3"> <!-- Adicionado mt-3 para espaço superior -->
-                    <li class="list-group-item">Pedro P.</li>
-                    <li class="list-group-item">Carlos L.</li>
-                    <li class="list-group-item">Fábio M.</li>
-                </ul>
-            </div>
-            
-            <div class="d-flex justify-content-start mt-3">
-                <a href="index.php?page=cadpaciente">
-                    <button type="button" class="btn btn-primary me-2">Novo Paciente</button>
-                </a>
-                <a href="#">
-                    <button type="button" class="btn btn-primary">Lista de Pacientes</button>
-                </a>
+            <br>
+            <div class="d-grid gap-2" href= "index.php?page=pmateriais">
+                    <button class="btn btn-lg btn-primary" type="button">Materiais para download</button>
             </div>
         </div>
+
+        <!-- Segunda coluna -->
         <div class="col-md-4">
             <div class="container mt-5">
                 <h5 class="text-center mb-4">Agenda do dia- <?php echo date("d/m/Y"); ?></h5>
@@ -68,6 +46,8 @@
                 </ul>
             </div>
         </div>
+
+        <!-- Terceira coluna -->
         <div class="col-md-4">
             <div class="container mt-5">
                 <div class="card mb-3">
@@ -76,7 +56,7 @@
                         <h4 class="card-title">Novos brinquedos nas salas!</h4>
                         <h6 class="card-subtitle text-muted">Novas experiências para novos resultados!</h6>
                     </div>
-                    <img src="Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
+                    <img src="assets/img/Imagemclinica.jpeg" width="100%" height="200" alt="Imagem da clínica" style="object-fit: cover;">
                     <div class="card-body">
                         <p class="card-text">Novos jogos e brinquedos que nos possibilitarão um auxílio maior no desenvolvimento de nossos pacientes. Veja exemplos de alguns novos brinquedos que chegaram ao Pequenos Passos</p>
                         <!-- Link "Saiba mais" -->
@@ -149,6 +129,3 @@
         }
     });
 </script>
-
-<!-- </body>
-</html> -->

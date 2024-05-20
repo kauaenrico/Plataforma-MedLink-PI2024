@@ -9,7 +9,7 @@ https://www.digitalocean.com/community/tutorials/how-to-allow-remote-access-to-m
 https://stackoverflow.com/questions/1559955/host-xxx-xx-xxx-xxx-is-not-allowed-to-connect-to-this-mysql-server
 
 
-CREATE USER 'admin'@'localhost' IDENTIFIED BY 'unisal@2024';
-GRANT ALL PRIVILEGES ON *.* TO 'admin'@'localhost' WITH GRANT OPTION;
-CREATE USER 'admin'@'%' IDENTIFIED BY 'unisal@2024';
-GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%' WITH GRANT OPTION;
+CREATE USER ''@'localhost' IDENTIFIED BY '';
+GRANT ALL PRIVILEGES ON *.* TO ''@'localhost' WITH GRANT OPTION;
+CREATE USER ''@'%' IDENTIFIED BY '';
+GRANT ALL PRIVILEGES ON *.* TO ''@'%' WITH GRANT OPTION;

@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
     <title>MedLink | Pequenos Passos</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon-32x32.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
@@ -18,8 +19,10 @@
         <?php
             if(isset($_GET["page"])){
                 switch($_GET["page"]){
-                    case "plistapaciente":  include "listapaciente.php";    break;
-                    case "pnovaagenda":     include "novaagenda.php";      break;
+                    case "pmateriais":      include "materiais.php";        break;
+                    case "plistaprofiss":   include "listaProfi.php";       break;
+                    case "plistapaciente":  include "listaPaci.php";        break;
+                    case "pnovaagenda":     include "novaagenda.php";       break;
                     case "pagenda":         include "agenda.php";           break;
                     case "pdashboard":      include "dashboard.php";        break;
                     case "pavisosgerais":   include "avisosgerais.php";     break;
@@ -30,9 +33,15 @@
                     default:                include "error404.php";         break;
                 }
             }
+            if(isset($_GET["pid"])){
+                switch($_GET["pid"]){
+                    case "54164684089":      include "PerfilPac.php";        break;   
+                    default:                include "error404.php";         break;
+                }
+            }
         ?>
     </main>
-    <foo
+    
 
 
 </body>
