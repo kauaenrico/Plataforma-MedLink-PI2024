@@ -12,6 +12,7 @@ Os dados devem ser armazenados em uma tabela no Banco de Dados MySQL -->
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $id = $_POST['id'];
     $nome = $_POST['nome'];
     $data_nascimento = $_POST['data_nascimento'];
     $telefone = $_POST['telefone'];
@@ -56,11 +57,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Vendedor</title>
+    <title>Formulario para Vendedor</title>
 </head>
 <body>
     <h1>Cadastro de Vendedor</h1>
-    <form action="processa_cadastro.php" method="post">
+    <form action="questao3.php" method="post">
         <label for="id">ID:</label>
         <input type="number" id="id" name="id" required><br>
 
