@@ -20,13 +20,13 @@
         <?php
     if(isset($_GET["m"])){
         switch($_GET["m"]){
-            case "tABA":      include "materiaisABA.php";        break;
-            case "tPECS":      include "materiaisPECS.php";        break;
-            case "tTEACCH":      include "materiaisTEACCH.php";        break;
-            case "tRDI":      include "materiaisRDI.php";        break;
-            case "tCBT":      include "materiaisCBT.php";        break;
-            case "tSI":      include "materiaisSI.php";        break;  
-            default:                include "error404.php";         break;
+            case "tABA":    include "materiaisABA.php";     break;
+            case "tPECS":   include "materiaisPECS.php";    break;
+            case "tTEACCH": include "materiaisTEACCH.php";  break;
+            case "tRDI":    include "materiaisRDI.php";     break;
+            case "tCBT":    include "materiaisCBT.php";     break;
+            case "tSI":     include "materiaisSI.php";      break;  
+            default:        include "error404.php";         break;
         }
     }
 ?>
