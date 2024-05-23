@@ -1,6 +1,5 @@
 <div class="container-fluid mt-5">
-    <div class="row justify-content-center"> <!-- Adicionado justify-content-center para centralizar as colunas -->
-        <!-- Primeira coluna -->
+    <div class="row justify-content-center align-items-start"> <!-- Adicionado justify-content-center para centralizar as colunas -->
         <div class="col-md-4">
             <form class="d-flex">
                 <input class="form-control me-sm-2" type="search" placeholder="Pesquisar paciente">
