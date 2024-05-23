@@ -2,8 +2,8 @@
     <div class="row">
       <!-- 1/3 para os botões de categorias -->
       <div class="col-md-4">
-        <br><h2>Materiais para Download</h2><br>
-        <br><p></p><br>
+        <br><h2>Materiais para Download</h2>
+        <p></p><br>
         <div class="list-group">
           <a href= "index.php?page=pmateriais&m=tABA"><button type="button" class="list-group-item list-group-item-action" data-category="categoria1">Tratamento ABA</button></a>
           <a href= "index.php?page=pmateriais&m=XXXXX"><button type="button" class="list-group-item list-group-item-action" data-category="categoria2">Tratamento PECS</button></a>
