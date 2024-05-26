@@ -50,7 +50,9 @@
                     <textarea class="form-control" id="observacoes" rows="3" placeholder="Adicionar uma descrição"></textarea>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary mt-3">Agendar</button>
+            <div class="d-grid gap-2" href="index.php?page=pagenda">
+                <button type="submit" class="btn btn-primary mt-3">Agendar</button>
+            </div>
         </fieldset>
     </form>
 </div>
