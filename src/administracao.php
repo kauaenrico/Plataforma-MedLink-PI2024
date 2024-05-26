@@ -33,11 +33,9 @@
                 </div>
             </div>
             <div>
-                <a href="index.php?page=pcadterapeuta">
                 <div class="d-grid gap-2" href= "index.php?page=#">
-                    <button type= "button" class=btn btn-secondary>Cadastrar novo terapeuta</button>
+                    <a href="#" class="btn btn-secondary">Cadastrar novo terapeuta</a>
                 </div>
-                </a>
             </div>
             <ul class="list-group mt-3">
                 <!-- Lista de terapeutas fictícios -->
