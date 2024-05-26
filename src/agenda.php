@@ -1,7 +1,4 @@
-<div>
-
     <h2 class="text-center mt-5">Minha Agenda da Semana</h2><br>
-  
 <script>document.getElementsByTagName("html")[0].className += " js";</script>
   <link rel="stylesheet" href="assets/css/agenda_style.css">
   <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
@@ -194,4 +191,3 @@
 
   <script src="assets/scripts/agenda_util.js"></script> <!-- util functions included in the CodyHouse framework -->
   <script src="assets/scripts/agenda_main.js"></script>
-</div>
