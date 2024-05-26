@@ -5,11 +5,11 @@
             <h2 class="mb-3">Pacientes</h2>
             <div class="mb-3">
                 <input class="form-control" type="search" placeholder="Pesquisar Paciente">
-                <div class="d-grid gap-2" href="index.php?page=#">
+                <div class="d-grid gap-2" href="index.php?page=plistapaciente">
                     <button class="btn btn-primary mt-2">Pesquisar Paciente</button>
                 </div>
             </div>
-            <div class="d-grid gap-2" href="index.php?page=#">
+            <div class="d-grid gap-2" href="index.php?page=pcadpaciente">
                 <a href="#" class="btn btn-secondary">Cadastrar novo paciente</a>
             </div>
             <ul class="list-group mt-3">
@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div>
-                <div class="d-grid gap-2" href="index.php?page=#">
+                <div class="d-grid gap-2" href="index.php?page=pcadterapeuta">
                     <a href="#" class="btn btn-secondary">Cadastrar novo terapeuta</a>
                 </div>
             </div>
