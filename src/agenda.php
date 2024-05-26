@@ -1,7 +1,7 @@
 <div>
-<div class="container">
-    <h2 class="text-center mt-5">Minha Agenda da Semana</h2>
-  </div>
+
+    <h2 class="text-center mt-5">Minha Agenda da Semana</h2><br>
+  
 <script>document.getElementsByTagName("html")[0].className += " js";</script>
   <link rel="stylesheet" href="assets/css/agenda_style.css">
   <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
