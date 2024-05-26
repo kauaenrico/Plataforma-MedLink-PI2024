@@ -1,4 +1,5 @@
-<div class="container-fluid">
+<div>
+<div class="container">
     <h2 class="text-center mt-5">Minha Agenda da Semana</h2>
   </div>
 <script>document.getElementsByTagName("html")[0].className += " js";</script>
@@ -193,3 +194,4 @@
 
   <script src="assets/scripts/agenda_util.js"></script> <!-- util functions included in the CodyHouse framework -->
   <script src="assets/scripts/agenda_main.js"></script>
+</div>
