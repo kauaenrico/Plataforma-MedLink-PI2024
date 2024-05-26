@@ -5,7 +5,9 @@
             <h2 class="mb-3">Pacientes</h2>
             <div class="mb-3">
                 <input class="form-control" type="search" placeholder="Pesquisar Paciente">
-                <button class="btn btn-primary mt-2">Pesquisar Paciente</button>
+                <div class="d-grid gap-2" href= "index.php?page=pmateriais">
+                    <button class="btn btn-primary mt-2">Pesquisar Paciente</button>
+                </div>
             </div>
             <a href="#" class="btn btn-secondary">Cadastrar novo paciente</a>
             <ul class="list-group mt-3">
