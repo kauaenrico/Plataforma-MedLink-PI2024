@@ -54,7 +54,10 @@
             <div class="mb-3">
             <div class="d-grid gap-2" href= "index.php?page=#">
                 <button class="btn btn-primary mt-2">Adicionar novo aviso</button>
-                </div>
+            </div>
+            <div class="d-grid gap-2" href= "index.php?page=#">
+                <button class="btn btn-primary mt-2">Editar um aviso</button>
+            </div>
             </div>
         </div>
     </div>
