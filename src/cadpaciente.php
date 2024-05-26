@@ -6,7 +6,7 @@
             margin-right: 15px;
         }
     </style>
-
+<div class="container my-4">
 <form data-bitwarden-watching="1">
   <fieldset>
     <div class= body>
@@ -80,3 +80,4 @@
 
 <!-- </body>
 </html> -->
+</div>
