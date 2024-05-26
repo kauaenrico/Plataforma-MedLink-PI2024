@@ -7,7 +7,7 @@
             </form>
             <br>
             <div class="d-grid gap-2" href="index.php?page=pmateriais">
-                    <button class="btn btn-lg btn-primary" type="button">Materiais para download</button>
+                    <button class="btn btn-lg btn-primary">Materiais para download</button>
             </div>
         </div>
 
