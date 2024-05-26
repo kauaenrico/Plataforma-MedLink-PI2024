@@ -52,10 +52,10 @@
         <div class="col-md-4">
         <h2 class="mb-3">Avisos Gerais</h2>
             <div class="mb-3">
-            <div class="d-grid gap-2" href= "index.php?page=#">
+            <div class="d-grid gap-2" href="index.php?page=#">
                 <button class="btn btn-primary mt-2">Adicionar novo aviso</button>
             </div>
-            <div class="d-grid gap-2" href= "index.php?page=#">
+            <div class="d-grid gap-2" href="index.php?page=#">
                 <button class="btn btn-primary mt-2">Editar um aviso</button>
             </div>
             </div>
