@@ -1,3 +1,4 @@
+<div class="container my-4">
 <div class="container-fluid mt-5">
     <form data-bitwarden-watching="1">
         <fieldset>
@@ -50,4 +51,4 @@
         </fieldset>
     </form>
 </div>
-
+</div>
