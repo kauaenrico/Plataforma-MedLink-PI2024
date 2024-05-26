@@ -71,10 +71,6 @@
                                 <li class="list-group-item">Novos Livros para leitura conjunta</li>
                                 <li class="list-group-item">Nova Caixa de Areia</li>
                             </ul>
-                            <div class="card-body">
-                                <a href="https://github.com/kauaenrico/UNISAL_Proj_5" class="card-link">Github link</a>
-                                <a href="#" class="card-link">Another link</a>
-                            </div>
                             <div class="card-footer text-muted">
                                 2 dias atrás
                             </div>
