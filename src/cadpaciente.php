@@ -73,7 +73,9 @@
         </select>
       </div>
     </div>
-    <button type="submit" class="btn btn-primary mt-3">Salvar</button>
+    <div class="d-grid gap-2" href="index.php?page=plistapaciente">
+      <button type="submit" class="btn btn-primary mt-3">Salvar</button>
+    </div>
       </div class= body>
   </fieldset>
 </form>
