@@ -5,11 +5,13 @@
             <h2 class="mb-3">Pacientes</h2>
             <div class="mb-3">
                 <input class="form-control" type="search" placeholder="Pesquisar Paciente">
-                <div class="d-grid gap-2" href= "index.php?page=pmateriais">
+                <div class="d-grid gap-2" href= "index.php?page=#">
                     <button class="btn btn-primary mt-2">Pesquisar Paciente</button>
                 </div>
             </div>
-            <a href="#" class="btn btn-secondary">Cadastrar novo paciente</a>
+            <div class="d-grid gap-2" href= "index.php?page=#">
+                <a href="#" class="btn btn-secondary">Cadastrar novo paciente</a>
+            </div>
             <ul class="list-group mt-3">
                 <!-- Lista de pacientes fictícios -->
                 <li class="list-group-item d-flex justify-content-between align-items-center">João Silva <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
@@ -26,11 +28,15 @@
             <h2 class="mb-3">Terapeutas</h2>
             <div class="mb-3">
                 <input class="form-control" type="search" placeholder="Pesquisar Terapeuta">
-                <button class="btn btn-primary mt-2">Pesquisar Terapeuta</button>
+                <div class="d-grid gap-2" href= "index.php?page=#">
+                    <button class="btn btn-primary mt-2">Pesquisar Terapeuta</button>
+                </div>
             </div>
             <div>
                 <a href="index.php?page=pcadterapeuta">
+                <div class="d-grid gap-2" href= "index.php?page=#">
                     <button type= "button" class=btn btn-secondary>Cadastrar novo terapeuta</button>
+                </div>
                 </a>
             </div>
             <ul class="list-group mt-3">
@@ -48,7 +54,9 @@
         <div class="col-md-4">
         <h2 class="mb-3">Avisos Gerais</h2>
             <div class="mb-3">
+            <div class="d-grid gap-2" href= "index.php?page=#">
                 <button class="btn btn-primary mt-2">Adicionar novo aviso</button>
+                </div>
             </div>
         </div>
     </div>
