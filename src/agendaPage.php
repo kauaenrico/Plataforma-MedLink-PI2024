@@ -1,6 +1,4 @@
-  <div class="container-fluid">
-    <h2 class="text-center mt-5">Minha Agenda da Semana</h2>
-  </div>
+<h2 class="text-center mt-5">Minha Agenda da Semana</h2>
   <?php
     include "minhaAgenda.php";
   ?>
