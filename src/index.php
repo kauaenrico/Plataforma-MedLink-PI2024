@@ -23,7 +23,7 @@
                     case "plistaprofiss":   include "listaProfi.php";       break;
                     case "plistapaciente":  include "listaPaci.php";        break;
                     case "pnovaagenda":     include "novaagenda.php";       break;
-                    case "pagenda":         include "agenda.php";           break;
+                    case "pagenda":         include "agendaPage.php";       break;
                     case "pdashboard":      include "dashboard.php";        break;
                     case "pavisosgerais":   include "avisosgerais.php";     break;
                     case "padministracao":  include "administracao.php";    break;
