@@ -11,15 +11,6 @@
                     <button class="btn btn-lg btn-primary">Materiais para download</button>
             </div>
         </div>
-        <br><br>
-        
-
-        
-
-
-
-    <!-- </div> -->
-</div><!-- Div da primeira coluna -->
 
         <!-- Segunda coluna -->
         <div class="col-md-4">
