@@ -10,48 +10,57 @@
             <div class="d-grid gap-2" href="index.php?page=pmateriais">
                     <button class="btn btn-lg btn-primary">Materiais para download</button>
             </div>
+        </div>
         <br><br>
+        
+
         <style>
-        .online-status {
-            background-color: #e3fcec;
-            color: #155724;
-            padding: 10px;
-            border-radius: 5px;
-            margin-bottom: 10px;
-        }
-        .offline-status {
-            background-color: #f8d7da;
-            color: #721c24;
-            padding: 10px;
-            border-radius: 5px;
-            margin-bottom: 10px;
-        }
-    </style>
-    <div class="container mt-5">
-        <div class="card">
-            <div class="card-header">
-                <h5 class="card-title">Profissionais Online</h5>
-            </div>
-            <div class="card-body">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item online-status">
-                        <i class="bi bi-circle-fill text-success"></i> Dr. João Silva
-                    </li>
-                    <li class="list-group-item online-status">
-                        <i class="bi bi-circle-fill text-success"></i> Dra. Maria Oliveira
-                    </li>
-                    <li class="list-group-item offline-status">
-                        <i class="bi bi-circle-fill text-danger"></i> Dr. Carlos Santos
-                    </li>
-                    <li class="list-group-item online-status">
-                        <i class="bi bi-circle-fill text-success"></i> Dra. Ana Pereira
-                    </li>
-                </ul>
+            .online-status .status-indicator {
+                color: #28a745;
+                /* Verde para online */
+            }
+        
+            .offline-status .status-indicator {
+                color: #dc3545;
+                /* Vermelho para offline */
+            }
+        
+            .status-text {
+                margin-left: 10px;
+            }
+        </style>
+        <div class="container mt-5">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">Profissionais online no momento</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center online-status">
+                            <i class="bi bi-circle-fill status-indicator"></i>
+                            <span class="status-text">Dr. João Silva - Online</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center online-status">
+                            <i class="bi bi-circle-fill status-indicator"></i>
+                            <span class="status-text">Dra. Maria Oliveira - Online</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center offline-status">
+                            <i class="bi bi-circle-fill status-indicator"></i>
+                            <span class="status-text">Dr. Carlos Santos - Offline</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center online-status">
+                            <i class="bi bi-circle-fill status-indicator"></i>
+                            <span class="status-text">Dra. Ana Pereira - Online</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
+
+
+
     </div>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
-</div>
+</div><!-- Div da primeira coluna -->
 
         <!-- Segunda coluna -->
         <div class="col-md-4">
