@@ -53,7 +53,7 @@
                         <ul class="list-unstyled">
                             <li class="cd-schedule__event">
                                 <a data-start="09:30" data-end="10:30" href="#0" data-event="event-1">
-                                    <em class="cd-schedule__name">Reunião terapeutas - Sala 7 </em>
+                                    <em class="cd-schedule__name">Reunião terapeutas</em>
                                 </a>
                             </li>
                             <li class="cd-schedule__event">
