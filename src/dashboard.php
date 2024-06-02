@@ -2,14 +2,7 @@
 <div class="container-fluid mt-5">
     <div class="row justify-content-center align-items-start"> <!-- Adicionado justify-content-center para centralizar as colunas -->
         <div class="col-md-4">
-            <form class="d-flex">
-                <input class="form-control me-sm-2" type="search" placeholder="Pesquisar paciente">
-                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
-            </form>
-            <br>
-            <div class="d-grid gap-2" href="index.php?page=pmateriais">
-                    <button class="btn btn-lg btn-primary">Materiais para download</button>
-            </div>
+            <?php include "dashboard/opcoes.php"; ?>
             <?php include "dashboard/profissOnline.php"; ?>
         </div> <!-- Fim da primeira coluna -->
 
@@ -28,6 +21,14 @@
         </div>
     </div>
 </div>
+
+
+
+
+
+
+
+
 
 <script>
     // Seleciona o link "Saiba mais" e a div das informações adicionais
@@ -50,9 +51,8 @@
         }
     });
 
-
-        // Seleciona o link "Saiba mais" e a div das informações adicionais
-        const pacdodiabtn = document.getElementById('pacdodiabtn');
+    // Seleciona o link "Saiba mais" e a div das informações adicionais
+    const pacdodiabtn = document.getElementById('pacdodiabtn');
     const pacdodia = document.getElementById('pacdodia');
 
     // Adiciona um evento de clique ao link "Saiba mais"
