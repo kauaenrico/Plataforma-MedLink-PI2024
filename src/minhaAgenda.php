@@ -1,4 +1,3 @@
-<br><br>
 <script>document.getElementsByTagName("html")[0].className += " js";</script>
     <link rel="stylesheet" href="assets/css/agenda_style.css">
     <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
