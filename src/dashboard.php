@@ -1,24 +1,26 @@
 <br>
 <div class="container-fluid mt-5">
-    <div class="row justify-content-center align-items-start"> <!-- Adicionado justify-content-center para centralizar as colunas -->
+    <div class="row justify-content-center align-items-start">
+        <!-- Segunda coluna -->
         <div class="col-md-4">
             <?php include "dashboard/opcoes.php"; ?>
             <?php include "dashboard/profissOnline.php"; ?>
-        </div> <!-- Fim da primeira coluna -->
+        </div>
 
         <!-- Segunda coluna -->
         <div class="col-md-4">
-            <div class="container mt-5">
-            <?php include "dashboard/agendaDia.php"; ?>
-            </div>
+            <!-- <div class="container mt-5"> -->
+                <?php include "dashboard/agendaDia.php"; ?>
+            <!-- </div> -->
         </div>
 
         <!-- Terceira coluna -->
         <div class="col-md-4">
-            <div class="container mt-5">
-            <?php include "dashboard/avisosDash.php"; ?>
-            </div>
+            <!-- <div class="container mt-5"> -->
+                <?php include "dashboard/avisosDash.php"; ?>
+            <!-- </div> -->
         </div>
+
     </div>
 </div>
 
