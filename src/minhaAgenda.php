@@ -88,7 +88,7 @@
                                 </a>
                             </li>
                             <li class="cd-schedule__event">
-                                <a data-start="15:00" data-end="16:00" href="#0" data-event="event-3">
+                                <a data-start="16:00" data-end="17:00" href="#0" data-event="event-3">
                                     <em class="cd-schedule__name">Atualização dos prontuários</em>
                                 </a>
                             </li>
