@@ -13,7 +13,7 @@
           </div>
         </div>
         <div class="d-grid gap-2">
-          <a >
+          <a href="#">
           <button class="btn btn-lg btn-primary" type="button">Editar Paciente</button></a>
         </div>
       </div>
