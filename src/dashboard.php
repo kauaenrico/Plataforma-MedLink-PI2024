@@ -10,7 +10,8 @@
             <div class="d-grid gap-2" href="index.php?page=pmateriais">
                     <button class="btn btn-lg btn-primary">Materiais para download</button>
             </div>
-        </div>
+            <?php include "profissOnline.php"; ?>
+        </div> <!-- Fim da primeira coluna -->
 
         <!-- Segunda coluna -->
         <div class="col-md-4">
