@@ -52,17 +52,17 @@
                         <div class="cd-schedule__top-info"><span>Segunda-feira</span></div>
                         <ul class="list-unstyled">
                             <li class="cd-schedule__event">
-                                <a data-start="09:30" data-end="10:30" href="#0">
+                                <a data-start="09:30" data-end="10:30" href="#0" data-event="event-1">
                                     <em class="cd-schedule__name">Reunião terapeutas - Sala 7 </em>
                                 </a>
                             </li>
                             <li class="cd-schedule__event">
-                                <a data-start="11:00" data-end="12:30" href="#0">
+                                <a data-start="11:00" data-end="12:30" href="#0" data-event="event-2">
                                     <em class="cd-schedule__name">Sessão com Sergio B.</em>
                                 </a>
                             </li>
                             <li class="cd-schedule__event">
-                                <a data-start="14:00" data-end="15:15" href="#0">
+                                <a data-start="14:00" data-end="15:15" href="#0" data-event="event-3">
                                     <em class="cd-schedule__name">Sessão com Angélica F.</em>
                                 </a>
                             </li>
@@ -73,7 +73,7 @@
                         <div class="cd-schedule__top-info"><span>Terça-feira</span></div>
                         <ul class="list-unstyled">
                             <li class="cd-schedule__event">
-                                <a data-start="10:00" data-end="11:00" href="#0">
+                                <a data-start="10:00" data-end="11:00" href="#0" data-event="event-4">
                                     <em class="cd-schedule__name">Sessão com Maria S.</em>
                                 </a>
                             </li>
