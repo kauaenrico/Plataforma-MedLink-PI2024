@@ -12,6 +12,10 @@
             <p class="text-muted mb-4">Santa Rita, Santa Barbara D'Oeste, SP</p>
           </div>
         </div>
+        <div class="d-grid gap-2">
+          <a >
+          <button class="btn btn-lg btn-primary" type="button">Editar Paciente</button></a>
+        </div>
       </div>
       <div class="col-lg-8">
         <div class="card mb-4">
