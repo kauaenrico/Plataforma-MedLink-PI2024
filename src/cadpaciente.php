@@ -62,7 +62,7 @@
         <input type="text" class="form-control" id="preferencias" placeholder="Preferências">
       </div>
       <div class="col-md-6">
-        <label for="foto" class="form-label mt-3">Carregar uma Foto'</label>
+        <label for="foto" class="form-label mt-3">Carregar uma Foto</label>
         <input type="file" class="form-control" id="foto" placeholder="Selecione uma Foto">
       </div>
       <div class="col-md-12">
