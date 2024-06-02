@@ -1,3 +1,4 @@
+<br>
 <div class="container">
     <div class="row">
       <!-- 1/3 para os botões de categorias -->
