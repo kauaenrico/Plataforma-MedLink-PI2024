@@ -3,24 +3,27 @@
     <div class="row justify-content-center align-items-start">
         <!-- Primeira coluna -->
         <div class="col-md-4">
-            <div class="container mt-5">
+            <!-- <div class="container mt-5"> -->
+                <br>
                 <?php include "dashboard/opcoes.php"; ?>
                 <?php include "dashboard/profissOnline.php"; ?>
-            </div>
+            <!-- </div> -->
         </div>
 
         <!-- Segunda coluna -->
         <div class="col-md-4">
-            <div class="container mt-5">
+            <!-- <div class="container mt-5"> -->
+                <br>
                 <?php include "dashboard/agendaDia.php"; ?>
-            </div>
+            <!-- </div> -->
         </div>
 
         <!-- Terceira coluna -->
         <div class="col-md-4">
-            <div class="container mt-5">
+            <!-- <div class="container mt-5"> -->
+                <br>
                 <?php include "dashboard/avisosDash.php"; ?>
-            </div>
+            <!-- </div> -->
         </div>
 
     </div>
