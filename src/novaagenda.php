@@ -5,13 +5,24 @@
         <fieldset>
             <legend>Novo Agendamento</legend>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-3">
                     <label for="data" class="form-label mt-3">Data</label>
                     <input type="date" class="form-control" id="data">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-3">
                     <label for="hora" class="form-label mt-3">Hora</label>
                     <input type="time" class="form-control" id="hora">
+                </div>
+                <div class="col-md-3">
+                    <label for="local" class="form-label mt-3">Agendamento Recorrente</label>
+                        <select class="form-select" id="recorrente">
+                            <option selected>Apenas uma vez</option>
+                            <option value="tododia">Todo dia</option>
+                            <option value="todasem">Toda Semana</option>
+                            <option value="todomesdia">Todo Mês (Dia Fixo)</option>
+                            <option value="todomessemana">Todo Mês (Semana Fixa)</option>
+                            <!-- Adicione mais opções de local conforme necessário -->
+                        </select>
                 </div>
                 <div class="col-md-12">
                     <label for="convidarPaciente" class="form-label mt-3">Convidar Paciente</label>
