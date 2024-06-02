@@ -54,10 +54,33 @@
         <h2 class="mb-3">Avisos Gerais</h2>
             <div class="mb-3">
             <div class="d-grid gap-2" href="index.php?page=#">
-                <button class="btn btn-primary mt-2">Adicionar novo aviso</button>
+                <button class="btn btn-primary mt-2">Adicionar novo Aviso</button>
             </div>
             <div class="d-grid gap-2" href="index.php?page=#">
-                <button class="btn btn-primary mt-2">Editar um aviso</button>
+                <button class="btn btn-primary mt-2">Editar um Aviso</button>
+            </div>
+            </div>
+        <br>
+        <h2 class="mb-3">Salas</h2>
+            <div class="mb-3">
+            <div class="d-grid gap-2" href="index.php?page=#">
+                <button class="btn btn-primary mt-2">Adicionar nova Sala</button>
+            </div>
+            <div class="d-grid gap-2" href="index.php?page=#">
+                <button class="btn btn-primary mt-2">Editar uma Sala</button>
+            </div>
+            </div>
+            <br>
+        <h2 class="mb-3">Materiais para Download</h2>
+            <div class="mb-3">
+            <div class="d-grid gap-2" href="index.php?page=#">
+                <button class="btn btn-primary mt-2">Editar categorias</button>
+            </div>
+            <div class="d-grid gap-2" href="index.php?page=#">
+                <button class="btn btn-primary mt-2">Adicionar novo Material</button>
+            </div>
+            <div class="d-grid gap-2" href="index.php?page=#">
+                <button class="btn btn-primary mt-2">Editar um Material</button>
             </div>
             </div>
         </div>
