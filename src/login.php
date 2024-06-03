@@ -1,18 +1,31 @@
 <?php
-session_start();
+// session_start();
+
+// if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+//     $username = $_POST['username'];
+//     $password = $_POST['password'];
+
+//     if ($username == 'aluno' && $password == 'unisal') {
+//         // $_SESSION['username'] = $username;
+//         header("Location: index.php?page=pdashboard");
+//         exit();
+//     } else {
+//         $error_message = "Usuário ou senha incorretos.";
+//     }
+// }
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
     if ($username == 'aluno' && $password == 'unisal') {
-        // $_SESSION['username'] = $username;
         header("Location: index.php?page=pdashboard");
         exit();
     } else {
         $error_message = "Usuário ou senha incorretos.";
     }
 }
+
 ?>
 
 <!DOCTYPE html>
