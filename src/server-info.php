@@ -117,6 +117,17 @@
             </div>
         </div>
 
+        <!-- Rodar git pull -->
+        <div class="card mt-3">
+            <div class="card-header">Ultima execução de Git Pull do projeto</div>
+            <div class="card-body">
+                <?php
+                $gitpull_run = shell_exec('sudo bash /opt/scripts/git_pull_proj05-2024.sh');
+                ?>
+                <p><strong>Ultima execução de Git Pull:</strong> <?php echo $gitpull_run; ?></p>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>
