@@ -1,3 +1,7 @@
+<?php
+session_start();
+header("Location: index.php?page=pdashboard");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,8 +41,9 @@
                     </table>
                 </div>
                 <div class="card-body">
-                    <form action="login-redirect.php" method="post">
-                        <div class="form-group">
+                    <!-- <form action="login-redirect.php" method="post"> -->
+                    <form action="login.php" method="post">
+                    <div class="form-group">
                             <label for="username">Usuário</label>
                             <input type="text" class="form-control" id="username" placeholder="Digite seu usuário">
                         </div>
