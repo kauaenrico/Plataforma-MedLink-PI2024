@@ -33,7 +33,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>MedLink | Login</title>
     <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
 </head>
 <body>
@@ -42,7 +42,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header text-center">
-                        Login
+                        MedLink | Realizar Login
                     </div>
                     <div class="card-body">
                         <?php if (isset($error_message)): ?>
