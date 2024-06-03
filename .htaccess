@@ -1,6 +1,6 @@
 RewriteEngine On
 
-DirectoryIndex index.php?page=pdashboard index.php index.html dashboard.php error404.html
+DirectoryIndex login.php index.php?page=pdashboard index.php index.html dashboard.php error404.html
 
 # Remover extensão .html das URLs
 RewriteCond %{REQUEST_FILENAME} !-d
