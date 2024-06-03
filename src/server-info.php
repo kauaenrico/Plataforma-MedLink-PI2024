@@ -122,7 +122,7 @@
             <div class="card-header">Ultima execução de Git Pull do projeto</div>
             <div class="card-body">
                 <?php
-                $gitpull_run = shell_exec('sudo bash /opt/scripts/git_pull_proj05-2024.sh');
+                $gitpull_run = shell_exec('cat /opt/scripts/pull_cron.log');
                 ?>
                 <p><strong>Ultima execução de Git Pull:</strong> <?php echo $gitpull_run; ?></p>
             </div>
