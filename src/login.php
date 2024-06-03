@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <?php echo $error_message; ?>
                             </div>
                         <?php endif; ?>
-                        <form action="login-redirect.php" method="post">
+                        <form action="login.php" method="post">
                             <div class="mb-3">
                                 <label for="username" class="form-label">Usuário</label>
                                 <input type="text" class="form-control" id="username" name="username" required>
