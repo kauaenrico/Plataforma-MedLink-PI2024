@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informações do Servidor</title>
+    <title>Informações do Servidor | Informações internas</title>
     <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
 </head>
 <body>
@@ -81,11 +81,22 @@
 
         <!-- Processos em Execução -->
         <div class="card mt-3">
-            <div class="card-header">Processos em Execução</div>
+            <div class="card-header">Processos que mais consomem memória</div>
             <div class="card-body">
                 <?php
-                $processes = shell_exec('ps aux --sort=-%mem | head -n 20');
+                $processes = shell_exec('ps aux --sort=-%mem | head -n 10');
                 echo "<pre>$processes</pre>";
+                ?>
+            </div>
+        </div>
+
+        <!-- Todos os Processos em Execução -->
+        <div class="card mt-3">
+            <div class="card-header">Todos os Processos em Execução</div>
+            <div class="card-body">
+                <?php
+                $all_processes = shell_exec('ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem');
+                echo "<pre>$all_processes</pre>";
                 ?>
             </div>
         </div>
@@ -99,6 +110,10 @@
                 $apache_version = apache_get_version();
                 ?>
                 <p><strong>Versão do Apache:</strong> <?php echo $apache_version; ?></p>
+                <?php
+                $mysql_version = shell_exec('mysql -V');
+                ?>
+                <p><strong>Versão do MySQL:</strong> <?php echo $mysql_version; ?></p>
             </div>
         </div>
 
