@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="text-center">Informações do Servidor</h1>
+        <h1 class="text-center">Informações do Servidor | Informações internas</h1>
         
         <!-- Sistema Operacional -->
         <div class="card mt-3">
