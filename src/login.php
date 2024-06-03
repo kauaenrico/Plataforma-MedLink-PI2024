@@ -1,7 +1,3 @@
-<!-- <?php
-session_start();
-header("Location: index.php?page=pdashboard");
-?> -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
