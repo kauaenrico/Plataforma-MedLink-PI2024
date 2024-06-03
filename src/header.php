@@ -46,7 +46,7 @@
           <a class="nav-link <?php echo isset($_GET['page']) && $_GET['page'] === 'padministracao' ? 'active' : ''; ?>" href="index.php?page=padministracao">Administração</a>
         </li>
       </ul>
-      <button type="button" class="btn btn-danger disabled">Danger</button>
+      <a href="login.php"><button type="button" class="btn btn-danger disabled">Desconectar</button></a>
     </div>
   </div>
 </nav>
