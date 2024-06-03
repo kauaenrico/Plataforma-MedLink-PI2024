@@ -59,12 +59,12 @@
                                 <label for="password" class="form-label">Senha</label>
                                 <input type="password" class="form-control" id="password" name="password" required>
                             </div>
-                            <div class="d-grid">
+                        </form>
+                        <div class="d-grid">
                                 <a href="index.php?page=pdashboard">
                                     <button type="submit" class="btn btn-primary">Entrar</button>
                                 </a>
                             </div>
-                        </form>
                     </div>
                     <div class="card-footer text-muted text-center">
                         &copy; 2024
