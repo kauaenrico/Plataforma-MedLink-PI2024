@@ -67,7 +67,8 @@
                             </div>
                     </div>
                     <div class="card-footer text-muted text-center">
-                        &copy; 2024
+                        <!-- &copy; 2024 -->
+                        Projeto Integrador | UNISAL 2024
                     </div>
                 </div>
             </div>
