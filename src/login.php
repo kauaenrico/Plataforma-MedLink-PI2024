@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if ($username == 'aluno' && $password == 'unisal') {
         header("Location: index.php?page=pdashboard");
-        exit();
+        // exit();
     } else {
         $error_message = "Usuário ou senha incorretos.";
     }
