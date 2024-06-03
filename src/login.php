@@ -1,7 +1,7 @@
 <?php
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    header("Location: index.php?page=pdashboard");
-}
+// if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+//     header("Location: index.php?page=pdashboard");
+// }
 
 // session_start();
 // if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -60,7 +60,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <input type="password" class="form-control" id="password" name="password" required>
                             </div>
                             <div class="d-grid">
-                                <button type="submit" class="btn btn-primary">Entrar</button>
+                                <a href="index.php?page=pdashboard">
+                                    <button type="submit" class="btn btn-primary">Entrar</button>
+                                </a>
                             </div>
                         </form>
                     </div>
