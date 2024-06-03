@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $password = $_POST['password'];
 
     if ($username == 'aluno' && $password == 'unisal') {
-        $_SESSION['username'] = $username;
+        // $_SESSION['username'] = $username;
         header("Location: index.php?page=pdashboard");
         exit();
     } else {
