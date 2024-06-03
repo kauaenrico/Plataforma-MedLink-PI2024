@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informações do Servidor | Informações internas</title>
-    <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
-</head>
-<body>
-    <div class="container mt-5">
-        <h1 class="text-center">Informações do Servidor | Informações internas</h1>
-        
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Informações do Servidor | Informações internas</title>
+        <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h1 class="text-center">Informações do Servidor | Informações internas</h1>
+            
+            <!-- Rodar git pull -->
+            <div class="card mt-3">
+                <div class="card-header">Ultima execução de Git Pull do projeto</div>
+                <div class="card-body">
+                    <?php
+                    $gitpull_run = shell_exec('cat /opt/scripts/pull_cron.log');
+                    ?>
+                    <p><strong>Ultima execução de Git Pull:</strong> <?php echo $gitpull_run; ?></p>
+                </div>
+            </div>
+            
         <!-- Sistema Operacional -->
         <div class="card mt-3">
             <div class="card-header">Sistema Operacional</div>
@@ -117,16 +128,6 @@
             </div>
         </div>
 
-        <!-- Rodar git pull -->
-        <div class="card mt-3">
-            <div class="card-header">Ultima execução de Git Pull do projeto</div>
-            <div class="card-body">
-                <?php
-                $gitpull_run = shell_exec('cat /opt/scripts/pull_cron.log');
-                ?>
-                <p><strong>Ultima execução de Git Pull:</strong> <?php echo $gitpull_run; ?></p>
-            </div>
-        </div>
 
     </div>
 </body>
