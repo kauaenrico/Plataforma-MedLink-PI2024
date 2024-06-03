@@ -83,7 +83,7 @@
                 <button class="btn btn-primary mt-2">Editar um Material</button>
             </div>
             </div>
-            <a href="server-info.php"><button type="button" class="btn btn-link disabled">Link</button></a>
+            <a href="server-info.php"><button type="button" class="btn btn-link disabled">Server Info</button></a>
         </div>
     </div>
 </div>
