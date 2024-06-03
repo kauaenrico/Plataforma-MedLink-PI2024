@@ -1,5 +1,7 @@
 <?php
-header("Location: index.php?page=pdashboard");
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    header("Location: index.php?page=pdashboard");
+}
 
 // session_start();
 // if ($_SERVER['REQUEST_METHOD'] == 'POST') {
