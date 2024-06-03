@@ -84,7 +84,7 @@
             <div class="card-header">Processos em Execução</div>
             <div class="card-body">
                 <?php
-                $processes = shell_exec('ps aux --sort=-%mem | head -n 10');
+                $processes = shell_exec('ps aux --sort=-%mem | head -n 20');
                 echo "<pre>$processes</pre>";
                 ?>
             </div>
