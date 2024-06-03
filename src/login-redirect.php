@@ -1,4 +1,4 @@
 <?php
 session_start();
-header("Location: dashboard.php");
+header("Location: index.php?page=pdashboard");
 ?>
