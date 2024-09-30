@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="d-grid gap-2" href="index.php?page=pcadpaciente">
-                <a href="#" class="btn btn-secondary">Cadastrar novo paciente</a>
+                <a href="index.php?page=plistapaciente" class="btn btn-secondary">Cadastrar novo paciente</a>
             </div>
             <ul class="list-group mt-3">
                 <!-- Lista de pacientes fictícios -->
