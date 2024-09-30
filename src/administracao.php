@@ -30,7 +30,9 @@
             <div class="mb-3">
                 <input class="form-control" type="search" placeholder="Pesquisar Terapeuta">
                 <div class="d-grid gap-2" href="index.php?page=plistaprofiss">
-                    <button href= "index.php?page=plistaprofiss" class="btn btn-primary mt-2">Pesquisar Terapeuta</button>
+                    <a href= "index.php?page=plistaprofiss">
+                    <button class="btn btn-primary mt-2">Pesquisar Terapeuta</button>
+                    </a>
                 </div>
             </div>
             <div>
