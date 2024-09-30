@@ -6,12 +6,12 @@
             <h2 class="mb-3">Pacientes</h2>
             <div class="mb-3">
                 <input class="form-control" type="search" placeholder="Pesquisar Paciente">
-                <div class="d-grid gap-2" href="index.php?page=plistapaciente">
-                    <button class="btn btn-primary mt-2">Pesquisar Paciente</button>
+                <div class="d-grid gap-2">
+                    <button href="index.php?page=plistapaciente" class="btn btn-primary mt-2">Pesquisar Paciente</button>
                 </div>
             </div>
             <div class="d-grid gap-2" href="index.php?page=pcadpaciente">
-                <a href="index.php?page=plistapaciente" class="btn btn-secondary">Cadastrar novo paciente</a>
+                <a href="index.php?page=pcadpaciente" class="btn btn-secondary">Cadastrar novo paciente</a>
             </div>
             <ul class="list-group mt-3">
                 <!-- Lista de pacientes fictícios -->
