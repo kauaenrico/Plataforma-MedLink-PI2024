@@ -51,7 +51,9 @@
                         <textarea class="form-control" id="observacoes" rows="3" placeholder="Observações"></textarea>
                     </div>
                 </div>
+                <a href= "index.php?page=administracao">
                 <button type="submit" class="btn btn-primary mt-3">Salvar</button>
+                </a>
             </div>
         </fieldset>
     </form>
