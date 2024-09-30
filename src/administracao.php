@@ -35,7 +35,7 @@
             </div>
             <div>
                 <div class="d-grid gap-2" href="index.php?page=pcadterapeuta">
-                    <a href="#" class="btn btn-secondary">Cadastrar novo terapeuta</a>
+                    <a href="index.php?page=pcadterapeuta" class="btn btn-secondary">Cadastrar novo terapeuta</a>
                 </div>
             </div>
             <ul class="list-group mt-3">
