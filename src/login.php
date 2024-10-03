@@ -74,9 +74,9 @@
                     <input type="password" id="senha-colaborador" name="senha" required>
                 </div>
                 <div class="submit">
-                                <a href="index.php?page=pdashboard">Entrar</a>
-                            </div>
-                    </div>
+                    <a href="index.php?page=pdashboard">Entrar</a>
+                </div>
+                    
             </form>
         </div>
 
