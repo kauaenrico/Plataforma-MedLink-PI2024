@@ -126,7 +126,7 @@
     justify-content: space-around;
     margin-bottom: 20px;
     border-bottom: 1px solid #ddd;
-    color: #666666;
+    color: #666;
 }
 
 .tab-link {
