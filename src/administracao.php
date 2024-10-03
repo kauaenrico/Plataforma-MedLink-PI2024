@@ -15,12 +15,72 @@
             </div>
             <ul class="list-group mt-3">
                 <!-- Lista de pacientes fictícios -->
-                <li class="list-group-item d-flex justify-content-between align-items-center">João Silva <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">Maria Souza <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">Carlos Oliveira <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">Pedro B. <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">Gabriel F. <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">Letícia A. <span><button class="btn btn-primary btn-sm me-2">Editar</button><button class="btn btn-danger btn-sm">Apagar</button></span></li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+    João Silva
+    <span>
+        <button class="btn btn-primary btn-sm me-2">
+            <i class="bi bi-pencil"></i>
+        </button>
+        <button class="btn btn-danger btn-sm">
+            <i class="bi bi-trash"></i>
+        </button>
+    </span>
+</li>
+<li class="list-group-item d-flex justify-content-between align-items-center">
+    Maria Souza
+    <span>
+        <button class="btn btn-primary btn-sm me-2">
+            <i class="bi bi-pencil"></i>
+        </button>
+        <button class="btn btn-danger btn-sm">
+            <i class="bi bi-trash"></i>
+        </button>
+    </span>
+</li>
+<li class="list-group-item d-flex justify-content-between align-items-center">
+    Carlos Oliveira
+    <span>
+        <button class="btn btn-primary btn-sm me-2">
+            <i class="bi bi-pencil"></i>
+        </button>
+        <button class="btn btn-danger btn-sm">
+            <i class="bi bi-trash"></i>
+        </button>
+    </span>
+</li>
+<li class="list-group-item d-flex justify-content-between align-items-center">
+    Pedro B.
+    <span>
+        <button class="btn btn-primary btn-sm me-2">
+            <i class="bi bi-pencil"></i>
+        </button>
+        <button class="btn btn-danger btn-sm">
+            <i class="bi bi-trash"></i>
+        </button>
+    </span>
+</li>
+<li class="list-group-item d-flex justify-content-between align-items-center">
+    Gabriel F.
+    <span>
+        <button class="btn btn-primary btn-sm me-2">
+            <i class="bi bi-pencil"></i>
+        </button>
+        <button class="btn btn-danger btn-sm">
+            <i class="bi bi-trash"></i>
+        </button>
+    </span>
+</li>
+<li class="list-group-item d-flex justify-content-between align-items-center">
+    Letícia A.
+    <span>
+        <button class="btn btn-primary btn-sm me-2">
+            <i class="bi bi-pencil"></i>
+        </button>
+        <button class="btn btn-danger btn-sm">
+            <i class="bi bi-trash"></i>
+        </button>
+    </span>
+</li>
             </ul>
         </div>
 
