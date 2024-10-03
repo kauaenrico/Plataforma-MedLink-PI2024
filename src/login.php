@@ -137,11 +137,13 @@
     border: none;
     outline: none;
     transition: background-color 0.3s;
+    color: 666666;
 }
 
 .tab-link.active {
     background-color: #fff;
     border-bottom: 2px solid #0073e6;
+    color: 666666;
 }
 
 .tab-link:hover {
