@@ -7,7 +7,7 @@
             <div class="mb-3">
                 <input class="form-control" type="search" placeholder="Pesquisar Paciente">
                 <div class="d-grid gap-2">
-                    <button href="index.php?page=plistapaciente" class="btn btn-primary mt-2">Pesquisar Paciente</button>
+                    <a href="index.php?page=plistapaciente" class="btn btn-primary mt-2">Pesquisar Paciente</a>
                 </div>
             </div>
             <div class="d-grid gap-2" href="index.php?page=pcadpaciente">
