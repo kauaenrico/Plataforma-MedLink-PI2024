@@ -57,9 +57,7 @@
                     <input type="password" id="senha-cliente" name="senha" required>
                 </div>
                 <div class="submit">
-                                <a href="index.php?page=pdashboard">
-                                    <button type="submit" class="btn btn-primary">Entrar</button>
-                                </a>
+                                <a href="index.php?page=pdashboard">Entrar</a>
                             </div>
             </form>
         </div>
@@ -76,9 +74,7 @@
                     <input type="password" id="senha-colaborador" name="senha" required>
                 </div>
                 <div class="submit">
-                                <a href="index.php?page=pdashboard">
-                                    <button type="submit" class="btn btn-primary">Entrar</button>
-                                </a>
+                                <a href="index.php?page=pdashboard">Entrar</a>
                             </div>
                     </div>
             </form>
