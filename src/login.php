@@ -115,7 +115,7 @@
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     width: 100%;
     max-width: 400px;
     text-align: center;
@@ -126,6 +126,7 @@
     justify-content: space-around;
     margin-bottom: 20px;
     border-bottom: 1px solid #ddd;
+    color: #666666;
 }
 
 .tab-link {
@@ -153,7 +154,7 @@
 
 h2 {
     margin-bottom: 20px;
-    color: #333;
+    color: #666666;
     text-align: center;
 }
 
