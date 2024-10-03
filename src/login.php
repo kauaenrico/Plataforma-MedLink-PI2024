@@ -119,6 +119,7 @@
     width: 100%;
     max-width: 400px;
     text-align: center;
+    color: 666666;
 }
 
 .tab-container {
