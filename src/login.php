@@ -56,7 +56,11 @@
                     <label for="senha-cliente">Senha</label>
                     <input type="password" id="senha-cliente" name="senha" required>
                 </div>
-                <button type="submit">Entrar</button>
+                <div class="submit">
+                                <a href="index.php?page=pdashboard">
+                                    <button type="submit" class="btn btn-primary">Entrar</button>
+                                </a>
+                            </div>
             </form>
         </div>
 
@@ -71,7 +75,12 @@
                     <label for="senha-colaborador">Senha</label>
                     <input type="password" id="senha-colaborador" name="senha" required>
                 </div>
-                <button type="submit">Entrar</button>
+                <div class="submit">
+                                <a href="index.php?page=pdashboard">
+                                    <button type="submit" class="btn btn-primary">Entrar</button>
+                                </a>
+                            </div>
+                    </div>
             </form>
         </div>
 
