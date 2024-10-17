@@ -1,0 +1,42 @@
+/* Define o tamanho, formato e posição da bolinha de status */
+.status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    white-space: nowrap; /* Impede a quebra de linha */
+}
+
+/* Cor verde para online */
+.status.online {
+    background-color: green;
+}
+
+/* Cor vermelha para offline */
+.status.offline {
+    background-color: red;
+}
+
+/* Adiciona o texto "Online" ao lado da bolinha verde */
+.status.online::after {
+    content: 'Online';
+    font-size: 14px;
+    color: green;
+    margin-left: 10px;
+}
+
+/* Adiciona o texto "Offline" ao lado da bolinha vermelha */
+.status.offline::after {
+    content: 'Offline';
+    font-size: 14px;
+    color: red;
+    margin-left: 10px;
+}
+
+/* Alinhamento do nome dos doutores */
+.list-group-item span:last-child {
+    margin-top: 2px; /* Ajuste a margem superior conforme necessário */
+    line-height: 20px; /* Alinha verticalmente com a bolinha e texto */
+}
