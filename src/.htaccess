@@ -1,0 +1,25 @@
+RewriteEngine On
+
+DirectoryIndex login.html index.html login.php index.php error404.html
+# DirectoryIndex login.php index.php?page=pdashboard index.php index.html dashboard.php error404.html
+
+# Remover extensão .html das URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+# Remover extensão .php das URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Redirecionar URLs com extensão .html para versão sem extensão
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+# Redirecionar URLs com extensão .php para versão sem extensão
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+# Redirecionar URL/index.html para URL/
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s(.*)/index\.html [NC]
+RewriteRule ^ %1 [R=301,L]
