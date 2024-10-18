@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Informações do Servidor | Informações internas</title>
+        <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h1 class="text-center">Informações do Servidor | Informações internas</h1>
+
+            <!-- Rodar git pull -->
+            <div class="card mt-3">
+                <div class="card-header">Ultima execução de Git Pull do projeto</div>
+                <div class="card-body">
+                    <p><strong>Ultima execução de Git Pull:</strong> <?php echo $gitpull_run; ?></p>
+                </div>
+            </div>
+
+            <!-- Sistema Operacional -->
+            <div class="card mt-3">
+                <div class="card-header">Sistema Operacional</div>
+                <div class="card-body">
+                    <p><strong>Nome do SO:</strong> <?php echo $so_name; ?></p>
+                    <p><strong>Nome do Host:</strong> <?php echo $so_host; ?></p>
+                    <p><strong>Versão do SO:</strong> <?php echo $so_version; ?></p>
+                    <p><strong>Informação da Máquina:</strong> <?php echo $so_machine; ?></p>
+                    <p><strong>Release:</strong> <?php echo $so_release; ?></p>
+                </div>
+            </div>
+
+            <!-- Espaço em Disco -->
+            <div class="card mt-3">
+                <div class="card-header">Espaço em Disco</div>
+                <div class="card-body">
+                    <p><strong>Espaço Total:</strong> <?php echo $disk_total; ?></p>
+                    <p><strong>Espaço Livre:</strong> <?php echo $disk_free; ?></p>
+                    <p><strong>Espaço Usado:</strong> <?php echo $disk_used; ?></p>
+                </div>
+            </div>
+
+            <!-- Informações de Memória -->
+            <div class="card mt-3">
+                <div class="card-header">Informações de Memória</div>
+                <div class="card-body">
+                    <p><strong>Memória Total:</strong> <?php echo $mem_total; ?></p>
+                    <p><strong>Memória Usada:</strong> <?php echo $mem_used; ?></p>
+                    <p><strong>Memória Livre:</strong> <?php echo $mem_free; ?></p>
+                </div>
+            </div>
+
+            <!-- Informações de CPU -->
+            <div class="card mt-3">
+                <div class="card-header">Informações de CPU</div>
+                <div class="card-body">
+                    <p><strong>Load Average (1 min):</strong> <?php echo $load_avg_1; ?></p>
+                    <p><strong>Load Average (5 min):</strong> <?php echo $load_avg_5; ?></p>
+                    <p><strong>Load Average (15 min):</strong> <?php echo $load_avg_15; ?></p>
+                </div>
+            </div>
+
+            <!-- Informações de Uptime -->
+            <div class="card mt-3">
+                <div class="card-header">Uptime</div>
+                <div class="card-body">
+                    <p><strong>Tempo de Uptime:</strong> <?php echo $uptime; ?></p>
+                    <p><strong>Desde:</strong> <?php echo $uptime_since; ?></p>
+                </div>
+            </div>
+
+            <!-- Processos em Execução -->
+            <div class="card mt-3">
+                <div class="card-header">Processos que mais consomem memória</div>
+                <div class="card-body">
+                    <pre><?php echo $top_processes; ?></pre>
+                </div>
+            </div>
+
+            <!-- Todos os Processos em Execução -->
+            <div class="card mt-3">
+                <div class="card-header">Todos os Processos em Execução</div>
+                <div class="card-body">
+                    <pre><?php echo $all_processes; ?></pre>
+                </div>
+            </div>
+
+            <!-- Versões do Software -->
+            <div class="card mt-3">
+                <div class="card-header">Versões do Software</div>
+                <div class="card-body">
+                    <p><strong>Versão do PHP:</strong> <?php echo $php_version; ?></p>
+                    <p><strong>Versão do Apache:</strong> <?php echo $apache_version; ?></p>
+                    <p><strong>Versão do MySQL:</strong> <?php echo $mysql_version; ?></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
