@@ -36,7 +36,7 @@ $uptime = shell_exec('uptime -p');
 $uptime_since = shell_exec('uptime -s');
 
 // Processos que mais consomem memória
-$top_processes = shell_exec('ps aux --sort=-%mem | head -n 10');
+$top_processes = shell_exec('ps aux --sort=-%mem | head -n 15');
 
 // Todos os processos em execução
 $all_processes = shell_exec('ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem');
