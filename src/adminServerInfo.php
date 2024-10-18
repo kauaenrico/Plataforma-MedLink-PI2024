@@ -47,4 +47,4 @@ $apache_version = apache_get_version();
 $mysql_version = shell_exec('mysql -V');
 
 // Incluir o arquivo HTML
-include 'index.html';
+include 'adminServerInfo.html';
