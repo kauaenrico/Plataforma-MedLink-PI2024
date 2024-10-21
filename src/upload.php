@@ -3,7 +3,7 @@
 date_default_timezone_set('America/Sao_Paulo');
 
 // Diretório onde os arquivos serão armazenados
-$targetDir = "/projeto/medlink/data/uploads/";
+$targetDir = "/projeto/medlink/data/";
 
 // Verifique se o diretório existe, caso contrário, crie-o
 if (!is_dir($targetDir)) {
