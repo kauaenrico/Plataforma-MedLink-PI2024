@@ -10,27 +10,33 @@ if (!is_dir($targetDir)) {
     mkdir($targetDir, 0777, true);
 }
 
-// Verifique se o arquivo foi enviado
-if (isset($_FILES['profileImage']) && $_FILES['profileImage']['error'] == 0) {
-    $fileName = $_FILES['profileImage']['name'];
-    $fileTmpPath = $_FILES['profileImage']['tmp_name'];
-    
-    // Defina o formato do nome do arquivo usando a data e hora atuais
-    $newFileName = date('d-m-Y_H-i') . '.' . pathinfo($fileName, PATHINFO_EXTENSION);
-    
-    // Defina o caminho completo do arquivo de destino
-    $targetFilePath = $targetDir . $newFileName;
-    
-    // Tente mover o arquivo temporário para o diretório final
-    if (move_uploaded_file($fileTmpPath, $targetFilePath)) {
-        http_response_code(200); // Sucesso
-        echo "Arquivo salvo com sucesso.";
+// Verifique se o arquivo foi enviado corretamente
+if (isset($_FILES['profileImage'])) {
+    $error = $_FILES['profileImage']['error'];
+    if ($error === UPLOAD_ERR_OK) {
+        $fileName = $_FILES['profileImage']['name'];
+        $fileTmpPath = $_FILES['profileImage']['tmp_name'];
+        
+        // Defina o formato do nome do arquivo usando a data e hora atuais
+        $newFileName = date('d-m-Y_H-i') . '.' . pathinfo($fileName, PATHINFO_EXTENSION);
+        
+        // Defina o caminho completo do arquivo de destino
+        $targetFilePath = $targetDir . $newFileName;
+
+        // Tente mover o arquivo temporário para o diretório final
+        if (move_uploaded_file($fileTmpPath, $targetFilePath)) {
+            http_response_code(200); // Sucesso
+            echo "Arquivo salvo com sucesso.";
+        } else {
+            http_response_code(500); // Falha ao mover o arquivo
+            echo "Falha ao salvar o arquivo.";
+        }
     } else {
-        http_response_code(500); // Falha
-        echo "Falha ao salvar o arquivo.";
+        // Exibe o erro específico relacionado ao upload
+        echo "Erro no upload: " . $error;
     }
 } else {
-    http_response_code(400); // Erro no envio
+    http_response_code(400); // Nenhum arquivo foi enviado
     echo "Nenhum arquivo foi enviado ou houve um erro no envio.";
 }
 ?>
