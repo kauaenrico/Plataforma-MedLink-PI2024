@@ -17,11 +17,20 @@ if (isset($_FILES['profileImage'])) {
         $fileName = $_FILES['profileImage']['name'];
         $fileTmpPath = $_FILES['profileImage']['tmp_name'];
         
+        // Debug para verificar se o arquivo temporário existe
+        if (!file_exists($fileTmpPath)) {
+            echo "Arquivo temporário não encontrado: " . $fileTmpPath;
+            exit;
+        }
+
         // Defina o formato do nome do arquivo usando a data e hora atuais
         $newFileName = date('d-m-Y_H-i') . '.' . pathinfo($fileName, PATHINFO_EXTENSION);
         
         // Defina o caminho completo do arquivo de destino
         $targetFilePath = $targetDir . $newFileName;
+
+        // Debug para verificar o caminho do arquivo de destino
+        echo "Tentando salvar o arquivo em: " . $targetFilePath;
 
         // Tente mover o arquivo temporário para o diretório final
         if (move_uploaded_file($fileTmpPath, $targetFilePath)) {
@@ -29,7 +38,7 @@ if (isset($_FILES['profileImage'])) {
             echo "Arquivo salvo com sucesso.";
         } else {
             http_response_code(500); // Falha ao mover o arquivo
-            echo "Falha ao salvar o arquivo.";
+            echo "Falha ao salvar o arquivo. Verifique as permissões.";
         }
     } else {
         // Exibe o erro específico relacionado ao upload
