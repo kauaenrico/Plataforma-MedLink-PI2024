@@ -9,7 +9,7 @@
 <body>
     <div class="container mt-5">
         <h2>Insira abaixo sua foto de perfil</h2>
-        <form id="uploadForm" action="upload.php" method="POST" enctype="multipart/form-data">
+        <form id="uploadForm" action="b/upload.php" method="POST" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="fileInput">Escolha uma imagem (formatos permitidos: jpg, jpeg, png)</label>
                 <input type="file" class="form-control-file" id="fileInput" name="profileImage" accept="image/*" required>
@@ -26,7 +26,7 @@
                 e.preventDefault();
                 var formData = new FormData(this);
                 $.ajax({
-                    url: 'upload.php',
+                    url: 'b/upload.php',
                     type: 'POST',
                     data: formData,
                     contentType: false,
