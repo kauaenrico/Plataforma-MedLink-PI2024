@@ -19,3 +19,4 @@ if (move_uploaded_file($_FILES['file']['tmp_name'], $location)) {
 ?>
 </body>
 </html>
+<!-- https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/HTML5-PHP-File-Upload-Example-Apache-Server -->
