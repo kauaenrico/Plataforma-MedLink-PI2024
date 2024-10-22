@@ -13,6 +13,7 @@
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="vendor/fontawesome-free-6.6.0/css/all.min.css" rel="stylesheet" type="text/css"> -->
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
@@ -36,11 +37,10 @@
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <!-- <div class="sidebar-brand d-flex align-items-center justify-content-center"> -->
                     <!-- <i class="fas fa-laugh-wink"></i> -->
-                     <img class="sidebar-logo" src="https://kauaaltran.com.br/medlink-storage/logo.png" alt="">
+                     <img class="sidebar-logo" src="https://kauaaltran.com.br/medlink-storage/logo.png" alt="" style="max-width: 50%;">
                 <!-- </div> -->
-                <div class="sidebar-brand-text mx-3">MedLink</div>
+                <div class="sidebar-brand-text mx-3" style="color: rgba(62, 231, 133, 0.911);">MedLink</div>
             </a>
-
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
 
@@ -60,19 +60,19 @@
             </div>
             <li class="nav-item active">
                 <a class="nav-link" href="pacientes.html">
-                    <i class="fas fa-fw fa-cog"></i>
+                    <i class="fas fa-fw fa-user"></i>
                     <span>Pacientes</span></a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="agenda.html">
-                    <i class="fas fa-fw fa-cog"></i>
+                    <i class="fas fa-fw fa-calendar"></i>
                     <span>Agenda</span></a>
             </li>
             <!-- Nav Item - Materiais -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseMateriais"
                     aria-expanded="true" aria-controls="collapseMateriais">
-                    <i class="fas fa-fw fa-cog"></i>
+                    <i class="fas fa-fw fa-book"></i>
                     <span>Materiais</span>
                 </a>
                 <div id="collapseMateriais" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -87,7 +87,7 @@
             <!-- Nav Item - Avisos Gerais -->
             <li class="nav-item">
                 <a class="nav-link" href="comunicados.html">
-                    <i class="fas fa-fw fa-chart-area"></i>
+                    <i class="fas fa-fw fa-satellite-dish"></i>
                     <span>Comunicados</span></a>
             </li>
 
@@ -406,15 +406,11 @@
                                 aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Profile
+                                    Perfil
                                 </a>
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Settings
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Activity Log
+                                    Configuração
                                 </a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
@@ -451,16 +447,19 @@
                                             <ul class="list-group list-group-flush">
                                                 <li class="list-group-item d-flex align-items-center">
                                                     <span class="status online"></span>
+                                                    
                                                     <span>Dr. João Silva</span>
                                                 </li>
                                                 <li class="list-group-item d-flex align-items-center">
                                                     <span class="status online"></span>
                                                     <span>Dra. Maria Oliveira</span>
                                                 </li>
+                                                
                                                 <li class="list-group-item d-flex align-items-center">
                                                     <span class="status offline"></span>
                                                     <span>Dr. Carlos Santos</span>
                                                 </li>
+                                                
                                                 <li class="list-group-item d-flex align-items-center">
                                                     <span class="status online"></span>
                                                     <span>Dra. Ana Pereira</span>
