@@ -2,44 +2,26 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Upload de Foto de Perfil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload de Arquivo</title>
+    <!-- Bootstrap 4 CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container mt-5">
         <h2>Insira abaixo sua foto de perfil</h2>
-        <form id="uploadForm" action="b/upload.php" method="POST" enctype="multipart/form-data">
+        <form action="b/upload.php" method="POST" enctype="multipart/form-data">
             <div class="form-group">
-                <label for="fileInput">Escolha uma imagem (formatos permitidos: jpg, jpeg, png)</label>
-                <input type="file" class="form-control-file" id="fileInput" name="profileImage" accept="image/*" required>
+                <label for="profileImage">Escolha uma imagem:</label>
+                <input type="file" class="form-control-file" id="profileImage" name="profileImage" required>
             </div>
             <button type="submit" class="btn btn-primary">Fazer Upload</button>
         </form>
-        <div id="uploadStatus"></div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('#uploadForm').on('submit', function(e) {
-                e.preventDefault();
-                var formData = new FormData(this);
-                $.ajax({
-                    url: 'b/upload.php',
-                    type: 'POST',
-                    data: formData,
-                    contentType: false,
-                    processData: false,
-                    success: function(response) {
-                        $('#uploadStatus').html('<p class="text-success">Upload realizado com sucesso!</p>');
-                    },
-                    error: function() {
-                        $('#uploadStatus').html('<p class="text-danger">Falha no upload, tente novamente.</p>');
-                    }
-                });
-            });
-        });
-    </script>
+    <!-- Bootstrap 4 JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
