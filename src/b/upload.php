@@ -3,16 +3,29 @@
 date_default_timezone_set('America/Sao_Paulo');
 
 // Diretório onde os arquivos serão armazenados
-$targetDir = "/projeto/medlink/data/";
+$targetDir = "/projeto/medlink/data/uploads/";
 
 // Verifique se o diretório existe, caso contrário, crie-o
 if (!is_dir($targetDir)) {
     mkdir($targetDir, 0777, true);
 }
 
-// Debug: Exibe informações sobre o arquivo enviado via POST
+// Debug: Exibe o método HTTP usado na requisição
+echo "Método HTTP usado: " . $_SERVER['REQUEST_METHOD'] . "<br>";
+
+// Verifica se é uma requisição POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    echo "Método POST recebido.<br>";
+    echo "Método POST detectado.<br>";
+
+    // Debug: Exibe o conteúdo da requisição POST
+    echo "Dados POST recebidos:<br>";
+    print_r($_POST);
+    echo "<br>";
+
+    // Debug: Exibe o conteúdo de $_FILES
+    echo "Dados FILES recebidos:<br>";
+    print_r($_FILES);
+    echo "<br>";
 
     // Verifique se o campo 'profileImage' está presente no $_FILES
     if (isset($_FILES['profileImage'])) {
