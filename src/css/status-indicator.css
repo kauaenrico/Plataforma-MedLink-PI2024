@@ -21,15 +21,15 @@
 
 /* Adiciona o texto "Online" ao lado da bolinha verde */
 .status.online::after {
-    content: 'Online';
+    /* content: 'Online'; */
     font-size: 14px;
-    color: green;
+    color: rgb(31, 190, 31);
     margin-left: 10px;
 }
 
 /* Adiciona o texto "Offline" ao lado da bolinha vermelha */
 .status.offline::after {
-    content: 'Offline';
+    /* content: 'Offline'; */
     font-size: 14px;
     color: red;
     margin-left: 10px;
